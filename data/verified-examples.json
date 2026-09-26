@@ -1,0 +1,871 @@
+{
+ "source": "https://api.spicyapi.ai/console/v1/catalog/prompts?locale=en",
+ "read_on": "2026-09-27",
+ "items": [
+  {
+   "exampleId": "pov-hand-pull",
+   "model": "bytedance/seedance-2.5-spicy/image-to-video",
+   "familyDisplayName": "Seedance 2.5 Spicy",
+   "familyPageSlug": "seedance-2-5-spicy",
+   "task": "image-to-video",
+   "title": "First-person: pulled by the hand through a night market",
+   "alt": "A first-person shot of a woman in black satin taking the viewer's hand and running through a neon night market, laughing back over her shoulder",
+   "prompt": "She closes her hand around the viewer's and pulls, breaking into a run and towing the camera after her through the neon stalls, laughing back over her shoulder once. Handheld first-person motion, neon streaking past, crowd noise and sizzling griddles.",
+   "rating": "sfw",
+   "scenes": [
+    "romance"
+   ],
+   "camera": [
+    "pov",
+    "handheld"
+   ],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/seedance-2-5-spicy/c5f2690c42576a26.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/seedance-2-5-spicy/feb04a25b410c728.webp",
+    "mimeType": "video/mp4",
+    "width": 1280,
+    "height": 714,
+    "durationMs": 5766
+   }
+  },
+  {
+   "exampleId": "dune-silk-throw",
+   "model": "alibaba/wan-2.7-spicy/image-to-video",
+   "familyDisplayName": "Wan 2.7 Spicy",
+   "familyPageSlug": "wan-2-7-spicy",
+   "task": "image-to-video",
+   "title": "Night dune: a sheet of indigo silk thrown into the wind",
+   "alt": "A woman in a dark slip dress throws a huge sheet of indigo silk overhead on a desert dune at night, a lantern at her feet and the Milky Way above.",
+   "prompt": "She sweeps the huge sheet of indigo silk down and across in front of her, then throws it back up so it billows overhead and fills the sky, turning under it with her head tipped back. Sand streams off the crest of the dune in the wind and the lantern flame gutters, throwing her shadow long across the ripples. Slow arc around her, starfield steady above, wind and snapping fabric.",
+   "rating": "sfw",
+   "scenes": [
+    "nature-landscape",
+    "fashion-portrait"
+   ],
+   "camera": [
+    "orbit"
+   ],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/wan-2-7-spicy/09b29059d5b8b826.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/wan-2-7-spicy/25571ae71f696faf.webp",
+    "mimeType": "video/mp4",
+    "width": 1176,
+    "height": 784,
+    "durationMs": 5000
+   }
+  },
+  {
+   "exampleId": "candlelit-crypt",
+   "model": "alibaba/wan-2.2-spicy-lora/image-to-video",
+   "familyDisplayName": "Wan 2.2 Spicy LoRA",
+   "familyPageSlug": "wan-2-2-spicy-lora",
+   "task": "image-to-video",
+   "title": "Gothic sorceress rises from a candlelit throne",
+   "alt": "Candle flames sway across a crypt as a painted elven sorceress lifts her hand from a stone armrest, turns toward camera and a sheer lace sleeve slides down her forearm, embers drifting upward.",
+   "prompt": "The candle flames gutter and sway across the crypt as she lifts her hand from the armrest, turns her head toward camera and the sheer lace sleeve slides down her forearm, embers drifting upward through the frame. Slow push-in, deep crimson and obsidian, low choral drone.",
+   "rating": "sfw",
+   "scenes": [
+    "fantasy"
+   ],
+   "camera": [
+    "push-in"
+   ],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/wan-2-2-spicy-lora/e19d8c98cdbfd616.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/wan-2-2-spicy-lora/dee4b39f5f84ccea.webp",
+    "mimeType": "video/mp4",
+    "width": 960,
+    "height": 960,
+    "durationMs": 5766
+   }
+  },
+  {
+   "exampleId": "onsen-two-rise",
+   "model": "bytedance/seedance-2.5-spicy/image-to-video",
+   "familyDisplayName": "Seedance 2.5 Spicy",
+   "familyPageSlug": "seedance-2-5-spicy",
+   "task": "image-to-video",
+   "title": "Two women rising from a misty outdoor hot spring",
+   "alt": "Two women in a steaming outdoor hot spring at dusk, first facing the camera with the water at their shoulders, then seen from behind with bare backs above the waterline",
+   "prompt": "Cast: two women. The camera stays on their backs as they rise, and stops there. In the mist of an outdoor hot spring at dusk, first one and then the other rises only until the waterline reaches the small of the back and no further; they hold there, steam closing over the surface behind them. Nothing below the waterline ever leaves the water. Locked framing. Cinematic, heavy film grain, steam white and rock grey, restrained and tasteful.",
+   "rating": "suggestive",
+   "scenes": [],
+   "camera": [
+    "static"
+   ],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/seedance-2.5-spicy/0510366bd110c007.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/seedance-2.5-spicy/f8593a1e2132084f.webp",
+    "mimeType": "video/mp4",
+    "width": 1764,
+    "height": 1176,
+    "durationMs": 20042
+   }
+  },
+  {
+   "exampleId": "steam-glass-handprint",
+   "model": "bytedance/seedance-2.5-spicy/image-to-video",
+   "familyDisplayName": "Seedance 2.5 Spicy",
+   "familyPageSlug": "seedance-2-5-spicy",
+   "task": "image-to-video",
+   "title": "Face pressed close behind steamed shower glass",
+   "alt": "Behind fogged shower glass in a dark bathroom, a woman drags her palm down the pane and leans in until her face comes into focus through the clear streak",
+   "prompt": "Her palm drags straight down the fogged glass, carving one long clear streak from the wiped patch to the bottom edge, and her fingertips lift away. She immediately steps forward and leans into that clear streak: her face arrives close to the glass and comes into sharp focus through it, wet skin and lashes clearly visible, water beading and running around her cheek. She holds there, eyes level with the lens, and breathes out against the glass so a small bloom of fog spreads and fades. The framing stays tight on the glass panel the entire time. Do not pull back, do not widen the shot, do not change the camera angle. Running water, muffled room tone, one slow breath.",
+   "rating": "suggestive",
+   "scenes": [],
+   "camera": [
+    "static"
+   ],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/seedance-2-5-spicy/8ae0a0222aa9f90f.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/seedance-2-5-spicy/02d45c69d8282425.webp",
+    "mimeType": "video/mp4",
+    "width": 1280,
+    "height": 720
+   }
+  },
+  {
+   "exampleId": "hotel-window-turn",
+   "model": "bytedance/seedance-2.5-spicy/image-to-video",
+   "familyDisplayName": "Seedance 2.5 Spicy",
+   "familyPageSlug": "seedance-2-5-spicy",
+   "task": "image-to-video",
+   "title": "Silk slip turn at a night hotel window",
+   "alt": "A woman in an ivory silk slip turning from a floor-to-ceiling hotel window at night, city lights behind her",
+   "prompt": "She turns slowly from the window toward camera, the silk slip catching the city light as it moves, one hand trailing along the glass, then she tilts her head and holds the look. Subtle handheld drift, warm lamp against cool skyline, quiet room tone.",
+   "rating": "sfw",
+   "scenes": [
+    "fashion-portrait"
+   ],
+   "camera": [
+    "handheld"
+   ],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/seedance-2-5-spicy/fec77dab61baeb3a.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/seedance-2-5-spicy/ab679e0747411716.webp",
+    "mimeType": "video/mp4",
+    "width": 786,
+    "height": 1178,
+    "durationMs": 5056
+   }
+  },
+  {
+   "exampleId": "opera-stair-train",
+   "model": "bytedance/seedance-2.5-spicy/image-to-video",
+   "familyDisplayName": "Seedance 2.5 Spicy",
+   "familyPageSlug": "seedance-2-5-spicy",
+   "task": "image-to-video",
+   "title": "Backless gown gliding up an opera house staircase",
+   "alt": "A woman in a backless black velvet gown and long gloves climbs a marble opera house staircase, glancing back over her shoulder as the train drags behind her",
+   "prompt": "She holds the look back over her bare shoulder, then turns and continues up two more steps, the velvet train dragging heavily behind her across the marble, her gloved hand sliding along the brass banister. The chandelier flares a little brighter and the gilt catches, deep shadows swinging across the wall. Slow dolly following her up the stairs, hushed hall reverb, no music.",
+   "rating": "sfw",
+   "scenes": [
+    "fashion-portrait"
+   ],
+   "camera": [
+    "tracking"
+   ],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/seedance-2-5-spicy/b8be819fa36bd881.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/seedance-2-5-spicy/f11f65036d1ead40.webp",
+    "mimeType": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "durationMs": 5000
+   }
+  },
+  {
+   "exampleId": "neon-window",
+   "model": "minimax/h3-spicy/image-to-video",
+   "familyDisplayName": "MiniMax H3 Spicy",
+   "familyPageSlug": "minimax-h3-spicy",
+   "task": "image-to-video",
+   "title": "Red neon cigarette smoke by the window blinds",
+   "alt": "Night interior: a woman on an apartment windowsill exhaling smoke against rain-streaked glass while a red neon sign pulses across her face",
+   "prompt": "She exhales a slow plume of smoke against the rain-streaked glass, the neon sign outside pulses red across her face, and she turns her head toward camera without changing expression. Blind shadows creep, rain runs down the window, distant traffic.",
+   "rating": "sfw",
+   "scenes": [
+    "noir-cinematic"
+   ],
+   "camera": [
+    "static"
+   ],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/minimax-h3-spicy/3ab0c4145b288d90.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/minimax-h3-spicy/79e9b95408d4ec4c.webp",
+    "mimeType": "video/mp4",
+    "width": 1280,
+    "height": 732,
+    "durationMs": 5184
+   }
+  },
+  {
+   "exampleId": "greenhouse-mist",
+   "model": "minimax/h3-spicy/image-to-video",
+   "familyDisplayName": "MiniMax H3 Spicy",
+   "familyPageSlug": "minimax-h3-spicy",
+   "task": "image-to-video",
+   "title": "Misting plants in a sunlit greenhouse",
+   "alt": "In a humid glasshouse full of banana leaves and ferns, a woman in a white cotton sundress sprays a brass mister, then wipes her brow and turns her face up to the light",
+   "prompt": "She squeezes the brass mister twice and a fine haze drifts through the green light; the big banana leaves nod under the water. She wipes the back of her wrist across her forehead, pushes a damp strand of hair off her neck and turns her face up into the sunlight coming through the glass roof, breathing out. Slow push in, humid air, droplets falling from the ferns, birdsong outside.",
+   "rating": "sfw",
+   "scenes": [
+    "nature-landscape"
+   ],
+   "camera": [
+    "push-in"
+   ],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/minimax-h3-spicy/c581dd66c32e8f29.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/minimax-h3-spicy/62e7aa4c558131f2.webp",
+    "mimeType": "video/mp4",
+    "width": 768,
+    "height": 1152,
+    "durationMs": 5000
+   }
+  },
+  {
+   "exampleId": "fridge-glow-exit",
+   "model": "bytedance/seedance-2.0-mini-spicy/image-to-video",
+   "familyDisplayName": "Seedance 2.0 Mini Spicy",
+   "familyPageSlug": "seedance-2-0-mini-spicy",
+   "task": "image-to-video",
+   "title": "Late-night fridge glow, then lights out",
+   "alt": "A woman in an oversized white shirt in the blue glow of an open refrigerator at night, closing the door with her hip as the room goes dark",
+   "prompt": "She lowers the bottle, shuts the refrigerator door with her hip and the room drops to darkness except for a thin sliver of street light, then she pads barefoot out of frame. Static camera, cold blue to warm black, fridge hum and bare feet on tile.",
+   "rating": "sfw",
+   "scenes": [],
+   "camera": [
+    "static"
+   ],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/seedance-2-0-mini-spicy/a5cd491837869375.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/seedance-2-0-mini-spicy/61b17704c69df058.webp",
+    "mimeType": "video/mp4",
+    "width": 834,
+    "height": 1112,
+    "durationMs": 5088
+   }
+  },
+  {
+   "exampleId": "fogged-shower-streak",
+   "model": "bytedance/seedance-2.0-mini-spicy/image-to-video",
+   "familyDisplayName": "Seedance 2.0 Mini Spicy",
+   "familyPageSlug": "seedance-2-0-mini-spicy",
+   "task": "image-to-video",
+   "title": "Hand streak on a fogged shower glass",
+   "alt": "Behind fogged shower glass, a woman in a black bikini drags her palm down the steamed pane, backlit by a bright window as steam rolls across the frame",
+   "prompt": "Locked-off camera, no move. Steam keeps rolling across the frame and the glass fogs further. She presses her palm flat on the glass and drags it slowly downward, leaving one clear streak that immediately re-fogs, then turns her head and sweeps her wet hair across to the other shoulder. She keeps the black bikini on the whole time. Water runs down the outside of the glass, the backlight stays blown out and cold, and her body stays only a soft outline through the fog. No camera move, no cut.",
+   "rating": "suggestive",
+   "scenes": [],
+   "camera": [
+    "static"
+   ],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/seedance-2-0-mini-spicy/c839b6bc8eb47b74.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/seedance-2-0-mini-spicy/55f204ed1e980643.webp",
+    "mimeType": "video/mp4",
+    "width": 1112,
+    "height": 834,
+    "durationMs": 5000
+   }
+  },
+  {
+   "exampleId": "van-door-sunrise",
+   "model": "bytedance/seedance-2.0-mini-spicy/image-to-video",
+   "familyDisplayName": "Seedance 2.0 Mini Spicy",
+   "familyPageSlug": "seedance-2-0-mini-spicy",
+   "task": "image-to-video",
+   "title": "Desert sunrise coffee from an open van door",
+   "alt": "A woman sits in the open side door of a white van in a red crop top and flannel shirt, sipping from a mug as the sun rises over a desert of mesas",
+   "prompt": "She pulls the flannel closed against the cold, sips from the mug and lets her head tip back into the sunrise with her eyes closed. Steam off the mug catches the rim light; the sun climbs and the orange rim strengthens. Camera drifts slowly in from outside the van.",
+   "rating": "sfw",
+   "scenes": [
+    "nature-landscape"
+   ],
+   "camera": [
+    "push-in"
+   ],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/seedance-2-0-mini-spicy/e03de02a8cc1d691.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/seedance-2-0-mini-spicy/a4ab04ff6f2ef07f.webp",
+    "mimeType": "video/mp4",
+    "width": 1280,
+    "height": 714,
+    "durationMs": 5767
+   }
+  },
+  {
+   "exampleId": "silk-draught-pull",
+   "model": "alibaba/wan-2.7-spicy/image-to-video",
+   "familyDisplayName": "Wan 2.7 Spicy",
+   "familyPageSlug": "wan-2-7-spicy",
+   "task": "image-to-video",
+   "title": "A gust pulls silk off the shoulder, the camera follows the fabric",
+   "alt": "A gust drags cream silk off a woman’s bare shoulder and back on a beach at dusk, then blows it back across her as she turns her head toward the light.",
+   "prompt": "The draught drags the silk off her in one continuous pull, baring the whole slope of the shoulder and the line of the spine as the fabric slips away, then a second gust throws it back across her hip. She turns her head toward the light as the silk settles against her arm. The camera slides slowly along the body following the silk. Low gold light, dust turning in the beam, very shallow depth of field, heavy film grain.",
+   "rating": "suggestive",
+   "scenes": [],
+   "camera": [
+    "tracking"
+   ],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/wan-2-7-spicy/131308db4dc88808.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/wan-2-7-spicy/7f8323f5babcb15b.webp",
+    "mimeType": "video/mp4",
+    "width": 1246,
+    "height": 1662,
+    "durationMs": 5000
+   }
+  },
+  {
+   "exampleId": "silk-drifts-own-track",
+   "model": "alibaba/wan-2.7-spicy/image-to-video",
+   "familyDisplayName": "Wan 2.7 Spicy",
+   "familyPageSlug": "wan-2-7-spicy",
+   "task": "image-to-video",
+   "title": "Close-up: silk drifting across a bare back in low gold light",
+   "alt": "Close-up of a woman’s bare back and shoulder on a dim beach as a length of cream silk drifts across it in the wind.",
+   "prompt": "Cast: one woman. The camera stays on her as the silk crosses her. Silk is drawn slowly across the body by the draught; cut to the supplied slow music track. The silk drags across a bare shoulder, the waist and the whole line of the spine in turn; very close. Cinematic, very shallow depth of field, heavy film grain, low gold light.",
+   "rating": "suggestive",
+   "scenes": [],
+   "camera": [],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/wan-2.7-spicy/287f6caf66e84d8c.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/wan-2.7-spicy/721032687c77495b.webp",
+    "mimeType": "video/mp4",
+    "width": 1246,
+    "height": 1662,
+    "durationMs": 8000
+   }
+  },
+  {
+   "exampleId": "backstage-mirror-turn",
+   "model": "alibaba/wan-2.7-spicy/image-to-video",
+   "familyDisplayName": "Wan 2.7 Spicy",
+   "familyPageSlug": "wan-2-7-spicy",
+   "task": "image-to-video",
+   "title": "Showgirl checks the mirror backstage, then turns to camera",
+   "alt": "A showgirl in a fringed emerald sequin leotard finishes adjusting a shoulder strap at a bulb-lit backstage mirror, then turns her head to camera and raises an eyebrow before stepping out of frame.",
+   "prompt": "She finishes adjusting the sequin strap, checks herself in the bulb-lit mirror, then turns her head to camera and raises one eyebrow before stepping out of frame toward the stage. Bulbs flicker, feathers stir in the draft, smoke drifts, muffled orchestra and applause building behind the wall.",
+   "rating": "sfw",
+   "scenes": [
+    "dance-performance"
+   ],
+   "camera": [
+    "push-in"
+   ],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/wan-2-7-spicy/c1dab148533285b8.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/wan-2-7-spicy/cc886a69ba7f9782.webp",
+    "mimeType": "video/mp4",
+    "width": 830,
+    "height": 1108,
+    "durationMs": 5038
+   }
+  },
+  {
+   "exampleId": "velvet-spiral-turn",
+   "model": "bytedance/seedance-2.0-spicy/image-to-video",
+   "familyDisplayName": "Seedance 2.0 Spicy",
+   "familyPageSlug": "seedance-2-0-spicy",
+   "task": "image-to-video",
+   "title": "Velvet curtain spiral turn in red backlight",
+   "alt": "A backlit silhouette turns inside a red velvet stage curtain, the fabric wound across her front and her bare shoulders catching a rim of light",
+   "prompt": "The velvet curtain sweeps across her as she turns inside it, wrapping her body in one continuous spiral of fabric, then billows out behind her as she steps toward the light. Her bare shoulders and the line of her back come into the glow; the curtain stays wound across her front as she moves. Backlight flares through the gap and dims. Slow push toward the silhouette, velvet rippling the whole time. Cinematic, heavy film grain, deep red and black, glowing rim light.",
+   "rating": "suggestive",
+   "scenes": [
+    "noir-cinematic"
+   ],
+   "camera": [
+    "push-in"
+   ],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/seedance-2-0-spicy/fd580ae58de668b5.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/seedance-2-0-spicy/70a660518169a0b0.webp",
+    "mimeType": "video/mp4",
+    "width": 834,
+    "height": 1112,
+    "durationMs": 4042
+   }
+  },
+  {
+   "exampleId": "fogged-mirror-lean",
+   "model": "bytedance/seedance-2.0-spicy/image-to-video",
+   "familyDisplayName": "Seedance 2.0 Spicy",
+   "familyPageSlug": "seedance-2-0-spicy",
+   "task": "image-to-video",
+   "title": "Wiping a fogged bathroom mirror in a waffle robe",
+   "alt": "A woman in a loosely tied waffle robe wiping a streak through a fogged bathroom mirror and leaning toward her reflection",
+   "prompt": "She wipes a wider streak through the fogged mirror, steam curling back across the glass, then leans in closer to her reflection and exhales, the robe slipping a little further off her shoulder. Slow push toward the mirror, warm vanity bulbs, water dripping.",
+   "rating": "sfw",
+   "scenes": [],
+   "camera": [
+    "push-in"
+   ],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/seedance-2-0-spicy/00246b5b1923cf62.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/seedance-2-0-spicy/43960d16916cab02.webp",
+    "mimeType": "video/mp4",
+    "width": 834,
+    "height": 1112,
+    "durationMs": 5061
+   }
+  },
+  {
+   "exampleId": "darkroom-safelight",
+   "model": "bytedance/seedance-2.0-spicy/image-to-video",
+   "familyDisplayName": "Seedance 2.0 Spicy",
+   "familyPageSlug": "seedance-2-0-spicy",
+   "task": "image-to-video",
+   "title": "Red-safelight darkroom with a dripping print",
+   "alt": "Under a red darkroom safelight, a woman in an open shirt rocks a developer tray, then lifts a dripping print into the light and glances at the camera",
+   "prompt": "She rocks the developer tray with the tongs, then lifts the dripping print up into the red safelight and turns it to look at it, glancing sideways at the camera. The open shirt slides further off one shoulder. Slow dolly in, safelight steady, chemical ripples reflecting on the ceiling.",
+   "rating": "suggestive",
+   "scenes": [
+    "noir-cinematic"
+   ],
+   "camera": [
+    "push-in"
+   ],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/seedance-2-0-spicy/31eeaff5e2446da8.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/seedance-2-0-spicy/579ec9bd2cb38cf4.webp",
+    "mimeType": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "durationMs": 5061
+   }
+  },
+  {
+   "exampleId": "library-ladder-dust",
+   "model": "bytedance/seedance-2.0-spicy/image-to-video",
+   "familyDisplayName": "Seedance 2.0 Spicy",
+   "familyPageSlug": "seedance-2-0-spicy",
+   "task": "image-to-video",
+   "title": "Library ladder, a pulled book and a plume of dust",
+   "alt": "A woman in a cream blouse and dark skirt on a rolling library ladder pulls a heavy book from a high shelf, dust drifting through the window light as she turns and smiles",
+   "prompt": "She pulls a heavy book from the top shelf, releasing a plume of dust that ignites in the window shaft, and looks down over her shoulder toward the lens as the ladder rolls a few inches along its rail. Camera cranes slowly up to meet her.",
+   "rating": "sfw",
+   "scenes": [
+    "architecture-interior"
+   ],
+   "camera": [
+    "crane"
+   ],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/seedance-2-0-spicy/0842ecee1511d6d9.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/seedance-2-0-spicy/43fbacf37be6c2c0.webp",
+    "mimeType": "video/mp4",
+    "width": 1280,
+    "height": 714,
+    "durationMs": 5767
+   }
+  },
+  {
+   "exampleId": "pool-cannonball-crowd",
+   "model": "bytedance/seedance-2.0-fast-spicy/image-to-video",
+   "familyDisplayName": "Seedance 2.0 Fast Spicy",
+   "familyPageSlug": "seedance-2-0-fast-spicy",
+   "task": "image-to-video",
+   "title": "Floodlit night pool, swimmers diving one after another",
+   "alt": "At a floodlit outdoor pool at night, swimmers in competition suits crouch on the edge and dive in one after another, spray bursting white",
+   "prompt": "Cast: a mixed crowd of men and women of different ages and skin tones. A night pool: one after another they hit the water, the splashes blowing up white in the floodlights, the surface never settling; someone hauls themselves out at the near edge, soaked. Wet swimwear clinging as one of them hauls out at the near edge, water running off the shoulders; close at the lip of the pool. Cinematic, heavy film grain, chlorine cyan and floodlight white.",
+   "rating": "sfw",
+   "scenes": [],
+   "camera": [
+    "static"
+   ],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/seedance-2.0-fast-spicy/518ad024b9b8a2dc.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/seedance-2.0-fast-spicy/7f93d267099cc52f.webp",
+    "mimeType": "video/mp4",
+    "width": 834,
+    "height": 1112,
+    "durationMs": 6042
+   }
+  },
+  {
+   "exampleId": "balcony-laundry-turn",
+   "model": "bytedance/seedance-2.0-fast-spicy/image-to-video",
+   "familyDisplayName": "Seedance 2.0 Fast Spicy",
+   "familyPageSlug": "seedance-2-0-fast-spicy",
+   "task": "image-to-video",
+   "title": "Sunny balcony laundry turn with a grin",
+   "alt": "A woman in a bikini top and denim cutoffs pinning a sheet to a washing line on a sunlit balcony, turning to camera with a grin",
+   "prompt": "The sheet billows and drops as she pins it to the line, then she turns fully toward camera, pushes windblown hair off her face and grins. Bright midday sun, fabric snapping in the breeze, cicadas and distant sea.",
+   "rating": "sfw",
+   "scenes": [
+    "fashion-portrait"
+   ],
+   "camera": [
+    "static"
+   ],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/seedance-2-0-fast-spicy/1461db51e6ecc0b1.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/seedance-2-0-fast-spicy/51590b069219e723.webp",
+    "mimeType": "video/mp4",
+    "width": 834,
+    "height": 1112,
+    "durationMs": 5088
+   }
+  },
+  {
+   "exampleId": "pool-hall-break",
+   "model": "bytedance/seedance-2.0-fast-spicy/image-to-video",
+   "familyDisplayName": "Seedance 2.0 Fast Spicy",
+   "familyPageSlug": "seedance-2-0-fast-spicy",
+   "task": "image-to-video",
+   "title": "Pool hall break shot in a black satin slip dress",
+   "alt": "A woman in a black satin slip dress leans over a green pool table under hanging lamps, breaks the rack, then straightens up and looks toward the camera through drifting smoke",
+   "prompt": "She strikes the break — the cue drives forward, the rack scatters across the felt, and she straightens up and looks at the lens as the balls settle. Smoke rolls through the lamp beam from the impact. Camera holds low at table height.",
+   "rating": "sfw",
+   "scenes": [
+    "noir-cinematic"
+   ],
+   "camera": [
+    "static"
+   ],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/seedance-2-0-fast-spicy/09bed565d0700cae.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/seedance-2-0-fast-spicy/3cfe9e5838beb994.webp",
+    "mimeType": "video/mp4",
+    "width": 1280,
+    "height": 714,
+    "durationMs": 5767
+   }
+  },
+  {
+   "exampleId": "bathtub-knees-steam",
+   "model": "alibaba/wan-2.6-spicy/image-to-video",
+   "familyDisplayName": "Wan 2.6 Spicy",
+   "familyPageSlug": "wan-2-6-spicy",
+   "task": "image-to-video",
+   "title": "Steam and knees above the waterline of a green bathtub",
+   "alt": "Two pairs of knees rise above the waterline of a green enamel bathtub as steam curls off the water.",
+   "prompt": "Cast: two women. The camera stays on the knees and the waterline. Two pairs of knees cross above the bathtub waterline, steam curling off, the water's reflection shifting on the tiles. Steam curls off wet knees and shoulders; one knee slides against the other under the surface. Everything below the surface stays in the water. Cinematic, shallow depth of field, heavy film grain, tile green and steam white.",
+   "rating": "suggestive",
+   "scenes": [],
+   "camera": [
+    "static"
+   ],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/wan-2.6-spicy/3271dbc80ff97d8d.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/wan-2.6-spicy/f382e8893a2daf6e.webp",
+    "mimeType": "video/mp4",
+    "width": 1764,
+    "height": 1176,
+    "durationMs": 10022
+   }
+  },
+  {
+   "exampleId": "pool-rise",
+   "model": "alibaba/wan-2.6-spicy/image-to-video",
+   "familyDisplayName": "Wan 2.6 Spicy",
+   "familyPageSlug": "wan-2-6-spicy",
+   "task": "image-to-video",
+   "title": "Rooftop pool rise at blue hour, slicking hair back",
+   "alt": "A swimmer rises out of a rooftop infinity pool at blue hour, water running off her shoulders as she slicks her wet hair back with both hands and opens her eyes toward camera, city towers glowing behind.",
+   "prompt": "She rises further out of the water, sheets of it running off her shoulders and swimsuit, slicks her wet hair straight back with both hands and opens her eyes toward camera, droplets scattering. Blue-hour city towers glow behind, slow-motion water detail, ambient pool lap and distant traffic.",
+   "rating": "sfw",
+   "scenes": [
+    "fashion-portrait"
+   ],
+   "camera": [
+    "static"
+   ],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/wan-2-6-spicy/2ff58bcb117213d6.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/wan-2-6-spicy/9a0cb570d25eee6c.webp",
+    "mimeType": "video/mp4",
+    "width": 1280,
+    "height": 720,
+    "durationMs": 5015
+   }
+  },
+  {
+   "exampleId": "slatted-light-pov",
+   "model": "alibaba/wan-2.6-spicy/image-to-video",
+   "familyDisplayName": "Wan 2.6 Spicy",
+   "familyPageSlug": "wan-2-6-spicy",
+   "task": "image-to-video",
+   "title": "POV: slatted morning light moving across stockinged legs",
+   "alt": "First-person view down a red satin bed at legs in black lace-top stockings, bars of light from a window blind moving across them.",
+   "prompt": "Her toes flex and hook deeper into the silk, one knee slowly straightening, the sheets sliding and rippling under her legs. The slatted bars of light creep across her thighs as the blind stirs in the draught. Handheld point-of-view sway, warm red and gold, quiet morning room tone.",
+   "rating": "suggestive",
+   "scenes": [],
+   "camera": [
+    "pov",
+    "handheld"
+   ],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/wan-2-6-spicy/65c8f2b8dbc700bc.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/wan-2-6-spicy/deccfa82e7d45e14.webp",
+    "mimeType": "video/mp4",
+    "width": 1176,
+    "height": 784,
+    "durationMs": 5007
+   }
+  },
+  {
+   "exampleId": "wolf-turn-and-look-back",
+   "model": "alibaba/wan-2.2-spicy/image-to-video",
+   "familyDisplayName": "Wan 2.2 Spicy",
+   "familyPageSlug": "wan-2-2-spicy",
+   "task": "image-to-video",
+   "title": "First and last frame: a wolf-eared glance back in moonlight",
+   "alt": "A woman with wolf ears, seen from behind in a moonlit forest, turns her bare shoulders and looks back over her shoulder with glowing gold eyes.",
+   "prompt": "Start on her back, wolf ears and bare shoulders in moonlight, and end on the supplied final frame: she looks back over her shoulder, irises gone gold. Bare back and wolf ears in the moonlight, shoulder blades shifting as she turns. Cinematic, shallow depth of field, heavy film grain, moon silver and forest black.",
+   "rating": "suggestive",
+   "scenes": [
+    "fantasy"
+   ],
+   "camera": [
+    "static"
+   ],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/wan-2.2-spicy/0a7d0b59032f86aa.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/wan-2.2-spicy/290d7b6c1a352cd5.webp",
+    "mimeType": "video/mp4",
+    "width": 832,
+    "height": 1088,
+    "durationMs": 8016
+   }
+  },
+  {
+   "exampleId": "gym-dawn-breath",
+   "model": "alibaba/wan-2.2-spicy/image-to-video",
+   "familyDisplayName": "Wan 2.2 Spicy",
+   "familyPageSlug": "wan-2-2-spicy",
+   "task": "image-to-video",
+   "title": "Dawn gym cooldown: stretch, shoulder roll, catch a breath",
+   "alt": "A woman lowers her leg off a gym bench at dawn, rolls her shoulders back and straightens up, wiping sweat from her collarbone as low window light moves across the concrete behind her.",
+   "prompt": "She lowers her leg off the bench, rolls her shoulders back and straightens up, wiping sweat from her collarbone with the back of her wrist, chest rising as she catches her breath. Dawn light shifts across the concrete, dust drifting in the beam.",
+   "rating": "sfw",
+   "scenes": [],
+   "camera": [
+    "static"
+   ],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/wan-2-2-spicy/38f04ab8005e193f.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/wan-2-2-spicy/950e69a65484408d.webp",
+    "mimeType": "video/mp4",
+    "width": 784,
+    "height": 1176,
+    "durationMs": 5766
+   }
+  },
+  {
+   "exampleId": "one-pace-closer",
+   "model": "alibaba/wan-2.2-spicy/image-to-video",
+   "familyDisplayName": "Wan 2.2 Spicy",
+   "familyPageSlug": "wan-2-2-spicy",
+   "task": "image-to-video",
+   "title": "Locked-camera bedroom shot: one slow pace closer, then a smile",
+   "alt": "A woman in an open white shirt leans across a dark bed toward the camera, fingertip at her lip, then breaks into a slow half smile; lamp glow and a blue window behind.",
+   "prompt": "She crawls one slow pace closer toward the viewer, weight shifting onto the reaching hand, the open white shirt sliding further down off her shoulder. She draws her fingertip away from her lip, tips her head to the side and holds the viewer's gaze, then breaks into a slow half smile. Her hair swings forward. Warm lamp glow on the left, cold blue window behind, no camera move, shallow focus, quiet room tone.",
+   "rating": "suggestive",
+   "scenes": [],
+   "camera": [
+    "static"
+   ],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/wan-2-2-spicy/3d2ca819ea4a2a2d.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/wan-2-2-spicy/09b64da6d082ebd5.webp",
+    "mimeType": "video/mp4",
+    "width": 1176,
+    "height": 784,
+    "durationMs": 5000
+   }
+  },
+  {
+   "exampleId": "three-loras-stacked",
+   "model": "alibaba/wan-2.2-spicy-lora/image-to-video",
+   "familyDisplayName": "Wan 2.2 Spicy LoRA",
+   "familyPageSlug": "wan-2-2-spicy-lora",
+   "task": "image-to-video",
+   "title": "Three LoRAs stacked on one slow satin turn",
+   "alt": "A woman in a champagne satin wrap turns in a dark gilded room; the fabric slips off one shoulder and her bare back catches the gold key light.",
+   "prompt": "With all three LoRAs stacked - style, fabric and lighting - she turns on the spot and the satin catches the dark gold key light. The satin slides off one shoulder as she turns, the dark gold key raking the bare back. Cinematic, shallow depth of field, heavy film grain.",
+   "rating": "suggestive",
+   "scenes": [
+    "fashion-portrait"
+   ],
+   "camera": [
+    "static"
+   ],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/wan-2.2-spicy-lora/928d00c859a4fc39.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/wan-2.2-spicy-lora/60a295073c6f29f1.webp",
+    "mimeType": "video/mp4",
+    "width": 816,
+    "height": 1104,
+    "durationMs": 5367
+   }
+  },
+  {
+   "exampleId": "extend-the-stack",
+   "model": "alibaba/wan-2.2-spicy-lora/video-extend",
+   "familyDisplayName": "Wan 2.2 Spicy LoRA",
+   "familyPageSlug": "wan-2-2-spicy-lora",
+   "task": "video-extend",
+   "title": "Extend a clip eight more seconds with the same LoRAs",
+   "alt": "The satin wrap falls away as the woman turns from the gold light and walks off with her bare back to the camera, continuing the earlier clip for eight more seconds.",
+   "prompt": "She turns away from the light and the satin falls off the other shoulder. Continue the clip for another eight seconds with the same LoRAs attached: the stillness breaks and she turns away from the light.",
+   "rating": "suggestive",
+   "scenes": [
+    "fashion-portrait"
+   ],
+   "camera": [
+    "static"
+   ],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/wan-2.2-spicy-lora/d48338ae0374953f.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/wan-2.2-spicy-lora/bcbb65950c00ac00.webp",
+    "mimeType": "video/mp4",
+    "width": 816,
+    "height": 1104,
+    "durationMs": 13300
+   }
+  },
+  {
+   "exampleId": "tail-rise-continue",
+   "model": "alibaba/wan-2.2-spicy-lora/video-extend",
+   "familyDisplayName": "Wan 2.2 Spicy LoRA",
+   "familyPageSlug": "wan-2-2-spicy-lora",
+   "task": "video-extend",
+   "title": "Continue a clip: fox-ear costume in crimson lamplight",
+   "alt": "A woman in fox ears, a black silk robe and long gloves kneels on a velvet rug in a crimson room beside a table lamp, a plush fox tail curled behind her.",
+   "prompt": "Continuing the same unbroken take: she rises up from her knees, the plush fox tail sweeping in a slow arc across the velvet rug behind her, gathers the black silk robe closed with one gloved hand and turns fully toward the camera, the tail settling against her leg; she tilts her head and holds the look. One continuous move with no cut, deep crimson lamp light, soft shadows, film grain.",
+   "rating": "suggestive",
+   "scenes": [],
+   "camera": [
+    "static"
+   ],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/wan-2-2-spicy-lora/b47e28f395798f05.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/wan-2-2-spicy-lora/3a9d8aba022180e0.webp",
+    "mimeType": "video/mp4",
+    "width": 1280,
+    "height": 738,
+    "durationMs": 5083
+   }
+  },
+  {
+   "exampleId": "airbrush-pool-hold",
+   "model": "alibaba/wan-2.2-spicy-lora/image-to-video",
+   "familyDisplayName": "Wan 2.2 Spicy LoRA",
+   "familyPageSlug": "wan-2-2-spicy-lora",
+   "task": "image-to-video",
+   "title": "Airbrushed pool illustration that stays flat when it moves",
+   "alt": "A flat airbrush-style illustration of a woman in a black bikini sitting at the edge of a neon-lit rooftop pool, pushing her wet hair back as the water ripples.",
+   "prompt": "The illustration comes alive while keeping its flat airbrushed print look: the pool water ripples and laps at her legs, the neon arcs pulse and their reflections wobble across the surface, water keeps running off her hair and shoulders. She lowers her chin from the sky, opens her eyes and turns her face toward the viewer, then draws one hand up out of the water and slowly pushes her wet hair back off her shoulder. Gentle slow push in, banded gradient shading, halftone and print grain held stable throughout, black bikini stays on, no drift toward photorealism.",
+   "rating": "sfw",
+   "scenes": [
+    "anime-illustration"
+   ],
+   "camera": [
+    "push-in"
+   ],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/wan-2-2-spicy-lora/5250c042ec231d01.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/wan-2-2-spicy-lora/001d14060452fad3.webp",
+    "mimeType": "video/mp4",
+    "width": 1284,
+    "height": 716,
+    "durationMs": 5000
+   }
+  },
+  {
+   "exampleId": "closing-hold",
+   "model": "alibaba/wan-2.2-spicy-lora/video-extend",
+   "familyDisplayName": "Wan 2.2 Spicy LoRA",
+   "familyPageSlug": "wan-2-2-spicy-lora",
+   "task": "video-extend",
+   "title": "End an extended clip on a settled hold for the next join",
+   "alt": "A woman in a long dark coat stands at a wall of rain-streaked windows at night, city lights blurred beyond, and turns her head back over her shoulder.",
+   "prompt": "She stops at the top of the stairs, turns her head back toward the crypt and holds still as the candles steady behind her. Camera locked.",
+   "rating": "sfw",
+   "scenes": [
+    "noir-cinematic"
+   ],
+   "camera": [
+    "static"
+   ],
+   "hasInputMedia": true,
+   "reviewedOn": "2026-09-24",
+   "media": {
+    "url": "https://cdn.spicyapi.ai/models/examples/wan-2-2-spicy-lora/658e7278d63095b1.mp4",
+    "posterUrl": "https://cdn.spicyapi.ai/models/examples/wan-2-2-spicy-lora/bd78a42da1a90b45.webp",
+    "mimeType": "video/mp4",
+    "width": 1280,
+    "height": 714,
+    "durationMs": 12792
+   }
+  }
+ ]
+}

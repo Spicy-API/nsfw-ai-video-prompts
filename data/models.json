@@ -1,0 +1,201 @@
+{
+  "source": "https://api.spicyapi.ai/console/v1/catalog/models",
+  "read_on": "2026-09-27",
+  "note": "Per-second prices are the listed tier for the given resolution. Audio does not change the price on Seedance 2.x tiers. Re-check the model page before running jobs.",
+  "models": {
+    "wan22": {
+      "id": "alibaba/wan-2.2-spicy/image-to-video",
+      "name": "Wan 2.2 Spicy",
+      "page": "wan-2-2-spicy",
+      "durations": "exactly 5 or 8 s",
+      "prices": {
+        "480p": 0.019,
+        "720p": 0.038
+      }
+    },
+    "wan22lora": {
+      "id": "alibaba/wan-2.2-spicy-lora/image-to-video",
+      "name": "Wan 2.2 Spicy LoRA",
+      "page": "wan-2-2-spicy-lora",
+      "durations": "5 or 8 s",
+      "prices": {
+        "480p": 0.024,
+        "720p": 0.048
+      }
+    },
+    "ltx23": {
+      "id": "lightricks/ltx-2.3-spicy/image-to-video",
+      "name": "LTX 2.3 Spicy",
+      "page": "ltx-2-3-spicy",
+      "durations": "3–20 s",
+      "prices": {
+        "480p": 0.019,
+        "720p": 0.038,
+        "1080p": 0.057
+      }
+    },
+    "sd15": {
+      "id": "bytedance/seedance-1.5-pro-spicy/image-to-video",
+      "name": "Seedance 1.5 Pro Spicy",
+      "page": "seedance-1-5-pro-spicy",
+      "durations": "4–12 s",
+      "prices": {
+        "480p": 0.012,
+        "720p": 0.026,
+        "1080p": 0.052
+      },
+      "aspect_ratios": [
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "1:1",
+        "21:9",
+        "adaptive"
+      ]
+    },
+    "sd20mini": {
+      "id": "bytedance/seedance-2.0-mini-spicy/image-to-video",
+      "name": "Seedance 2.0 Mini Spicy",
+      "page": "seedance-2-0-mini-spicy",
+      "durations": "4–15 s",
+      "prices": {
+        "480p": 0.0387,
+        "720p": 0.0821
+      },
+      "aspect_ratios": [
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "1:1",
+        "21:9",
+        "adaptive"
+      ]
+    },
+    "sd20fast": {
+      "id": "bytedance/seedance-2.0-fast-spicy/image-to-video",
+      "name": "Seedance 2.0 Fast Spicy",
+      "page": "seedance-2-0-fast-spicy",
+      "durations": "4–15 s",
+      "prices": {
+        "480p": 0.081,
+        "720p": 0.1742
+      },
+      "aspect_ratios": [
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "1:1",
+        "21:9",
+        "adaptive"
+      ]
+    },
+    "sd20": {
+      "id": "bytedance/seedance-2.0-spicy/image-to-video",
+      "name": "Seedance 2.0 Spicy",
+      "page": "seedance-2-0-spicy",
+      "durations": "4–15 s",
+      "prices": {
+        "480p": 0.114,
+        "720p": 0.228,
+        "1080p": 0.57,
+        "4k": 1.14
+      },
+      "aspect_ratios": [
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "1:1",
+        "21:9",
+        "adaptive"
+      ]
+    },
+    "sd25": {
+      "id": "bytedance/seedance-2.5-spicy/image-to-video",
+      "name": "Seedance 2.5 Spicy",
+      "page": "seedance-2-5-spicy",
+      "durations": "4–30 s",
+      "prices": {
+        "480p": 0.216,
+        "720p": 0.432,
+        "1080p": 1.08,
+        "4k": 2.16
+      }
+    },
+    "h3": {
+      "id": "minimax/h3-spicy/image-to-video",
+      "name": "MiniMax H3 Spicy",
+      "page": "minimax-h3-spicy",
+      "durations": "3–15 s",
+      "prices": {
+        "480p": 0.038,
+        "540p": 0.057,
+        "768p": 0.084,
+        "1080p": 0.152
+      }
+    },
+    "vidu": {
+      "id": "vidu/q3-spicy/image-to-video",
+      "name": "Vidu Q3 Spicy",
+      "page": "vidu-q3-spicy",
+      "durations": "1–16 s",
+      "prices": {
+        "540p": 0.0665,
+        "720p": 0.1425,
+        "1080p": 0.152
+      }
+    },
+    "wan26": {
+      "id": "alibaba/wan-2.6-spicy/image-to-video",
+      "name": "Wan 2.6 Spicy",
+      "page": "wan-2-6-spicy",
+      "durations": "exactly 5, 10 or 15 s",
+      "prices": {
+        "720p": 0.095,
+        "1080p": 0.1425
+      }
+    },
+    "wan27": {
+      "id": "alibaba/wan-2.7-spicy/image-to-video",
+      "name": "Wan 2.7 Spicy",
+      "page": "wan-2-7-spicy",
+      "durations": "2–15 s",
+      "prices": {
+        "720p": 0.1235,
+        "1080p": 0.19
+      }
+    },
+    "zimg": {
+      "id": "alibaba/z-image-spicy/text-to-image",
+      "name": "Z-Image Spicy",
+      "page": "z-image-spicy",
+      "per_image": 0.01235,
+      "max_side": 1536
+    },
+    "zimgpro": {
+      "id": "alibaba/z-image-spicy-pro/text-to-image",
+      "name": "Z-Image Spicy Pro",
+      "page": "z-image-spicy-pro",
+      "per_image": 0.019,
+      "max_side": 2560
+    },
+    "pony": {
+      "id": "prefect/pony-xl/text-to-image",
+      "name": "Prefect Pony XL",
+      "page": "prefect-pony-xl",
+      "per_image": 0.015,
+      "sizes": [
+        "1024*1024",
+        "896*1152",
+        "1152*896",
+        "832*1216",
+        "1216*832",
+        "768*1344",
+        "1344*768"
+      ]
+    }
+  }
+}
