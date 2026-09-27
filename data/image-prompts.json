@@ -1,53 +1,173 @@
 {
-  "intro": "Image-to-video is only as good as its first frame. These prompts generate clean, well-lit first frames of adult subjects that animate well: one subject (or a clearly separated couple), simple background, hands relaxed, face unobstructed or deliberately hidden.",
-  "prompts": [
-    {"id": "R01", "title": "Boudoir Window Light", "model": "zimg", "size": "832x1216",
-     "prompt": "Photorealistic boudoir portrait of a woman in her early 30s sitting on the edge of an unmade bed in black lace lingerie, soft window light from the left, warm neutral bedroom, relaxed hands resting on her knees, looking at the camera, 85mm lens, shallow depth of field, natural skin texture."},
-    {"id": "R02", "title": "Silk Robe Portrait", "model": "zimg", "size": "832x1216",
-     "prompt": "Photorealistic portrait of an adult woman in her late 20s in an ivory silk robe slipping off one shoulder, standing by a candlelit vanity, warm amber light, soft bokeh, calm expression, editorial beauty photography."},
-    {"id": "R03", "title": "Red Satin Recline", "model": "zimgpro", "size": "1216x832",
-     "prompt": "Wide editorial photograph of an adult woman lying on her side on red satin sheets in a red lace bodysuit, crimson key light from the right, cool blue fill from the left, full body in frame, clean composition, high-end fashion photography."},
-    {"id": "R04", "title": "Hotel Corridor Heels", "model": "zimg", "size": "832x1216",
-     "prompt": "Full-body photograph of an adult woman in her 30s in black lingerie, stockings and stiletto heels standing at the far end of a dim hotel corridor, warm wall sconces, glossy floor reflections, low camera angle, cinematic color grade."},
-    {"id": "R05", "title": "Rainfall Shower", "model": "zimg", "size": "832x1216",
-     "prompt": "Photorealistic shot of an adult woman from the shoulders up under a rainfall shower, eyes closed, water running through her hair, dense steam, warm backlight, glass wall with droplets, tasteful framing."},
-    {"id": "R06", "title": "Figure Study in Monochrome", "model": "zimgpro", "size": "1024x1280",
-     "prompt": "Black and white fine-art figure study of a nude adult man in his 30s seated on a wooden stool, grey seamless backdrop, single large softbox from above left, sculpted shadows, classical pose, museum print quality."},
-    {"id": "R07", "title": "Shadow Blinds Torso", "model": "zimg", "size": "1024x1024",
-     "prompt": "High-contrast black and white photograph of an adult woman's torso in a dark room, hard striped light from window blinds across her skin, film noir mood, abstract and artistic, face out of frame."},
-    {"id": "R08", "title": "Couple, Candlelit Bedroom", "model": "zimgpro", "size": "1216x832",
-     "prompt": "Cinematic photograph of an adult couple in their 30s standing close in a candlelit bedroom, she wears a black slip dress, he wears an open white shirt, foreheads touching, side view, clear separation of the two figures, warm candlelight, shallow depth of field."},
-    {"id": "R09", "title": "Two Women on a Velvet Sofa", "model": "zimgpro", "size": "1216x832",
-     "prompt": "Editorial photograph of two adult women in their late 20s sitting face to face on a burgundy velvet sofa, one in black lace, one in white satin, soft smiles, warm candlelight, rich interior, clearly distinct outfits."},
-    {"id": "R10", "title": "Infinity Pool Exit", "model": "zimg", "size": "1216x832",
-     "prompt": "Photorealistic shot of an adult woman in a white one-piece swimsuit at the edge of a turquoise infinity pool, hands on the ledge about to climb out, bright midday sun, luxury villa background, low angle."},
-    {"id": "R11", "title": "Neon Rain Street", "model": "zimgpro", "size": "832x1216",
-     "prompt": "Cinematic night photograph of an adult woman in a soaked white shirt standing on an empty city street in the rain, face turned up, neon signs reflecting in wet asphalt, blue and pink palette, 35mm film look."},
-    {"id": "R12", "title": "Dark Elf Sorceress", "model": "zimgpro", "size": "832x1216",
-     "prompt": "Fantasy art photograph of an adult dark elf woman with silver hair and pointed ears in revealing black leather and silver armour, standing in a ruined candlelit temple, violet magic glow in her open hands, dramatic rim light, highly detailed."},
-    {"id": "R13", "title": "Succubus Chamber", "model": "zimgpro", "size": "832x1216",
-     "prompt": "Dark fantasy portrait of an adult succubus with curved horns, folded black wings and a slender tail, wearing black lingerie, standing in a red-lit gothic chamber, smoke, dramatic backlight, detailed skin and wings."},
-    {"id": "R14", "title": "Android on a Lab Table", "model": "zimg", "size": "1216x832",
-     "prompt": "Sci-fi photograph of an adult female android with seamless white synthetic panels and faint blue seams lying on a clean white lab table, eyes closed, cool clinical light, minimalist lab, film still."},
-    {"id": "R15", "title": "Masquerade Guest", "model": "zimgpro", "size": "832x1216",
-     "prompt": "Baroque masquerade photograph of an adult woman in a gold lace mask and a low-backed black gown, candlelit Venetian ballroom with masked guests softly blurred behind her, gold and black palette."},
-    {"id": "R16", "title": "Anime Onsen", "model": "pony", "size": "1216x832",
-     "prompt": "score_9, score_8_up, anime style, 1woman, adult, mature female, long purple hair, towel, outdoor hot spring, night, steam, cherry blossoms, paper lanterns, soft smile, detailed background"},
-    {"id": "R17", "title": "Anime Beach", "model": "pony", "size": "1216x832",
-     "prompt": "score_9, score_8_up, anime style, 1woman, adult, mature female, short blonde hair, red bikini, beach, running, splashing water, summer sky, vibrant colors, dynamic pose"},
-    {"id": "R18", "title": "Anime Demon Queen", "model": "pony", "size": "832x1216",
-     "prompt": "score_9, score_8_up, anime style, 1woman, adult, mature female, demon queen, horns, red eyes, tail, black lace outfit, throne room, purple fire braziers, dramatic lighting, confident expression"},
-    {"id": "R19", "title": "Anime Silver-Hair Bedroom", "model": "pony", "size": "1216x832",
-     "prompt": "score_9, score_8_up, anime style, 1woman, adult, mature female, long silver hair, oversized shirt, lying on side, bed, propped on elbow, afternoon light, curtains, soft smile, detailed room"},
-    {"id": "R20", "title": "Anime Cyberpunk Rooftop", "model": "pony", "size": "1216x832",
-     "prompt": "score_9, score_8_up, anime style, 1woman, adult, mature female, cropped leather jacket, bodysuit, rooftop, neon city, night, rain, wind in hair, looking back, cyberpunk"},
-    {"id": "R21", "title": "Lingerie Catalog", "model": "zimg", "size": "832x1216",
-     "prompt": "Clean e-commerce photograph of an adult model in an ivory silk and lace lingerie set standing on a white studio cyclorama, even soft lighting, full body, neutral pose, catalog style."},
-    {"id": "R22", "title": "Creator Selfie", "model": "zimg", "size": "832x1216",
-     "prompt": "Casual smartphone-style selfie of an adult woman in her late 20s in a silk robe sitting on her bed, ring-light glow, cosy bedroom, natural makeup, playful expression, realistic phone photo."},
-    {"id": "R23", "title": "Gym Athlete", "model": "zimg", "size": "832x1216",
-     "prompt": "Photorealistic shot of an adult female athlete in a sports bra and leggings in a gritty gym, towel around her neck, hard top light, glistening skin, confident look at the camera."},
-    {"id": "R24", "title": "Male Boudoir", "model": "zimg", "size": "832x1216",
-     "prompt": "Photorealistic boudoir portrait of an adult man in his 30s lying back on white sheets, bare chest, grey sweatpants, soft morning window light, relaxed smile, shallow depth of field, editorial style."}
-  ]
+ "intro": "Image-to-video is only as good as its first frame. These prompts generate clean, well-lit first frames of adult subjects that animate well: one subject (or a clearly separated couple), simple background, hands relaxed, face unobstructed or deliberately hidden. Photoreal first frames use Qwen Image 2.1, the recommended uncensored image model on SpicyAPI; anime frames use Prefect Pony XL.",
+ "prompts": [
+  {
+   "id": "R01",
+   "title": "Boudoir Window Light",
+   "model": "qwen21",
+   "prompt": "Photorealistic boudoir portrait of a woman in her early 30s sitting on the edge of an unmade bed in black lace lingerie, soft window light from the left, warm neutral bedroom, relaxed hands resting on her knees, looking at the camera, 85mm lens, shallow depth of field, natural skin texture.",
+   "aspect_ratio": "2:3"
+  },
+  {
+   "id": "R02",
+   "title": "Silk Robe Portrait",
+   "model": "qwen21",
+   "prompt": "Photorealistic portrait of an adult woman in her late 20s in an ivory silk robe slipping off one shoulder, standing by a candlelit vanity, warm amber light, soft bokeh, calm expression, editorial beauty photography.",
+   "aspect_ratio": "2:3"
+  },
+  {
+   "id": "R03",
+   "title": "Red Satin Recline",
+   "model": "qwen21",
+   "prompt": "Wide editorial photograph of an adult woman lying on her side on red satin sheets in a red lace bodysuit, crimson key light from the right, cool blue fill from the left, full body in frame, clean composition, high-end fashion photography.",
+   "aspect_ratio": "3:2"
+  },
+  {
+   "id": "R04",
+   "title": "Hotel Corridor Heels",
+   "model": "qwen21",
+   "prompt": "Full-body photograph of an adult woman in her 30s in black lingerie, stockings and stiletto heels standing at the far end of a dim hotel corridor, warm wall sconces, glossy floor reflections, low camera angle, cinematic color grade.",
+   "aspect_ratio": "2:3"
+  },
+  {
+   "id": "R05",
+   "title": "Rainfall Shower",
+   "model": "qwen21",
+   "prompt": "Photorealistic shot of an adult woman from the shoulders up under a rainfall shower, eyes closed, water running through her hair, dense steam, warm backlight, glass wall with droplets, tasteful framing.",
+   "aspect_ratio": "2:3"
+  },
+  {
+   "id": "R06",
+   "title": "Figure Study in Monochrome",
+   "model": "qwen21",
+   "prompt": "Black and white fine-art figure study of a nude adult man in his 30s seated on a wooden stool, grey seamless backdrop, single large softbox from above left, sculpted shadows, classical pose, museum print quality.",
+   "aspect_ratio": "4:5"
+  },
+  {
+   "id": "R07",
+   "title": "Shadow Blinds Torso",
+   "model": "qwen21",
+   "prompt": "High-contrast black and white photograph of an adult woman's torso in a dark room, hard striped light from window blinds across her skin, film noir mood, abstract and artistic, face out of frame.",
+   "aspect_ratio": "1:1"
+  },
+  {
+   "id": "R08",
+   "title": "Couple, Candlelit Bedroom",
+   "model": "qwen21",
+   "prompt": "Cinematic photograph of an adult couple in their 30s standing close in a candlelit bedroom, she wears a black slip dress, he wears an open white shirt, foreheads touching, side view, clear separation of the two figures, warm candlelight, shallow depth of field.",
+   "aspect_ratio": "3:2"
+  },
+  {
+   "id": "R09",
+   "title": "Two Women on a Velvet Sofa",
+   "model": "qwen21",
+   "prompt": "Editorial photograph of two adult women in their late 20s sitting face to face on a burgundy velvet sofa, one in black lace, one in white satin, soft smiles, warm candlelight, rich interior, clearly distinct outfits.",
+   "aspect_ratio": "3:2"
+  },
+  {
+   "id": "R10",
+   "title": "Infinity Pool Exit",
+   "model": "qwen21",
+   "prompt": "Photorealistic shot of an adult woman in a white one-piece swimsuit at the edge of a turquoise infinity pool, hands on the ledge about to climb out, bright midday sun, luxury villa background, low angle.",
+   "aspect_ratio": "3:2"
+  },
+  {
+   "id": "R11",
+   "title": "Neon Rain Street",
+   "model": "qwen21",
+   "prompt": "Cinematic night photograph of an adult woman in a soaked white shirt standing on an empty city street in the rain, face turned up, neon signs reflecting in wet asphalt, blue and pink palette, 35mm film look.",
+   "aspect_ratio": "2:3"
+  },
+  {
+   "id": "R12",
+   "title": "Dark Elf Sorceress",
+   "model": "qwen21",
+   "prompt": "Fantasy art photograph of an adult dark elf woman with silver hair and pointed ears in revealing black leather and silver armour, standing in a ruined candlelit temple, violet magic glow in her open hands, dramatic rim light, highly detailed.",
+   "aspect_ratio": "2:3"
+  },
+  {
+   "id": "R13",
+   "title": "Succubus Chamber",
+   "model": "qwen21",
+   "prompt": "Dark fantasy portrait of an adult succubus with curved horns, folded black wings and a slender tail, wearing black lingerie, standing in a red-lit gothic chamber, smoke, dramatic backlight, detailed skin and wings.",
+   "aspect_ratio": "2:3"
+  },
+  {
+   "id": "R14",
+   "title": "Android on a Lab Table",
+   "model": "qwen21",
+   "prompt": "Sci-fi photograph of an adult female android with seamless white synthetic panels and faint blue seams lying on a clean white lab table, eyes closed, cool clinical light, minimalist lab, film still.",
+   "aspect_ratio": "3:2"
+  },
+  {
+   "id": "R15",
+   "title": "Masquerade Guest",
+   "model": "qwen21",
+   "prompt": "Baroque masquerade photograph of an adult woman in a gold lace mask and a low-backed black gown, candlelit Venetian ballroom with masked guests softly blurred behind her, gold and black palette.",
+   "aspect_ratio": "2:3"
+  },
+  {
+   "id": "R16",
+   "title": "Anime Onsen",
+   "model": "pony",
+   "size": "1216x832",
+   "prompt": "score_9, score_8_up, anime style, 1woman, adult, mature female, long purple hair, towel, outdoor hot spring, night, steam, cherry blossoms, paper lanterns, soft smile, detailed background"
+  },
+  {
+   "id": "R17",
+   "title": "Anime Beach",
+   "model": "pony",
+   "size": "1216x832",
+   "prompt": "score_9, score_8_up, anime style, 1woman, adult, mature female, short blonde hair, red bikini, beach, running, splashing water, summer sky, vibrant colors, dynamic pose"
+  },
+  {
+   "id": "R18",
+   "title": "Anime Demon Queen",
+   "model": "pony",
+   "size": "832x1216",
+   "prompt": "score_9, score_8_up, anime style, 1woman, adult, mature female, demon queen, horns, red eyes, tail, black lace outfit, throne room, purple fire braziers, dramatic lighting, confident expression"
+  },
+  {
+   "id": "R19",
+   "title": "Anime Silver-Hair Bedroom",
+   "model": "pony",
+   "size": "1216x832",
+   "prompt": "score_9, score_8_up, anime style, 1woman, adult, mature female, long silver hair, oversized shirt, lying on side, bed, propped on elbow, afternoon light, curtains, soft smile, detailed room"
+  },
+  {
+   "id": "R20",
+   "title": "Anime Cyberpunk Rooftop",
+   "model": "pony",
+   "size": "1216x832",
+   "prompt": "score_9, score_8_up, anime style, 1woman, adult, mature female, cropped leather jacket, bodysuit, rooftop, neon city, night, rain, wind in hair, looking back, cyberpunk"
+  },
+  {
+   "id": "R21",
+   "title": "Lingerie Catalog",
+   "model": "qwen21",
+   "prompt": "Clean e-commerce photograph of an adult model in an ivory silk and lace lingerie set standing on a white studio cyclorama, even soft lighting, full body, neutral pose, catalog style.",
+   "aspect_ratio": "2:3"
+  },
+  {
+   "id": "R22",
+   "title": "Creator Selfie",
+   "model": "qwen21",
+   "prompt": "Casual smartphone-style selfie of an adult woman in her late 20s in a silk robe sitting on her bed, ring-light glow, cosy bedroom, natural makeup, playful expression, realistic phone photo.",
+   "aspect_ratio": "2:3"
+  },
+  {
+   "id": "R23",
+   "title": "Gym Athlete",
+   "model": "qwen21",
+   "prompt": "Photorealistic shot of an adult female athlete in a sports bra and leggings in a gritty gym, towel around her neck, hard top light, glistening skin, confident look at the camera.",
+   "aspect_ratio": "2:3"
+  },
+  {
+   "id": "R24",
+   "title": "Male Boudoir",
+   "model": "qwen21",
+   "prompt": "Photorealistic boudoir portrait of an adult man in his 30s lying back on white sheets, bare chest, grey sweatpants, soft morning window light, relaxed smile, shallow depth of field, editorial style.",
+   "aspect_ratio": "2:3"
+  }
+ ]
 }

@@ -72,6 +72,9 @@ def main() -> int:
         m = models.get(p["model"])
         if m is None or "per_image" not in m:
             errors.append(f"{p['id']}: unknown image model {p['model']}")
+        elif "aspect_ratio" in p:
+            if p["aspect_ratio"] not in m.get("aspect_ratios", []):
+                errors.append(f"{p['id']}: aspect ratio {p['aspect_ratio']} not offered by {m['name']}")
         elif "sizes" in m and p["size"].replace("x", "*") not in m["sizes"]:
             errors.append(f"{p['id']}: size {p['size']} not offered by {m['name']}")
         elif "max_side" in m and max(int(v) for v in p["size"].split("x")) > m["max_side"]:
@@ -82,10 +85,15 @@ def main() -> int:
             errors.append(f"{p['id']}: prompt does not state an adult subject")
 
     # README must be regenerated after data changes.
-    before = (ROOT / "README.md").read_text()
+    readmes = sorted(ROOT.glob("README*.md"))
+    readmes = [r for r in readmes if ".template" not in r.name]
+    before = {r.name: r.read_text() for r in readmes}
     subprocess.run([sys.executable, str(ROOT / "scripts" / "build_readme.py")], check=True, capture_output=True)
-    if (ROOT / "README.md").read_text() != before:
-        errors.append("README.md was stale; it has been regenerated, commit the result")
+    for r in sorted(ROOT.glob("README*.md")):
+        if ".template" in r.name:
+            continue
+        if before.get(r.name) != r.read_text():
+            errors.append(f"{r.name} was stale; it has been regenerated, commit the result")
 
     for e in errors:
         print("ERROR", e)

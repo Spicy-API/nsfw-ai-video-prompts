@@ -1,0 +1,731 @@
+{
+ "_note": "Traduce todos los valores de texto. Mantén las claves, los IDs, los nombres de modelos, los números, las unidades y el markdown. No traduzcas el texto de los prompts (no está en este archivo).",
+ "labels": {
+  "video_models": "**Modelos de video**",
+  "image_models": "**Modelos de imagen** (primeros fotogramas e imágenes fijas)",
+  "col_model": "Modelo",
+  "col_type": "Tipo",
+  "col_tasks": "Tareas",
+  "col_duration": "Duración",
+  "col_from": "Desde",
+  "standard": "Estándar",
+  "spicy_edition": "🌶️ Edición Spicy",
+  "standard_unrestricted": "Modelo estándar, nivel en el catálogo: unrestricted",
+  "model_page": "página del modelo",
+  "preview_hidden": "Vista previa no disponible en GitHub.",
+  "see_on_site": "Míralo en spicyapi.ai",
+  "full_clip": "▶ clip completo",
+  "full_size": "tamaño completo",
+  "any_aspect": "cualquier relación de aspecto",
+  "col_settings": "Ajustes",
+  "col_cost": "Costo por ejecución",
+  "col_level": "Nivel",
+  "first_frame": "Primer fotograma",
+  "tip": "Consejo",
+  "per_image": "por imagen",
+  "levels": {
+   "Beginner": "Principiante",
+   "Intermediate": "Intermedio",
+   "Advanced": "Avanzado"
+  }
+ },
+ "categories": {
+  "boudoir": {
+   "title": "Boudoir y lencería",
+   "intro": "La categoría NSFW de imagen a video más fiable: un solo sujeto, luz suave y movimientos pequeños. Si eres nuevo, empieza aquí."
+  },
+  "fineart": {
+   "title": "Desnudo artístico y bellas artes",
+   "intro": "El desnudo tratado como estudio de la figura: luz escultórica, siluetas, poses clásicas. Funciona bien en todos los modelos Spicy porque el movimiento es mínimo."
+  },
+  "couples": {
+   "title": "Parejas y romance",
+   "intro": "Dos adultos que dan su consentimiento. Los clips con dos personas son más difíciles: mantén la acción lenta, dale a cada persona ropa o un color distinto y prioriza los ángulos laterales."
+  },
+  "dance": {
+   "title": "Actuación en solitario y baile",
+   "intro": "Ritmo y movimiento corporal. Usa modelos con buen movimiento (Seedance, MiniMax H3) y haz clips cortos."
+  },
+  "water": {
+   "title": "Baño, ducha y agua",
+   "intro": "El agua, el vapor y la piel mojada aportan realismo. Las cámaras fijas o lentas mantienen creíble la física del agua."
+  },
+  "fantasy": {
+   "title": "Fantasía, ciencia ficción y cosplay",
+   "intro": "Personajes de fantasía adultos. El vestuario y los efectos hacen el trabajo pesado; describe un solo elemento mágico o tecnológico cada vez."
+  },
+  "anime": {
+   "title": "Estilo anime y hentai",
+   "intro": "Todos los personajes de esta sección tienen un diseño explícitamente adulto. Genera el primer fotograma con Prefect Pony XL y luego anímalo con Vidu Q3 Spicy o Wan 2.2 Spicy."
+  },
+  "commercial": {
+   "title": "Sensualidad comercial apta para marcas",
+   "intro": "Estética de anuncios de lencería, trajes de baño y perfumes para marcas para adultos y promociones de creadores. Sugerente, no explícito, así que también sirve para plataformas con normas más estrictas."
+  },
+  "motion": {
+   "title": "Plantillas reutilizables de movimiento y cámara",
+   "intro": "Prompts listos para usar que solo describen el movimiento y la cámara. Combínalos con cualquier primer fotograma; funcionan porque los modelos de imagen a video ya ven al sujeto."
+  },
+  "lora": {
+   "title": "Prompts de estilo con LoRA (Wan 2.2 Spicy LoRA)",
+   "intro": "Prompts pensados para combinarse con un LoRA de estilo. Pon primero la palabra de activación del LoRA y centra el resto del prompt en el movimiento."
+  }
+ },
+ "prompts": {
+  "B01": {
+   "title": "Dormitorio en la hora dorada",
+   "tip": "El modelo conserva el vestuario de tu primer fotograma, así que empieza con el sujeto ya en lencería y con una luz cálida a juego.",
+   "frame": "Foto de cintura para arriba de una mujer adulta en lencería de encaje negro, luz cálida de lámpara, dormitorio de fondo."
+  },
+  "B02": {
+   "title": "Bata de seda que cae del hombro",
+   "tip": "Empieza con la bata ya medio caída de un hombro; el modelo continúa el movimiento en lugar de inventarlo.",
+   "frame": "Encuadre cerrado del hombro y la clavícula, bata de seda color marfil colocada holgadamente, luz de velas."
+  },
+  "B03": {
+   "title": "Espejo del tocador",
+   "tip": "Los reflejos se mantienen mejor en Wan 2.6 y Seedance que en los niveles económicos. Deja el espejo dentro del primer fotograma.",
+   "frame": "Mujer adulta sentada frente a un tocador con su reflejo visible, lencería transparente, luz suave de ventana."
+  },
+  "B04": {
+   "title": "Sábanas de satén rojo",
+   "tip": "Indicar la dirección del dolly da un movimiento de barrido limpio. Las paletas de rojo sobre rojo se renderizan bien.",
+   "frame": "Mujer adulta tumbada sobre satén rojo, body de encaje rojo, iluminación en dos tonos."
+  },
+  "B05": {
+   "title": "Champán en el diván",
+   "tip": "Los objetos se comportan mejor en Wan 2.6 o Seedance 2.0. Limítate a un solo gesto.",
+   "frame": "Mujer adulta en un diván con una copa de champán en la mano, corsé, iluminación en clave baja."
+  },
+  "B06": {
+   "title": "Balcón al atardecer",
+   "tip": "El viento es uno de los movimientos más fiables en cualquier modelo de video. Úsalo para dar vida sin arriesgar la anatomía.",
+   "frame": "Mujer adulta de espaldas en un balcón al anochecer, camisón transparente, bokeh de la ciudad."
+  },
+  "B07": {
+   "title": "Macro de encaje y perlas",
+   "tip": "La respiración es el movimiento más fiable de todos. El encuadre macro oculta manos y caras, lo que elimina la mayoría de los artefactos.",
+   "frame": "Macro de perlas sobre la clavícula y encaje blanco, iluminación en clave alta."
+  },
+  "B08": {
+   "title": "Subiéndose la media",
+   "tip": "Encuadra de la rodilla hacia arriba para que las manos se vean grandes y sencillas.",
+   "frame": "Mujer adulta sentada en una cama, con una media puesta y la otra a medio subir, ángulo bajo."
+  },
+  "B09": {
+   "title": "Alfombra de piel junto a la chimenea",
+   "tip": "Una cámara fija con la luz del fuego en movimiento da mucha sensación de movimiento con muy poco riesgo.",
+   "frame": "Mujer adulta sobre una alfombra de piel junto a una chimenea, combinación de seda color crema, luz del fuego."
+  },
+  "B10": {
+   "title": "Lluvia en la ventana",
+   "tip": "LTX 2.3 Spicy permite tomas más largas a bajo costo; mantén la acción lenta cuando pases de 5 segundos.",
+   "frame": "Mujer adulta en el asiento de una ventana con una camisa blanca abierta, ventana con lluvia, luz fría."
+  },
+  "B11": {
+   "title": "Travelling por el detalle de la espalda",
+   "tip": "Las espaldas perdonan mucho en anatomía y se ven caras. Seedance maneja bien el micromovimiento de la piel.",
+   "frame": "Mujer adulta de espaldas con un vestido de espalda descubierta, luz lateral cálida."
+  },
+  "B12": {
+   "title": "Venda de satén",
+   "tip": "Una venda en los ojos elimina por completo los artefactos en los ojos y añade tensión al plano.",
+   "frame": "Mujer adulta de rodillas sobre sábanas blancas, venda de satén en los ojos, lencería negra."
+  },
+  "B13": {
+   "title": "Solo joyas",
+   "tip": "El desnudo insinuado con sombras estratégicas se ve de alta gama y lo aceptan más plataformas cuando lo vuelves a publicar.",
+   "frame": "Mujer adulta sobre terciopelo negro con joyas doradas, foco cenital, sombras que cubren el cuerpo."
+  },
+  "B14": {
+   "title": "Estiramiento matutino en la cama",
+   "tip": "MiniMax H3 hace bien los estiramientos naturales de cuerpo entero. En este modelo el prompt es opcional; a menudo basta con el primer fotograma.",
+   "frame": "Mujer adulta entre sábanas blancas con una camiseta de tirantes, luz de ventana por la mañana."
+  },
+  "B15": {
+   "title": "Atando el corsé",
+   "tip": "Los movimientos repetitivos de las manos funcionan si las manos se quedan en la misma zona del encuadre.",
+   "frame": "Vista de espaldas de una mujer adulta con un corsé negro a medio atar, luz de velas."
+  },
+  "B16": {
+   "title": "Revelación con abrigo de piel",
+   "tip": "Abrir una prenda es un movimiento único y predecible. Haz que el color del abrigo sea distinto del de la lencería.",
+   "frame": "Mujer adulta en el pasillo de un hotel con un abrigo de piel sintética cerrado."
+  },
+  "F01": {
+   "title": "Venus clásica",
+   "tip": "Nombrar una pose de la historia del arte le da al modelo una base de composición sólida.",
+   "frame": "Mujer adulta desnuda reclinada sobre paños blancos, iluminación de pintura clásica."
+  },
+  "F02": {
+   "title": "Juego de sombras",
+   "tip": "Los patrones de luz dura crean movimiento sin que el cuerpo se mueva. Ideal para modelos baratos.",
+   "frame": "Torso de una mujer adulta en una habitación oscura con franjas de luz de persiana, blanco y negro."
+  },
+  "F03": {
+   "title": "Paisaje corporal",
+   "tip": "Los paisajes corporales abstractos nunca muestran cara ni manos, así que casi no tienen artefactos.",
+   "frame": "Macro abstracto de las curvas de la cadera y la cintura con luz cálida rasante."
+  },
+  "F04": {
+   "title": "Flotando bajo el agua",
+   "tip": "El movimiento bajo el agua es lento por naturaleza, y los modelos lo manejan con soltura.",
+   "frame": "Mujer adulta bajo el agua envuelta en seda blanca, rayos de luz desde arriba."
+  },
+  "F05": {
+   "title": "Pintura corporal que gotea",
+   "tip": "Los líquidos que se mueven sobre la piel causan mucho impacto y son fiables en Wan 2.6.",
+   "frame": "Espalda de una mujer adulta con trazos de pintura dorada, fondo negro."
+  },
+  "F06": {
+   "title": "Ninfa del bosque",
+   "tip": "El follaje en primer plano sirve también como censura natural para las plataformas que la exigen.",
+   "frame": "Mujer adulta en un bosque con niebla, helechos en primer plano, hiedra en el pelo."
+  },
+  "F07": {
+   "title": "Estudio de figura en estudio",
+   "tip": "Seedance 1.5 Pro Spicy tiene bloqueo de cámara, ideal para trabajo de figura en estudio.",
+   "frame": "Hombre adulto desnudo sentado en un taburete, fondo gris, una sola ventana de luz, blanco y negro."
+  },
+  "F08": {
+   "title": "Baño de leche",
+   "tip": "La superficie opaca de la leche controla la exposición de forma natural. El encuadre cenital es muy estable.",
+   "frame": "Plano cenital de una mujer adulta en un baño de leche con pétalos de rosa."
+  },
+  "F09": {
+   "title": "Silueta estirándose",
+   "tip": "Las siluetas se leen como desnudo sin mostrar nada. Se pueden publicar casi en cualquier sitio.",
+   "frame": "Silueta de perfil de una mujer adulta contra una ventana al atardecer."
+  },
+  "F10": {
+   "title": "Dunas del desierto",
+   "tip": "Alejarse caminando es uno de los movimientos de cuerpo entero más seguros.",
+   "frame": "Plano general de una mujer adulta de espaldas sobre dunas de arena, con un pañuelo que ondea tras ella."
+  },
+  "F11": {
+   "title": "Piel mojada en estudio",
+   "tip": "El contraluz sobre la piel mojada se ve premium y oculta los problemas de textura.",
+   "frame": "Hombros y pecho de un hombre adulto con gotas de agua, contraluz sobre fondo negro."
+  },
+  "F12": {
+   "title": "Desenvolviendo la tela",
+   "tip": "Describir un ventilador fuera de plano le da al modelo una causa física para el movimiento.",
+   "frame": "Mujer adulta envuelta en gasa roja en un estudio blanco."
+  },
+  "F13": {
+   "title": "Humo y forma",
+   "tip": "El humo es de los movimientos más fiables y añade pudor de serie.",
+   "frame": "Mujer adulta en un estudio negro rodeada de humo de colores."
+  },
+  "F14": {
+   "title": "Arcilla de escultor",
+   "tip": "El encuadre espalda con espalda mantiene los dos cuerpos claramente separados.",
+   "frame": "Dos adultos espalda con espalda cubiertos de arcilla gris, suelo de estudio, monocromo."
+  },
+  "C01": {
+   "title": "Baile lento en el dormitorio",
+   "tip": "Los colores de ropa distintos ayudan al modelo a mantener separados los dos cuerpos.",
+   "frame": "Pareja adulta abrazada en un dormitorio iluminado con velas, vestido negro y camisa blanca."
+  },
+  "C02": {
+   "title": "Primer plano de un beso",
+   "tip": "El encuadre de perfil es mucho más estable para los besos que los ángulos frontales.",
+   "frame": "Primer plano de perfil de un hombre y una mujer adultos a punto de besarse, contraluz dorado."
+  },
+  "C03": {
+   "title": "Abrazo en la playa al atardecer",
+   "tip": "El agua a la altura de la cintura oculta las zonas más difíciles de renderizar en planos de dos personas.",
+   "frame": "Pareja adulta abrazada en el mar al atardecer, con el agua por la cintura."
+  },
+  "C04": {
+   "title": "La mañana siguiente",
+   "tip": "Los movimientos pequeños de manos en una pareja quieta son mucho más fiables que el movimiento de cuerpo entero.",
+   "frame": "Pareja adulta tumbada entre sábanas blancas, la cabeza de ella sobre el pecho de él, luz de la mañana."
+  },
+  "C05": {
+   "title": "Beso en el cuello",
+   "tip": "Situar a uno detrás de la otra mantiene las caras separadas y se lee con claridad.",
+   "frame": "Hombre adulto detrás de una mujer adulta, con la cara cerca de su cuello, luz tenue de loft."
+  },
+  "C06": {
+   "title": "Baño para dos",
+   "tip": "La espuma y el vapor ayudan a la vez con la continuidad y con el pudor.",
+   "frame": "Pareja adulta en una bañera exenta llena de espuma, velas, vapor."
+  },
+  "C07": {
+   "title": "Bajando la cremallera del vestido",
+   "tip": "Encuadra la cremallera y la espalda. Dos manos en una zona pequeña es el límite para la mayoría de los modelos.",
+   "frame": "Espalda de una mujer adulta con un vestido esmeralda y la mano de un hombre en la cremallera."
+  },
+  "C08": {
+   "title": "Silueta en la ducha",
+   "tip": "El cristal esmerilado hace de censura y oculta por completo los errores de anatomía.",
+   "frame": "Cristal de ducha empañado con las formas borrosas de dos adultos detrás."
+  },
+  "C09": {
+   "title": "Contra la pared",
+   "tip": "El contraste de colores neón ayuda al modelo a separar las dos figuras.",
+   "frame": "Pareja adulta en un pasillo iluminado con neón, ella contra la pared, frente con frente."
+  },
+  "C10": {
+   "title": "Llevada en brazos a la cama",
+   "tip": "Levantar y cargar a alguien es un movimiento avanzado. Seedance 2.5 Spicy es el que mejor maneja el peso y el contacto.",
+   "frame": "Hombre adulto llevando en brazos a una mujer adulta en un dormitorio iluminado por la luna."
+  },
+  "C11": {
+   "title": "Sábanas enredadas",
+   "tip": "El encuadre cenital aplana la profundidad y mantiene estables los planos de dos personas.",
+   "frame": "Vista cenital de una pareja adulta entre sábanas de seda gris, con las manos entrelazadas."
+  },
+  "C12": {
+   "title": "Aceite de masaje",
+   "tip": "Unas manos sobre una espalda son un movimiento sencillo y repetible, con poco riesgo de artefactos.",
+   "frame": "Mujer adulta boca abajo en una camilla de masaje, las manos de un hombre sobre su espalda."
+  },
+  "C13": {
+   "title": "Dos mujeres a la luz de las velas",
+   "tip": "La ropa contrastada (negro frente a blanco) mantiene estables las identidades durante todo el clip.",
+   "frame": "Dos mujeres adultas en un sofá de terciopelo, una con encaje negro y otra con satén blanco."
+  },
+  "C14": {
+   "title": "Azotea de noche",
+   "tip": "Deja las manos sobre prendas como corbatas o cuellos para un movimiento limpio y legible.",
+   "frame": "Dos hombres adultos en una azotea de noche, con el skyline de la ciudad detrás."
+  },
+  "D01": {
+   "title": "Giro en la barra",
+   "tip": "El movimiento de rotación es avanzado. Seedance 2.0 y 2.5 son los que mejor mantienen coherentes las extremidades.",
+   "frame": "Bailarina de pole dance adulta sujetando una barra cromada, luces de escenario, ángulo bajo."
+  },
+  "D02": {
+   "title": "Floor work sensual",
+   "tip": "Nombra la secuencia exacta de posiciones. Un \"bailando\" vago produce extremidades al azar.",
+   "frame": "Bailarina adulta sobre un escenario negro brillante con un body negro, foco."
+  },
+  "D03": {
+   "title": "Onda corporal",
+   "tip": "Un único paso de baile con nombre funciona mucho mejor que una rutina entera.",
+   "frame": "Mujer adulta de frente a la cámara en un apartamento con luces de neón, top corto y shorts."
+  },
+  "D04": {
+   "title": "Baile frente al espejo",
+   "tip": "Incluye el espejo en el primer fotograma para que el modelo tenga el reflejo que animar.",
+   "frame": "Mujer adulta en lencería frente a un espejo de cuerpo entero."
+  },
+  "D05": {
+   "title": "Baile en la silla",
+   "tip": "Los objetos como sillas y sombreros anclan el movimiento y reducen la deriva.",
+   "frame": "Artista adulta sentada al revés en una silla, chaqueta de esmoquin y sombrero, foco."
+  },
+  "D06": {
+   "title": "Striptease con chaqueta",
+   "tip": "Quitarse una sola capa exterior es un movimiento claro y único que los modelos manejan con fiabilidad.",
+   "frame": "Hombre adulto con una chaqueta de traje sobre el torso desnudo, foco, escenario con humo."
+  },
+  "D07": {
+   "title": "Probándose lencería",
+   "tip": "Un formato muy bueno para promociones de creadores. Ajustarse un tirante es un movimiento de mano pequeño y fiable.",
+   "frame": "Mujer adulta con un conjunto de encaje rosa en un camerino con bombillas de tocador."
+  },
+  "D08": {
+   "title": "Rodando en la cama",
+   "tip": "El ángulo cenital convierte el giro en un movimiento plano y legible.",
+   "frame": "Vista cenital de una mujer adulta tumbada boca abajo en una cama blanca."
+  },
+  "D09": {
+   "title": "Cae la toalla",
+   "tip": "Grabar de espaldas mantiene la revelación sencilla y la anatomía fácil.",
+   "frame": "Mujer adulta de espaldas con una toalla blanca, baño lleno de vapor."
+  },
+  "D10": {
+   "title": "Caminando en tacones",
+   "tip": "Caminar hacia la cámara es uno de los movimientos de cuerpo entero más fiables.",
+   "frame": "Mujer adulta en lencería y tacones al fondo del pasillo de un hotel."
+  },
+  "D11": {
+   "title": "Melena al viento",
+   "tip": "El pelo y el viento son de los mejores movimientos en todos los modelos.",
+   "frame": "Primer plano de una mujer adulta en una playa al atardecer, top transparente, pelo largo."
+  },
+  "D12": {
+   "title": "Secuencia de yoga",
+   "tip": "Una cámara lateral más posturas de yoga con nombre mantienen predecibles las extremidades.",
+   "frame": "Mujer adulta sobre una esterilla de yoga en perro boca abajo, vista lateral, loft soleado."
+  },
+  "D13": {
+   "title": "Danza del abanico de cabaret",
+   "tip": "Las plumas y los abanicos dan mucho movimiento sin mover el cuerpo.",
+   "frame": "Artista de burlesque adulta en un escenario con telón rojo sujetando abanicos de plumas."
+  },
+  "D14": {
+   "title": "Pista de baile de discoteca",
+   "tip": "Seedance 2.0 Fast Spicy incluye sonido, así que el clip trae el ambiente sonoro de la discoteca.",
+   "frame": "Mujer adulta con un vestido metalizado en la pista de una discoteca, láseres."
+  },
+  "W01": {
+   "title": "Ducha con vapor",
+   "tip": "El agua corriendo más el vapor es muy fiable. Mantén la cámara quieta.",
+   "frame": "Mujer adulta bajo una ducha de lluvia, de los hombros hacia arriba, vapor."
+  },
+  "W02": {
+   "title": "Baño de espuma de lujo",
+   "tip": "La espuma oculta el cuerpo y da un movimiento lento y agradable.",
+   "frame": "Mujer adulta en una bañera con patas llena de espuma y una copa de vino, baño de mármol."
+  },
+  "W03": {
+   "title": "Saliendo de la piscina",
+   "tip": "El agua que resbala por la piel luce la física de Seedance.",
+   "frame": "Mujer adulta en el borde de una piscina infinita con un traje de baño blanco."
+  },
+  "W04": {
+   "title": "Escena bajo la lluvia",
+   "tip": "La lluvia y los reflejos de neón aportan muchísimo valor de producción.",
+   "frame": "Mujer adulta con una camisa blanca mojada en una calle con neones bajo la lluvia, de noche."
+  },
+  "W05": {
+   "title": "Poza con cascada",
+   "tip": "El agua a la altura de la cintura es un recorte natural y fácil.",
+   "frame": "Mujer adulta de espaldas bajo una cascada en la selva, con el agua por la cintura."
+  },
+  "W06": {
+   "title": "Aceite y sol",
+   "tip": "La piel brillante y el sol duro dan realismo al instante.",
+   "frame": "Mujer adulta en una tumbona junto a una piscina, bikini, sol intenso."
+  },
+  "W07": {
+   "title": "Olas del mar",
+   "tip": "LTX maneja movimientos naturales largos y tranquilos a bajo costo.",
+   "frame": "Plano general de una mujer adulta tumbada en la orilla, hora azul."
+  },
+  "W08": {
+   "title": "Jacuzzi de noche",
+   "tip": "El contraste entre la nieve y el vapor da un fotograma muy potente como miniatura.",
+   "frame": "Mujer adulta en un jacuzzi exterior, terraza nevada de noche."
+  },
+  "W09": {
+   "title": "Tarde en el onsen",
+   "tip": "El bloqueo de cámara de Seedance 1.5 Pro es ideal para escenas de baño tranquilas.",
+   "frame": "Mujer adulta en un onsen al aire libre con rocas y arces, vapor."
+  },
+  "W10": {
+   "title": "Pareja en la ducha de cristal",
+   "tip": "Las gotas en el cristal en primer plano suavizan la imagen y ocultan pequeños errores.",
+   "frame": "Pareja adulta en una ducha de cristal, frente a frente, vapor."
+  },
+  "X01": {
+   "title": "Hechicera elfa oscura",
+   "tip": "Un efecto mágico cada vez mantiene legible el encuadre.",
+   "frame": "Mujer elfa oscura adulta con una armadura reveladora en un templo en ruinas."
+  },
+  "X02": {
+   "title": "Revelación de la súcubo",
+   "tip": "Unas alas que se despliegan son un único movimiento grande que los modelos renderizan bien.",
+   "frame": "Súcubo adulta con las alas plegadas en una cámara gótica roja."
+  },
+  "X03": {
+   "title": "Reina guerrera",
+   "tip": "Una capa al viento añade mucho movimiento mientras el cuerpo permanece quieto.",
+   "frame": "Mujer guerrera adulta con armadura de bronce y capa de piel sobre un acantilado."
+  },
+  "X04": {
+   "title": "Club cyberpunk",
+   "tip": "Los detalles que emiten luz (tatuajes, hologramas) se animan bien y quedan impresionantes.",
+   "frame": "Bailarina cyberpunk adulta con tatuajes luminosos en un escenario de neón."
+  },
+  "X05": {
+   "title": "Sirena en la superficie",
+   "tip": "El pelo largo cubriendo el pecho es el recorte natural clásico.",
+   "frame": "Sirena adulta descansando sobre una roca en un mar iluminado por la luna."
+  },
+  "X06": {
+   "title": "Trono de la reina dragón",
+   "tip": "La interacción entre una criatura y una persona es avanzada. Seedance 2.5 Spicy mantiene coherentes a ambos.",
+   "frame": "Reina adulta en un trono de obsidiana con un pequeño dragón."
+  },
+  "X07": {
+   "title": "Pin-up en la estación espacial",
+   "tip": "La gravedad cero justifica el movimiento flotante, lo que disimula la física torpe.",
+   "frame": "Mujer adulta con un traje de vuelo a medio abrir junto a una ventana de una estación espacial."
+  },
+  "X08": {
+   "title": "Seducción vampírica",
+   "tip": "Las escaleras dan un movimiento natural hacia el objetivo que favorece a la cámara.",
+   "frame": "Mujer vampiro adulta con un vestido carmesí en una escalera gótica."
+  },
+  "X09": {
+   "title": "Diosa de la primavera",
+   "tip": "Los pétalos y las flores son partículas suaves que los modelos animan con facilidad.",
+   "frame": "Mujer adulta en un prado cubierta de enredaderas y flores."
+  },
+  "X10": {
+   "title": "Sesión de fotos de cosplay",
+   "tip": "El encuadre de detrás de cámaras hace que los movimientos al posar parezcan naturales.",
+   "frame": "Cosplayer adulta con un catsuit y orejas de gato, estudio iluminado con geles de color."
+  },
+  "X11": {
+   "title": "El despertar de la androide",
+   "tip": "Los paneles de piel sintética se leen como ciencia ficción y evitan los problemas de realismo.",
+   "frame": "Androide adulta sobre una mesa blanca de laboratorio, con los ojos cerrados."
+  },
+  "X12": {
+   "title": "Baile de máscaras",
+   "tip": "Las máscaras ocultan los artefactos faciales y añaden misterio.",
+   "frame": "Mujer adulta con una máscara de encaje dorado y vestido negro en un baile de máscaras."
+  },
+  "A01": {
+   "title": "Noche en el onsen (anime)",
+   "tip": "Vidu Q3 Spicy maneja bien el movimiento anime; baja movement_amplitude para escenas tranquilas.",
+   "frame": "Mujer adulta de anime en un onsen de noche con una toalla, farolillos."
+  },
+  "A02": {
+   "title": "Episodio de playa",
+   "tip": "Mantén diseños de personaje claramente adultos: proporciones adultas, cara adulta y edad indicada.",
+   "frame": "Mujer adulta de anime con un bikini rojo en una playa."
+  },
+  "A03": {
+   "title": "Transformación mágica",
+   "tip": "Las transformaciones son movimientos de cintas y partículas, algo que los modelos de anime hacen bien.",
+   "frame": "Hechicera adulta de anime en pleno giro con cintas de luz."
+  },
+  "A04": {
+   "title": "Dormitorio waifu",
+   "tip": "Los pequeños movimientos faciales en primeros fotogramas de anime son muy estables en Wan 2.2 Spicy.",
+   "frame": "Mujer adulta de anime tumbada en una cama con una camisa enorme."
+  },
+  "A05": {
+   "title": "Baile de la reina demonio",
+   "tip": "La cola y el pelo añaden movimiento sin coreografías complejas.",
+   "frame": "Reina demonio adulta de anime con un conjunto de encaje negro en un salón del trono."
+  },
+  "A06": {
+   "title": "Ecchi en gravedad cero",
+   "tip": "La gravedad cero hace que el movimiento flotante del anime parezca intencionado.",
+   "frame": "Mujer adulta de anime con traje de vuelo flotando en la cabina de una nave espacial."
+  },
+  "A07": {
+   "title": "Encargada de la casa de baños",
+   "tip": "Los escenarios tradicionales con vapor perdonan errores y crean ambiente.",
+   "frame": "Mujer adulta de anime con yukata arrodillada junto a una bañera de madera."
+  },
+  "A08": {
+   "title": "Visita nocturna de la súcubo",
+   "tip": "Inclinarse hacia la cámara crea intimidad con un movimiento mínimo.",
+   "frame": "Súcubo adulta de anime en el alféizar de una ventana a la luz de la luna."
+  },
+  "A09": {
+   "title": "Anfitriona de maid café",
+   "tip": "Indica una edad adulta y usa proporciones adultas en el primer fotograma de todos los personajes de anime.",
+   "frame": "Mujer adulta de anime con uniforme de maid sujetando una bandeja, interior de cafetería."
+  },
+  "A10": {
+   "title": "Azotea de neón (anime)",
+   "tip": "El viento y un giro de cabeza son los dos movimientos anime más fiables.",
+   "frame": "Mujer adulta de anime en una azotea con neones de noche, chaqueta de cuero."
+  },
+  "M01": {
+   "title": "Spot para una marca de lencería",
+   "tip": "El lenguaje de anuncio premium (\"commercial\", \"magazine-grade\") eleva el aspecto general.",
+   "frame": "Modelo adulta con lencería color marfil en un luminoso apartamento parisino."
+  },
+  "M02": {
+   "title": "Anuncio de perfume",
+   "tip": "Wan 2.7 Spicy puede añadir audio generado para que parezca un anuncio terminado.",
+   "frame": "Mujer adulta en satén negro con un frasco de perfume en primer plano."
+  },
+  "M03": {
+   "title": "Giro para catálogo de trajes de baño",
+   "tip": "Un giro completo y lento es el formato estándar de producto y se renderiza con fiabilidad.",
+   "frame": "Modelo adulta con un traje de baño entero sobre un ciclorama blanco."
+  },
+  "M04": {
+   "title": "Detrás de cámaras de una sesión boudoir",
+   "tip": "El encuadre de detrás de cámaras hace que el movimiento imperfecto parezca auténtico.",
+   "frame": "Mujer adulta posando en una cama con una ventana de luz a la vista, set boudoir."
+  },
+  "M05": {
+   "title": "Portada de revista",
+   "tip": "Un movimiento mínimo sobre una imagen potente es el aspecto de \"cinemagraph\".",
+   "frame": "Modelo adulta con un blazer transparente sobre un fondo rojo, luz editorial."
+  },
+  "M06": {
+   "title": "Presentación de una marca fitness",
+   "tip": "Seedance 2.0 Fast Spicy añade sonido, útil para anuncios en redes sociales.",
+   "frame": "Atleta adulta con un sujetador deportivo en un gimnasio de aspecto crudo."
+  },
+  "M07": {
+   "title": "Promoción de una suite de hotel",
+   "tip": "Wan 2.6 Spicy admite tomas de 10 segundos para recorridos de cámara más largos.",
+   "frame": "Suite de ático al anochecer con una mujer adulta en bata de seda junto a la ventana."
+  },
+  "M08": {
+   "title": "Anuncio de joyería",
+   "tip": "El encuadre macro de belleza es premium y casi no tiene artefactos.",
+   "frame": "Primer plano del cuello y la clavícula de una mujer adulta, fondo negro."
+  },
+  "M09": {
+   "title": "Loción corporal",
+   "tip": "Un lenguaje limpio de anuncio de producto lo mantiene apto para marcas.",
+   "frame": "Mujer adulta con una toalla sentada en el borde de una bañera, aplicándose loción."
+  },
+  "M10": {
+   "title": "Teaser de creadora",
+   "tip": "Los teasers cortos y sugerentes llevan clics a plataformas de pago sin salirse de las normas de las redes sociales.",
+   "frame": "Creadora adulta con bata de seda en una cama, de frente a la cámara, aro de luz."
+  },
+  "T01": {
+   "title": "Acercamiento lento",
+   "tip": "La plantilla universal más segura. Haz los borradores a 480p y vuelve a renderizar los mejores a 720p.",
+   "frame": "Cualquier sujeto adulto bien iluminado, plano medio."
+  },
+  "T02": {
+   "title": "Órbita a la izquierda",
+   "tip": "Las órbitas necesitan un modelo con buena coherencia 3D. Seedance es la opción más segura.",
+   "frame": "Sujeto adulto centrado, con algo de profundidad en el fondo."
+  },
+  "T03": {
+   "title": "Mirada por encima del hombro",
+   "tip": "Funciona con cualquier primer fotograma de espaldas.",
+   "frame": "Sujeto adulto de espaldas o en vista de tres cuartos de espaldas."
+  },
+  "T04": {
+   "title": "Viento y tela",
+   "tip": "Da vida a cualquier imagen fija sin tocar la anatomía.",
+   "frame": "Sujeto adulto con ropa holgada y pelo largo."
+  },
+  "T05": {
+   "title": "Revelación con tilt hacia arriba",
+   "tip": "Usa un primer fotograma vertical de cuerpo entero.",
+   "frame": "Plano vertical de cuerpo entero de un sujeto adulto de pie."
+  },
+  "T06": {
+   "title": "Revelación con dolly hacia atrás",
+   "tip": "El modelo tiene que inventarse la habitación, así que descríbela en una línea si el primer fotograma es cerrado.",
+   "frame": "Primer plano de la cara de un sujeto adulto con indicios de la habitación."
+  },
+  "T07": {
+   "title": "Espontáneo cámara en mano",
+   "tip": "El temblor de la cámara en mano hace que el video con IA parezca grabado de verdad por un creador.",
+   "frame": "Encuadre informal, estilo selfie, de un sujeto adulto."
+  },
+  "T08": {
+   "title": "Cambio de foco",
+   "tip": "Pon un objeto claro en primer plano (una copa, una flor, una vela) en el primer fotograma.",
+   "frame": "Objeto en primer plano enfocado y un sujeto adulto desenfocado detrás."
+  },
+  "T09": {
+   "title": "Cinemagraph con cámara fija",
+   "tip": "El bloqueo de cámara de Seedance 1.5 Pro Spicy, sumado al precio por segundo más bajo, lo convierte en el mejor motor para cinemagraphs.",
+   "frame": "Cualquier imagen fija bien compuesta de un sujeto adulto con una fuente de luz o una cortina."
+  },
+  "T10": {
+   "title": "Transición del fotograma inicial al final",
+   "tip": "Envía un last_image_url con la pose final. Wan 2.2 Spicy y Seedance 2.x admiten primer + último fotograma.",
+   "frame": "Dos imágenes fijas del mismo sujeto adulto: pose inicial y pose final."
+  },
+  "L01": {
+   "title": "LoRA de estilo anime",
+   "tip": "Pasa el LoRA de anime en high_noise_loras para definir la composición; una intensidad de 0.8 es un buen punto de partida.",
+   "frame": "Mujer adulta estilo anime junto a una ventana, generada con Prefect Pony XL."
+  },
+  "L02": {
+   "title": "LoRA de fotografía analógica",
+   "tip": "Los LoRAs de textura (grano, tipo de película) van en low_noise_loras, que actúan al final de la eliminación de ruido.",
+   "frame": "Mujer adulta en una cama deshecha con luz de la mañana."
+  },
+  "L03": {
+   "title": "LoRA de pintura al óleo",
+   "tip": "Los LoRAs de estilo pueden desviarse con el movimiento; limita el movimiento a la luz y la respiración.",
+   "frame": "Imagen de estilo barroco de una mujer adulta reclinada sobre terciopelo rojo."
+  },
+  "L04": {
+   "title": "LoRA de coherencia de personaje",
+   "tip": "Entrena LoRAs de personaje solo con personajes ficticios, o contigo mismo o con adultos que hayan dado su consentimiento documentado.",
+   "frame": "Tu personaje ficticio en el pasillo de un hotel, vestido rojo."
+  },
+  "L05": {
+   "title": "LoRA cyberpunk de neón",
+   "tip": "Combina como máximo un LoRA de estilo con un LoRA de iluminación. Con más de dos suelen entrar en conflicto.",
+   "frame": "Mujer adulta en un callejón de neón con tatuajes luminosos."
+  },
+  "L06": {
+   "title": "Extender un clip",
+   "tip": "Usa el endpoint video-extend (alibaba/wan-2.2-spicy-lora/video-extend) con los mismos LoRAs para encadenar 5 s + 5 s + 5 s.",
+   "frame": "El clip terminado que quieres continuar, pasado como video_url."
+  }
+ },
+ "images": {
+  "intro": "Un video de imagen a video solo es tan bueno como su primer fotograma. Estos prompts generan primeros fotogramas limpios y bien iluminados de sujetos adultos que se animan bien: un solo sujeto (o una pareja claramente separada), fondo sencillo, manos relajadas y la cara despejada u oculta a propósito. Los primeros fotogramas fotorrealistas usan Qwen Image 2.1, el modelo de imagen sin censura recomendado en SpicyAPI; los de anime usan Prefect Pony XL.",
+  "R01": {
+   "title": "Boudoir con luz de ventana"
+  },
+  "R02": {
+   "title": "Retrato con bata de seda"
+  },
+  "R03": {
+   "title": "Reclinada sobre satén rojo"
+  },
+  "R04": {
+   "title": "Tacones en el pasillo del hotel"
+  },
+  "R05": {
+   "title": "Ducha de lluvia"
+  },
+  "R06": {
+   "title": "Estudio de figura en monocromo"
+  },
+  "R07": {
+   "title": "Torso con sombras de persiana"
+  },
+  "R08": {
+   "title": "Pareja en un dormitorio con velas"
+  },
+  "R09": {
+   "title": "Dos mujeres en un sofá de terciopelo"
+  },
+  "R10": {
+   "title": "Saliendo de la piscina infinita"
+  },
+  "R11": {
+   "title": "Calle de neón bajo la lluvia"
+  },
+  "R12": {
+   "title": "Hechicera elfa oscura"
+  },
+  "R13": {
+   "title": "Cámara de la súcubo"
+  },
+  "R14": {
+   "title": "Androide en una mesa de laboratorio"
+  },
+  "R15": {
+   "title": "Invitada al baile de máscaras"
+  },
+  "R16": {
+   "title": "Onsen anime"
+  },
+  "R17": {
+   "title": "Playa anime"
+  },
+  "R18": {
+   "title": "Reina demonio anime"
+  },
+  "R19": {
+   "title": "Dormitorio anime de pelo plateado"
+  },
+  "R20": {
+   "title": "Azotea cyberpunk anime"
+  },
+  "R21": {
+   "title": "Catálogo de lencería"
+  },
+  "R22": {
+   "title": "Selfie de creadora"
+  },
+  "R23": {
+   "title": "Atleta en el gimnasio"
+  },
+  "R24": {
+   "title": "Boudoir masculino"
+  }
+ }
+}

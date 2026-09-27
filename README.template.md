@@ -5,6 +5,8 @@
   nsfw image to video prompts, uncensored ai video prompts, seedance spicy prompts, nsfw ai image prompts, negative prompts
 -->
 
+<p align="center"><b>English</b> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <a href="README.fr.md">Français</a> · <a href="README.es.md">Español</a></p>
+
 <h1 align="center">NSFW AI Video Prompts</h1>
 
 <p align="center">
@@ -20,7 +22,7 @@
 </p>
 
 <p align="center">
-  <a href="#showcase-real-outputs-and-exact-requests">Showcase</a> ·
+  <a href="#showcase-real-outputs-and-their-prompts">Showcase</a> ·
   <a href="#the-prompts">Prompts</a> ·
   <a href="#first-frame-image-prompts">First frames</a> ·
   <a href="#negative-prompts">Negative prompts</a> ·
@@ -45,14 +47,14 @@ Most "NSFW prompt" lists are keyword dumps written for Stable Diffusion stills. 
 - a **first-frame description** so you know what image to start from,
 - a **pro tip** explaining why it works or what breaks.
 
-Tips are practical guidance from production use, not benchmark results. The [showcase](#showcase-real-outputs-and-exact-requests) is the part of this repo with real outputs.
+Tips are practical guidance from production use, not benchmark results. The [showcase](#showcase-real-outputs-and-their-prompts) is the part of this repo with real outputs.
 
 Model facts and prices come from the SpicyAPI public catalog, read on {{READ_ON}}.
 
 ## Contents
 
 - [Models covered](#models-covered)
-- [Showcase: real outputs and exact requests](#showcase-real-outputs-and-exact-requests)
+- [Showcase: real outputs and their prompts](#showcase-real-outputs-and-their-prompts)
 - [How to write an NSFW video prompt that works](#how-to-write-an-nsfw-video-prompt-that-works)
 - [The prompts](#the-prompts)
 {{PROMPTS_TOC}}
@@ -72,15 +74,13 @@ Model facts and prices come from the SpicyAPI public catalog, read on {{READ_ON}
 
 {{MODEL_TABLE}}
 
-Durations and tiers change as providers update models; the model page is always the source of truth. Failed runs are refunded automatically on SpicyAPI.
+Order follows the SpicyAPI catalog: most popular first, newest version first. 🌶️ Spicy editions are tuned for adult output; Standard models listed here have the catalog tier `unrestricted` (the provider does not filter them), so they also work for mature prompts and add text-to-video and reference-to-video. Prices are the cheapest tier; the model page is always the source of truth. Failed runs are refunded automatically.
 
 ---
 
-## Showcase: real outputs and exact requests
+## Showcase: real outputs and their prompts
 
-{{SHOWCASE_COUNT}} examples from the model pages and the [prompt library](https://spicyapi.ai/prompts?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=showcase) on SpicyAPI, each generated on the named model. Previews play right here; click one for the full-quality clip. Open an entry to copy the prompt, read **why it works**, and grab the **exact API request** (first frame and settings included) to reproduce it.
-
-Jump to: {{SHOWCASE_INDEX}}
+{{SHOWCASE_COUNT}} real cases from the model pages and the [prompt library](https://spicyapi.ai/prompts?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=showcase) on SpicyAPI. Each case is one output next to the exact prompt that made it. Models are listed most popular first, newest version first: Spicy editions plus standard models whose catalog tier is `unrestricted`. Click a preview for the full-quality clip.
 
 {{SHOWCASE}}
 
@@ -208,6 +208,7 @@ childlike proportions
 
 ## Model-specific tips
 
+- **Seedance 2.5 / Seedance 2.0 / Wan 3.0 (standard, unrestricted)**: use these when you want text-to-video or reference-to-video (put your character from `@Image1` into a new scene). They accept mature prompts but are not tuned for explicit output like the Spicy editions.
 - **Wan 2.2 Spicy** (from $0.019/s): durations are exactly 5 or 8 seconds. Supports `last_image_url` to pin the ending, and `enable_prompt_expansion`. Draft at 480p, final at 720p.
 - **Wan 2.2 Spicy LoRA** (from $0.024/s): up to three LoRAs via `loras`, `high_noise_loras` (composition, motion) and `low_noise_loras` (texture, detail). The `video-extend` endpoint continues a clip with the same LoRAs.
 - **LTX 2.3 Spicy** (from $0.019/s): up to 20 seconds per call, prompt optional. Good for long, calm takes.
@@ -223,7 +224,7 @@ childlike proportions
 ## The image-to-video pipeline
 
 ```
-1. First frame   → Z-Image Spicy / Z-Image Spicy Pro (photoreal) or Prefect Pony XL (anime)
+1. First frame   → Qwen Image 2.1 (photoreal, from $0.024) or Prefect Pony XL (anime)
 2. Fix details   → Qwen Image Edit Spicy (change outfit, pose, lighting with one instruction)
 3. Draft motion  → Wan 2.2 Spicy or LTX 2.3 Spicy at 480p, 3–5 variations
 4. Final render  → the best draft's prompt on Seedance 2.0 Spicy / 2.5 Spicy or Wan 2.6 Spicy at 720p–1080p
@@ -231,7 +232,7 @@ childlike proportions
 6. Polish        → Video Upscaler, Lip Sync or Video Sound Effects
 ```
 
-A typical 5-second clip made this way costs about **$0.01 (first frame) + $0.29 (three 480p drafts) + $1.14 (one 720p Seedance 2.0 Spicy final) ≈ $1.44**.
+A typical 5-second clip made this way costs about **$0.024 (first frame) + $0.29 (three 480p drafts) + $1.14 (one 720p Seedance 2.0 Spicy final) ≈ $1.45**.
 
 ---
 

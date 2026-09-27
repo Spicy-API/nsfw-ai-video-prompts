@@ -1,0 +1,731 @@
+{
+ "_note": "Translate every string value. Keep keys, IDs, model names, numbers, units and markdown. Do not translate prompt text (it is not in this file).",
+ "labels": {
+  "video_models": "**Video models**",
+  "image_models": "**Image models** (first frames and stills)",
+  "col_model": "Model",
+  "col_type": "Type",
+  "col_tasks": "Tasks",
+  "col_duration": "Duration",
+  "col_from": "From",
+  "standard": "Standard",
+  "spicy_edition": "🌶️ Spicy edition",
+  "standard_unrestricted": "Standard model, catalog tier: unrestricted",
+  "model_page": "model page",
+  "preview_hidden": "Preview not shown on GitHub.",
+  "see_on_site": "See it on spicyapi.ai",
+  "full_clip": "▶ full clip",
+  "full_size": "full size",
+  "any_aspect": "any aspect ratio",
+  "col_settings": "Settings",
+  "col_cost": "Cost per run",
+  "col_level": "Level",
+  "first_frame": "First frame",
+  "tip": "Tip",
+  "per_image": "per image",
+  "levels": {
+   "Beginner": "Beginner",
+   "Intermediate": "Intermediate",
+   "Advanced": "Advanced"
+  }
+ },
+ "categories": {
+  "boudoir": {
+   "title": "Boudoir & Lingerie",
+   "intro": "The most reliable NSFW image-to-video category: one subject, soft light, small motions. Start here if you are new."
+  },
+  "fineart": {
+   "title": "Artistic Nude & Fine Art",
+   "intro": "Nudity treated as figure study: sculpted light, silhouettes, classical poses. Works well on every Spicy model because motion is minimal."
+  },
+  "couples": {
+   "title": "Couples & Romance",
+   "intro": "Two consenting adults. Two-person clips are harder: keep the action slow, give each person a distinct outfit or colour, and prefer side angles."
+  },
+  "dance": {
+   "title": "Solo Performance & Dance",
+   "intro": "Rhythm and body movement. Use models with strong motion (Seedance, MiniMax H3) and keep clips short."
+  },
+  "water": {
+   "title": "Bath, Shower & Water",
+   "intro": "Water, steam and wet skin sell realism. Static or slow cameras keep the water physics believable."
+  },
+  "fantasy": {
+   "title": "Fantasy, Sci-Fi & Cosplay",
+   "intro": "Adult fantasy characters. Costumes and effects do the heavy lifting; describe one magical or tech element at a time."
+  },
+  "anime": {
+   "title": "Anime & Hentai Style",
+   "intro": "Every character here is an explicitly adult design. Generate the first frame with Prefect Pony XL, then animate with Vidu Q3 Spicy or Wan 2.2 Spicy."
+  },
+  "commercial": {
+   "title": "Commercial & Brand-Safe Sensual",
+   "intro": "Lingerie, swimwear and fragrance-ad aesthetics for adult brands and creator promos. Suggestive, not explicit, so they also suit platforms with stricter rules."
+  },
+  "motion": {
+   "title": "Reusable Motion & Camera Templates",
+   "intro": "Drop-in prompts that only describe motion and camera. Pair them with any first frame; they work because image-to-video models already see the subject."
+  },
+  "lora": {
+   "title": "LoRA Style Prompts (Wan 2.2 Spicy LoRA)",
+   "intro": "Prompts written to pair with a style LoRA. Put the LoRA's trigger word first, then keep the prompt focused on motion."
+  }
+ },
+ "prompts": {
+  "B01": {
+   "title": "Bedroom Golden Hour",
+   "tip": "The model keeps the wardrobe from your first frame, so start with the subject already in lingerie and matching warm light.",
+   "frame": "Waist-up photo of an adult woman in black lace lingerie, warm lamp light, bedroom background."
+  },
+  "B02": {
+   "title": "Silk Robe Off the Shoulder",
+   "tip": "Begin with the robe already partly off one shoulder; the model continues the motion instead of inventing it.",
+   "frame": "Tight crop of shoulder and collarbone, ivory silk robe draped loosely, candlelight."
+  },
+  "B03": {
+   "title": "Vanity Mirror",
+   "tip": "Reflections hold together better on Wan 2.6 and Seedance than on the budget tiers. Keep the mirror inside the first frame.",
+   "frame": "Adult woman seated at a vanity with a visible reflection, sheer lingerie, soft window light."
+  },
+  "B04": {
+   "title": "Red Satin Sheets",
+   "tip": "Naming the dolly direction gives a clean sweeping move. Red-on-red palettes render well.",
+   "frame": "Adult woman lying on red satin, red lace bodysuit, two-tone lighting."
+  },
+  "B05": {
+   "title": "Champagne on the Chaise",
+   "tip": "Props behave better on Wan 2.6 or Seedance 2.0. Keep it to one gesture.",
+   "frame": "Adult woman on a chaise longue holding a champagne glass, corset, low-key light."
+  },
+  "B06": {
+   "title": "Balcony at Twilight",
+   "tip": "Wind is one of the most reliable motions in any video model. Use it to add life without risking anatomy.",
+   "frame": "Adult woman from behind on a balcony at dusk, sheer negligee, city bokeh."
+  },
+  "B07": {
+   "title": "Lace and Pearls Macro",
+   "tip": "Breathing is the single most reliable motion. Macro framing hides hands and faces, which removes most artifacts.",
+   "frame": "Macro of pearls on collarbone and white lace, high-key light."
+  },
+  "B08": {
+   "title": "Stocking Pull-Up",
+   "tip": "Frame from the knee up so the hands stay large and simple in shot.",
+   "frame": "Adult woman seated on a bed, one stocking on, one halfway, low angle."
+  },
+  "B09": {
+   "title": "Fireplace Fur Rug",
+   "tip": "A static camera plus moving firelight gives a lot of perceived motion for very little risk.",
+   "frame": "Adult woman on a fur rug by a fireplace, cream silk slip, firelight."
+  },
+  "B10": {
+   "title": "Rain on the Window",
+   "tip": "LTX 2.3 Spicy can run longer takes cheaply; keep the action slow when you go past 5 seconds.",
+   "frame": "Adult woman on a window seat in an open white shirt, rainy window, cool light."
+  },
+  "B11": {
+   "title": "Back Detail Tracking Shot",
+   "tip": "Backs are anatomically forgiving and look expensive. Seedance handles skin micro-motion well.",
+   "frame": "Adult woman from behind in an open-back gown, warm side light."
+  },
+  "B12": {
+   "title": "Satin Blindfold",
+   "tip": "A blindfold removes eye artifacts entirely and adds tension to the shot.",
+   "frame": "Adult woman kneeling on white sheets, satin blindfold, black lingerie."
+  },
+  "B13": {
+   "title": "Jewelry Only",
+   "tip": "Implied nudity with strategic shadows reads as high-end and survives more platforms when you repost.",
+   "frame": "Adult woman on black velvet with gold jewelry, overhead spotlight, shadows covering the body."
+  },
+  "B14": {
+   "title": "Morning Stretch in Bed",
+   "tip": "MiniMax H3 does natural full-body stretches well. The prompt is optional on this model; the first frame alone often works.",
+   "frame": "Adult woman in white bed linen with a camisole, morning window light."
+  },
+  "B15": {
+   "title": "Corset Lacing",
+   "tip": "Repetitive hand motions are fine when the hands stay in the same area of the frame.",
+   "frame": "Back view of an adult woman in a partly laced black corset, candlelight."
+  },
+  "B16": {
+   "title": "Fur Coat Reveal",
+   "tip": "Opening a garment is a single, predictable motion. Keep the coat colour distinct from the lingerie.",
+   "frame": "Adult woman in a hotel corridor wearing a closed faux-fur coat."
+  },
+  "F01": {
+   "title": "Classical Venus",
+   "tip": "Naming an art-historical pose gives the model a strong compositional prior.",
+   "frame": "Nude adult woman reclining on white drapery, classical painting lighting."
+  },
+  "F02": {
+   "title": "Shadow Play",
+   "tip": "Hard light patterns create motion without any body movement. Great for cheap models.",
+   "frame": "Adult woman's torso in a dark room with striped light from blinds, black and white."
+  },
+  "F03": {
+   "title": "Body Landscape",
+   "tip": "Abstract body landscapes never show a face or hands, so they are nearly artifact-free.",
+   "frame": "Abstract macro of hip and waist curves with raking warm light."
+  },
+  "F04": {
+   "title": "Underwater Float",
+   "tip": "Underwater motion is slow by nature, which models handle gracefully.",
+   "frame": "Adult woman underwater wrapped in white silk, light rays from above."
+  },
+  "F05": {
+   "title": "Body Paint Drip",
+   "tip": "Liquids moving on skin are high-impact and reliable on Wan 2.6.",
+   "frame": "Adult woman's back with gold paint streaks, black backdrop."
+  },
+  "F06": {
+   "title": "Forest Nymph",
+   "tip": "Foliage in the foreground doubles as natural censoring for platforms that need it.",
+   "frame": "Adult woman in a misty forest, ferns in foreground, ivy in her hair."
+  },
+  "F07": {
+   "title": "Studio Figure Study",
+   "tip": "Seedance 1.5 Pro Spicy has a camera lock, ideal for studio figure work.",
+   "frame": "Nude adult man on a stool, grey backdrop, single softbox, black and white."
+  },
+  "F08": {
+   "title": "Milk Bath",
+   "tip": "The opaque milk surface controls exposure naturally. Overhead framing is very stable.",
+   "frame": "Overhead shot of an adult woman in a milk bath with rose petals."
+  },
+  "F09": {
+   "title": "Silhouette Stretch",
+   "tip": "Silhouettes read as nude without showing anything. Safe to post almost anywhere.",
+   "frame": "Adult woman silhouetted against a sunset window, side profile."
+  },
+  "F10": {
+   "title": "Desert Dunes",
+   "tip": "Walking away is one of the safest full-body motions.",
+   "frame": "Wide shot of an adult woman from behind on sand dunes with a trailing scarf."
+  },
+  "F11": {
+   "title": "Wet Skin Studio",
+   "tip": "Rim lighting on wet skin looks premium and hides texture problems.",
+   "frame": "Adult man's shoulders and chest with water droplets, rim-lit on black."
+  },
+  "F12": {
+   "title": "Fabric Unwrap",
+   "tip": "Describing an off-camera fan gives the model a physical cause for the motion.",
+   "frame": "Adult woman wrapped in red chiffon in a white studio."
+  },
+  "F13": {
+   "title": "Smoke and Form",
+   "tip": "Smoke is a top-tier reliable motion and adds built-in modesty.",
+   "frame": "Adult woman in a black studio surrounded by coloured smoke."
+  },
+  "F14": {
+   "title": "Sculptor's Clay",
+   "tip": "Back-to-back framing keeps two bodies clearly separated.",
+   "frame": "Two adults back to back covered in grey clay, studio floor, monochrome."
+  },
+  "C01": {
+   "title": "Slow Dance in the Bedroom",
+   "tip": "Different wardrobe colours help the model keep two bodies separate.",
+   "frame": "Adult couple embracing in a candlelit bedroom, black dress and white shirt."
+  },
+  "C02": {
+   "title": "Kiss Close-Up",
+   "tip": "Profile framing is much more stable for kisses than frontal angles.",
+   "frame": "Profile close-up of an adult man and woman about to kiss, golden backlight."
+  },
+  "C03": {
+   "title": "Beach Sunset Embrace",
+   "tip": "Water around the waist hides the hardest-to-render areas for two-person shots.",
+   "frame": "Adult couple embracing in the sea at sunset, waist-deep."
+  },
+  "C04": {
+   "title": "Morning After",
+   "tip": "Small hand motions on a still couple are far more reliable than full-body movement.",
+   "frame": "Adult couple lying in white sheets, her head on his chest, morning light."
+  },
+  "C05": {
+   "title": "Neck Kiss",
+   "tip": "Behind-the-back staging keeps faces apart and reads clearly.",
+   "frame": "Adult man behind an adult woman, his face near her neck, moody loft light."
+  },
+  "C06": {
+   "title": "Bath for Two",
+   "tip": "Foam and steam help with continuity and modesty at the same time.",
+   "frame": "Adult couple in a foamy freestanding bathtub, candles, steam."
+  },
+  "C07": {
+   "title": "Dress Unzip",
+   "tip": "Frame on the zipper and the back. Two hands in one small area is the limit for most models.",
+   "frame": "Back of an adult woman in an emerald dress with a man's hand on the zipper."
+  },
+  "C08": {
+   "title": "Shower Silhouette",
+   "tip": "Frosted glass does the censoring and hides anatomy errors completely.",
+   "frame": "Steamed shower glass with the blurred shapes of two adults behind it."
+  },
+  "C09": {
+   "title": "Against the Wall",
+   "tip": "Neon colour contrast helps the model separate the two figures.",
+   "frame": "Adult couple in a neon-lit hallway, woman against the wall, foreheads touching."
+  },
+  "C10": {
+   "title": "Carried to Bed",
+   "tip": "Lifting and carrying is advanced motion. Seedance 2.5 Spicy handles weight and contact best.",
+   "frame": "Adult man carrying an adult woman in a moonlit bedroom."
+  },
+  "C11": {
+   "title": "Tangled Sheets",
+   "tip": "Overhead framing flattens depth and keeps two-person shots stable.",
+   "frame": "Overhead view of an adult couple in grey silk sheets, hands intertwined."
+  },
+  "C12": {
+   "title": "Massage Oil",
+   "tip": "Hands on a back are a simple, repeatable motion with low artifact risk.",
+   "frame": "Adult woman face-down on a massage table, man's hands above her back."
+  },
+  "C13": {
+   "title": "Two Women, Candlelight",
+   "tip": "Contrasting outfits (black vs white) keep identities stable through the clip.",
+   "frame": "Two adult women on a velvet sofa, one in black lace, one in white satin."
+  },
+  "C14": {
+   "title": "Rooftop Night",
+   "tip": "Keep hands on clothing items like ties or collars for clean, readable motion.",
+   "frame": "Two adult men on a rooftop at night, city skyline behind."
+  },
+  "D01": {
+   "title": "Pole Spin",
+   "tip": "Rotational motion is advanced. Seedance 2.0 and 2.5 keep limbs coherent best.",
+   "frame": "Adult pole dancer holding a chrome pole, stage lights, low angle."
+  },
+  "D02": {
+   "title": "Sensual Floor Work",
+   "tip": "Name the exact sequence of positions. Vague 'dancing' produces random limbs.",
+   "frame": "Adult dancer on a glossy black stage in a black bodysuit, spotlight."
+  },
+  "D03": {
+   "title": "Body Wave",
+   "tip": "A single named dance move works much better than a whole routine.",
+   "frame": "Adult woman facing camera in a neon apartment, crop top and shorts."
+  },
+  "D04": {
+   "title": "Mirror Dance",
+   "tip": "Include the mirror in the first frame so the model has the reflection to animate.",
+   "frame": "Adult woman in lingerie in front of a full-length mirror."
+  },
+  "D05": {
+   "title": "Chair Dance",
+   "tip": "Props like chairs and hats anchor the motion and reduce drift.",
+   "frame": "Adult performer on a backwards chair, tuxedo jacket and hat, spotlight."
+  },
+  "D06": {
+   "title": "Jacket Striptease",
+   "tip": "Removing one outer layer is a clear, single motion that models handle reliably.",
+   "frame": "Adult man in a suit jacket over a bare chest, spotlight, smoky stage."
+  },
+  "D07": {
+   "title": "Lingerie Try-On",
+   "tip": "Great format for creator promos. Adjusting a strap is a small, reliable hand motion.",
+   "frame": "Adult woman in a pink lace set in a dressing room with vanity bulbs."
+  },
+  "D08": {
+   "title": "Bed Roll",
+   "tip": "Overhead angle turns a roll into a flat, readable motion.",
+   "frame": "Overhead view of an adult woman lying face-down on a white bed."
+  },
+  "D09": {
+   "title": "Towel Drop",
+   "tip": "Shooting from behind keeps the reveal simple and the anatomy easy.",
+   "frame": "Adult woman from behind in a white towel, steamy bathroom."
+  },
+  "D10": {
+   "title": "Heels Walk",
+   "tip": "Walking toward the camera is one of the most reliable full-body motions.",
+   "frame": "Adult woman in lingerie and heels at the end of a hotel corridor."
+  },
+  "D11": {
+   "title": "Hair Flip in the Wind",
+   "tip": "Hair and wind are top-tier motions for every model.",
+   "frame": "Close-up of an adult woman on a beach at sunset, sheer top, long hair."
+  },
+  "D12": {
+   "title": "Yoga Flow",
+   "tip": "Side-on camera plus named yoga poses keeps limbs predictable.",
+   "frame": "Adult woman on a yoga mat in downward dog, side view, sunlit loft."
+  },
+  "D13": {
+   "title": "Cabaret Fan Dance",
+   "tip": "Feathers and fans give strong motion without body movement.",
+   "frame": "Adult burlesque performer on a red-curtained stage holding feather fans."
+  },
+  "D14": {
+   "title": "Club Dancefloor",
+   "tip": "Seedance 2.0 Fast Spicy includes sound, so you get ambient club audio with the clip.",
+   "frame": "Adult woman in a metallic dress on a club dancefloor, lasers."
+  },
+  "W01": {
+   "title": "Steamy Shower",
+   "tip": "Running water plus steam is very reliable. Keep the camera still.",
+   "frame": "Adult woman under a rainfall shower, shoulders up, steam."
+  },
+  "W02": {
+   "title": "Bubble Bath Luxury",
+   "tip": "Foam hides the body and gives slow, satisfying motion.",
+   "frame": "Adult woman in a clawfoot tub with foam and a wine glass, marble bathroom."
+  },
+  "W03": {
+   "title": "Pool Exit",
+   "tip": "Water streaming off skin shows off Seedance's physics.",
+   "frame": "Adult woman at the edge of an infinity pool in a white swimsuit."
+  },
+  "W04": {
+   "title": "Rain Scene",
+   "tip": "Rain and neon reflections add huge production value.",
+   "frame": "Adult woman in a wet white shirt on a rainy neon street at night."
+  },
+  "W05": {
+   "title": "Waterfall Pool",
+   "tip": "Waist-deep water is an easy natural crop.",
+   "frame": "Adult woman from behind under a jungle waterfall, waist-deep."
+  },
+  "W06": {
+   "title": "Oil and Sunlight",
+   "tip": "Glossy skin and hard sun give instant realism.",
+   "frame": "Adult woman on a sun lounger by a pool, bikini, bright sun."
+  },
+  "W07": {
+   "title": "Ocean Waves",
+   "tip": "LTX handles long, calm natural motion cheaply.",
+   "frame": "Wide shot of an adult woman lying at the waterline, blue hour."
+  },
+  "W08": {
+   "title": "Hot Tub Night",
+   "tip": "Contrast of snow and steam makes a strong thumbnail frame.",
+   "frame": "Adult woman in an outdoor hot tub, snowy deck at night."
+  },
+  "W09": {
+   "title": "Onsen Evening",
+   "tip": "Seedance 1.5 Pro's camera lock is ideal for calm bath scenes.",
+   "frame": "Adult woman in an outdoor onsen with rocks and maple trees, steam."
+  },
+  "W10": {
+   "title": "Glass Shower Duo",
+   "tip": "Foreground droplets on glass soften the image and hide small errors.",
+   "frame": "Adult couple in a glass shower facing each other, steam."
+  },
+  "X01": {
+   "title": "Dark Elf Sorceress",
+   "tip": "One magic effect at a time keeps the frame readable.",
+   "frame": "Adult dark elf woman in revealing armour in a ruined temple."
+  },
+  "X02": {
+   "title": "Succubus Reveal",
+   "tip": "Wings unfurling is a single large motion that models render well.",
+   "frame": "Adult succubus with folded wings in a red gothic chamber."
+  },
+  "X03": {
+   "title": "Warrior Queen",
+   "tip": "A cape in the wind adds big motion while the body stays still.",
+   "frame": "Adult warrior woman in bronze armour and fur cape on a cliff."
+  },
+  "X04": {
+   "title": "Cyberpunk Club",
+   "tip": "Light-emitting details (tattoos, holograms) animate well and look impressive.",
+   "frame": "Adult cyberpunk dancer with glowing tattoos on a neon stage."
+  },
+  "X05": {
+   "title": "Mermaid at the Surface",
+   "tip": "Long hair covering the chest is the classic natural crop.",
+   "frame": "Adult mermaid resting on a rock in a moonlit sea."
+  },
+  "X06": {
+   "title": "Dragon Queen Throne",
+   "tip": "Creature plus human interaction is advanced. Seedance 2.5 Spicy keeps both consistent.",
+   "frame": "Adult queen on an obsidian throne with a small dragon."
+  },
+  "X07": {
+   "title": "Space Station Pin-Up",
+   "tip": "Zero gravity explains floaty motion, which hides awkward physics.",
+   "frame": "Adult woman in a half-unzipped flight suit by a space station window."
+  },
+  "X08": {
+   "title": "Vampire Seduction",
+   "tip": "Stairs give natural camera-friendly motion toward the lens.",
+   "frame": "Adult vampire woman in a crimson gown on a gothic staircase."
+  },
+  "X09": {
+   "title": "Goddess of Spring",
+   "tip": "Petals and blossoms are soft particles that models animate easily.",
+   "frame": "Adult woman in a meadow draped in vines and flowers."
+  },
+  "X10": {
+   "title": "Cosplay Photoshoot",
+   "tip": "Behind-the-scenes framing makes posing motion feel natural.",
+   "frame": "Adult cosplayer in a catsuit with cat ears, gel-lit studio."
+  },
+  "X11": {
+   "title": "Android Awakening",
+   "tip": "Synthetic skin panels read as sci-fi and sidestep realism problems.",
+   "frame": "Adult female android on a white lab table, eyes closed."
+  },
+  "X12": {
+   "title": "Masquerade",
+   "tip": "Masks hide facial artifacts and add mystery.",
+   "frame": "Adult woman in a gold lace mask and black gown at a masquerade."
+  },
+  "A01": {
+   "title": "Onsen Night (Anime)",
+   "tip": "Vidu Q3 Spicy handles anime motion well; lower movement_amplitude for calm scenes.",
+   "frame": "Anime adult woman in an onsen at night with a towel, lanterns."
+  },
+  "A02": {
+   "title": "Beach Episode",
+   "tip": "Keep character designs clearly adult: adult proportions, adult face, stated age.",
+   "frame": "Anime adult woman in a red bikini on a beach."
+  },
+  "A03": {
+   "title": "Magical Transformation",
+   "tip": "Transformations are ribbon and particle motion, which anime models do well.",
+   "frame": "Anime adult sorceress mid-spin with ribbons of light."
+  },
+  "A04": {
+   "title": "Waifu Bedroom",
+   "tip": "Small facial motions on anime first frames are very stable on Wan 2.2 Spicy.",
+   "frame": "Anime adult woman lying on a bed in an oversized shirt."
+  },
+  "A05": {
+   "title": "Demon Queen Dance",
+   "tip": "Tails and hair add motion without complex choreography.",
+   "frame": "Anime adult demon queen in a black lace outfit in a throne room."
+  },
+  "A06": {
+   "title": "Zero Gravity Ecchi",
+   "tip": "Zero-g makes floaty anime motion look intentional.",
+   "frame": "Anime adult woman in a flight suit floating in a spaceship cabin."
+  },
+  "A07": {
+   "title": "Bathhouse Attendant",
+   "tip": "Traditional settings with steam are forgiving and atmospheric.",
+   "frame": "Anime adult woman in a yukata kneeling by a wooden bath."
+  },
+  "A08": {
+   "title": "Succubus Night Visit",
+   "tip": "Leaning toward the camera creates intimacy with minimal motion.",
+   "frame": "Anime adult succubus on a moonlit window sill."
+  },
+  "A09": {
+   "title": "Maid Cafe Hostess",
+   "tip": "State adult age and use adult proportions in your first frame for every anime character.",
+   "frame": "Anime adult woman in a maid outfit holding a tray, cafe interior."
+  },
+  "A10": {
+   "title": "Neon Rooftop (Anime)",
+   "tip": "Wind and a head turn are the two most reliable anime motions.",
+   "frame": "Anime adult woman on a neon rooftop at night, leather jacket."
+  },
+  "M01": {
+   "title": "Lingerie Brand Spot",
+   "tip": "Premium ad language ('commercial', 'magazine-grade') lifts the overall look.",
+   "frame": "Adult model in ivory lingerie in a bright Parisian apartment."
+  },
+  "M02": {
+   "title": "Perfume Ad",
+   "tip": "Wan 2.7 Spicy can add generated audio for a finished ad feel.",
+   "frame": "Adult woman in black satin with a perfume bottle in the foreground."
+  },
+  "M03": {
+   "title": "Swimwear Catalog Spin",
+   "tip": "A slow full turn is the standard product format and renders reliably.",
+   "frame": "Adult model in a one-piece swimsuit on a white cyclorama."
+  },
+  "M04": {
+   "title": "Boudoir Shoot BTS",
+   "tip": "BTS framing makes imperfect motion look authentic.",
+   "frame": "Adult woman posing on a bed with a softbox visible, boudoir set."
+  },
+  "M05": {
+   "title": "Magazine Cover",
+   "tip": "Minimal motion on a strong still is the 'cinemagraph' look.",
+   "frame": "Adult model in a sheer blazer against a red backdrop, editorial light."
+  },
+  "M06": {
+   "title": "Fitness Brand Reveal",
+   "tip": "Seedance 2.0 Fast Spicy adds sound, handy for social ads.",
+   "frame": "Adult athlete in a sports bra in a gritty gym."
+  },
+  "M07": {
+   "title": "Hotel Suite Promo",
+   "tip": "Wan 2.6 Spicy supports 10-second takes for longer camera journeys.",
+   "frame": "Penthouse suite at dusk with an adult woman in a silk robe at the window."
+  },
+  "M08": {
+   "title": "Jewelry Commercial",
+   "tip": "Macro beauty framing is premium and nearly artifact-free.",
+   "frame": "Close-up of an adult woman's neck and collarbone, black background."
+  },
+  "M09": {
+   "title": "Body Lotion",
+   "tip": "Clean product-ad language keeps it brand-safe.",
+   "frame": "Adult woman in a towel on a bathtub edge, applying lotion."
+  },
+  "M10": {
+   "title": "Creator Teaser",
+   "tip": "Short, suggestive teasers drive clicks to paid platforms while staying within social rules.",
+   "frame": "Adult creator in a silk robe on a bed facing camera, ring light."
+  },
+  "T01": {
+   "title": "Slow Push-In",
+   "tip": "The safest universal template. Run at 480p for drafts, then re-render winners at 720p.",
+   "frame": "Any well-lit adult subject, medium shot."
+  },
+  "T02": {
+   "title": "Orbit Left",
+   "tip": "Orbits need a model with good 3D consistency. Seedance is the safest choice.",
+   "frame": "Adult subject centred with some background depth."
+  },
+  "T03": {
+   "title": "Look Over the Shoulder",
+   "tip": "Works with any from-behind first frame.",
+   "frame": "Adult subject from behind or three-quarter back view."
+  },
+  "T04": {
+   "title": "Wind and Fabric",
+   "tip": "Adds life to any still without touching anatomy.",
+   "frame": "Adult subject in loose fabric, long hair."
+  },
+  "T05": {
+   "title": "Tilt Up Reveal",
+   "tip": "Use a full-body vertical first frame.",
+   "frame": "Full-body vertical shot of a standing adult subject."
+  },
+  "T06": {
+   "title": "Dolly Back Reveal",
+   "tip": "The model has to invent the room, so describe it in one line if the first frame is tight.",
+   "frame": "Close-up of an adult subject's face with hints of the room."
+  },
+  "T07": {
+   "title": "Handheld Candid",
+   "tip": "Handheld wobble makes AI video feel like real creator footage.",
+   "frame": "Casual, selfie-style frame of an adult subject."
+  },
+  "T08": {
+   "title": "Rack Focus",
+   "tip": "Put a clear foreground object (glass, flower, candle) in the first frame.",
+   "frame": "Foreground object in focus with an adult subject blurred behind."
+  },
+  "T09": {
+   "title": "Locked-Off Cinemagraph",
+   "tip": "Seedance 1.5 Pro Spicy's camera lock plus the lowest price per second makes it the best cinemagraph engine.",
+   "frame": "Any composed still of an adult subject with a light source or curtain."
+  },
+  "T10": {
+   "title": "Start-to-End Frame Morph",
+   "tip": "Send a last_image_url with the target pose. Wan 2.2 Spicy and Seedance 2.x support first + last frame.",
+   "frame": "Two stills of the same adult subject: opening pose and closing pose."
+  },
+  "L01": {
+   "title": "Anime Style LoRA",
+   "tip": "Pass the anime LoRA in high_noise_loras to shape composition; strength 0.8 is a good start.",
+   "frame": "Anime-style adult woman by a window, generated with Prefect Pony XL."
+  },
+  "L02": {
+   "title": "Film Photography LoRA",
+   "tip": "Texture LoRAs (grain, film stock) belong in low_noise_loras, which act late in denoising.",
+   "frame": "Adult woman on an unmade bed in morning light."
+  },
+  "L03": {
+   "title": "Oil Painting LoRA",
+   "tip": "Style LoRAs can drift with motion; keep the motion to light and breathing.",
+   "frame": "Baroque-style image of a reclining adult woman on red velvet."
+  },
+  "L04": {
+   "title": "Character Consistency LoRA",
+   "tip": "Train character LoRAs only on fictional characters or on yourself/consenting adults with documented consent.",
+   "frame": "Your fictional character in a hotel corridor, red dress."
+  },
+  "L05": {
+   "title": "Neon Cyberpunk LoRA",
+   "tip": "Combine one style LoRA with one lighting LoRA at most. More than two usually fights.",
+   "frame": "Adult woman in a neon alley with glowing tattoos."
+  },
+  "L06": {
+   "title": "Extend a Clip",
+   "tip": "Use the video-extend endpoint (alibaba/wan-2.2-spicy-lora/video-extend) with the same LoRAs to chain 5 s + 5 s + 5 s.",
+   "frame": "The finished clip you want to continue, passed as video_url."
+  }
+ },
+ "images": {
+  "intro": "Image-to-video is only as good as its first frame. These prompts generate clean, well-lit first frames of adult subjects that animate well: one subject (or a clearly separated couple), simple background, hands relaxed, face unobstructed or deliberately hidden. Photoreal first frames use Qwen Image 2.1, the recommended uncensored image model on SpicyAPI; anime frames use Prefect Pony XL.",
+  "R01": {
+   "title": "Boudoir Window Light"
+  },
+  "R02": {
+   "title": "Silk Robe Portrait"
+  },
+  "R03": {
+   "title": "Red Satin Recline"
+  },
+  "R04": {
+   "title": "Hotel Corridor Heels"
+  },
+  "R05": {
+   "title": "Rainfall Shower"
+  },
+  "R06": {
+   "title": "Figure Study in Monochrome"
+  },
+  "R07": {
+   "title": "Shadow Blinds Torso"
+  },
+  "R08": {
+   "title": "Couple, Candlelit Bedroom"
+  },
+  "R09": {
+   "title": "Two Women on a Velvet Sofa"
+  },
+  "R10": {
+   "title": "Infinity Pool Exit"
+  },
+  "R11": {
+   "title": "Neon Rain Street"
+  },
+  "R12": {
+   "title": "Dark Elf Sorceress"
+  },
+  "R13": {
+   "title": "Succubus Chamber"
+  },
+  "R14": {
+   "title": "Android on a Lab Table"
+  },
+  "R15": {
+   "title": "Masquerade Guest"
+  },
+  "R16": {
+   "title": "Anime Onsen"
+  },
+  "R17": {
+   "title": "Anime Beach"
+  },
+  "R18": {
+   "title": "Anime Demon Queen"
+  },
+  "R19": {
+   "title": "Anime Silver-Hair Bedroom"
+  },
+  "R20": {
+   "title": "Anime Cyberpunk Rooftop"
+  },
+  "R21": {
+   "title": "Lingerie Catalog"
+  },
+  "R22": {
+   "title": "Creator Selfie"
+  },
+  "R23": {
+   "title": "Gym Athlete"
+  },
+  "R24": {
+   "title": "Male Boudoir"
+  }
+ }
+}
