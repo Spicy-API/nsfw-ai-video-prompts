@@ -161,7 +161,7 @@
   "F02": {
    "title": "Jeu d'ombres",
    "tip": "Des motifs de lumière dure créent du mouvement sans aucun mouvement du corps. Idéal pour les modèles bon marché.",
-   "frame": "Buste d'une femme adulte dans une pièce sombre, lumière rayée par des stores, noir et blanc."
+   "frame": "Femme adulte de dos dans une pièce sombre, lumière rayée des stores sur son dos, noir et blanc."
   },
   "F03": {
    "title": "Paysage du corps",
@@ -319,7 +319,7 @@
    "frame": "Artiste adulte à califourchon sur une chaise retournée, veste de smoking et chapeau, projecteur."
   },
   "D06": {
-   "title": "Strip-tease de la veste",
+   "title": "La veste de costume tombe",
    "tip": "Retirer une seule couche extérieure est un mouvement clair et unique que les modèles gèrent de façon fiable.",
    "frame": "Homme adulte en veste de costume sur torse nu, projecteur, scène enfumée."
   },
@@ -334,8 +334,8 @@
    "frame": "Vue en plongée d'une femme adulte allongée sur le ventre sur un lit blanc."
   },
   "D09": {
-   "title": "La serviette tombe",
-   "tip": "Filmer de dos garde le dévoilement simple et l'anatomie facile.",
+   "title": "Regard en serviette",
+   "tip": "Filmer de dos garde le mouvement simple et l'anatomie facile.",
    "frame": "Femme adulte de dos, en serviette blanche, salle de bain embuée."
   },
   "D10": {
@@ -546,7 +546,7 @@
   "M05": {
    "title": "Couverture de magazine",
    "tip": "Un mouvement minimal sur une image fixe forte donne l'effet « cinemagraph ».",
-   "frame": "Mannequin adulte en blazer transparent sur fond rouge, éclairage éditorial."
+   "frame": "Mannequin adulte en blazer noir oversize sur fond rouge, éclairage éditorial."
   },
   "M06": {
    "title": "Lancement pour une marque de fitness",

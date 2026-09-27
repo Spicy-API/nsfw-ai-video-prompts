@@ -160,7 +160,7 @@
   "F02": {
    "title": "Juego de sombras",
    "tip": "Los patrones de luz dura crean movimiento sin que el cuerpo se mueva. Ideal para modelos baratos.",
-   "frame": "Torso de una mujer adulta en una habitación oscura con franjas de luz de persiana, blanco y negro."
+   "frame": "Mujer adulta de espaldas en una habitación oscura, franjas de luz de persiana sobre su espalda, blanco y negro."
   },
   "F03": {
    "title": "Paisaje corporal",
@@ -318,7 +318,7 @@
    "frame": "Artista adulta sentada al revés en una silla, chaqueta de esmoquin y sombrero, foco."
   },
   "D06": {
-   "title": "Striptease con chaqueta",
+   "title": "Cae la chaqueta",
    "tip": "Quitarse una sola capa exterior es un movimiento claro y único que los modelos manejan con fiabilidad.",
    "frame": "Hombre adulto con una chaqueta de traje sobre el torso desnudo, foco, escenario con humo."
   },
@@ -333,8 +333,8 @@
    "frame": "Vista cenital de una mujer adulta tumbada boca abajo en una cama blanca."
   },
   "D09": {
-   "title": "Cae la toalla",
-   "tip": "Grabar de espaldas mantiene la revelación sencilla y la anatomía fácil.",
+   "title": "Mirada en toalla",
+   "tip": "Grabar de espaldas mantiene el movimiento sencillo y la anatomía fácil.",
    "frame": "Mujer adulta de espaldas con una toalla blanca, baño lleno de vapor."
   },
   "D10": {
@@ -545,7 +545,7 @@
   "M05": {
    "title": "Portada de revista",
    "tip": "Un movimiento mínimo sobre una imagen potente es el aspecto de \"cinemagraph\".",
-   "frame": "Modelo adulta con un blazer transparente sobre un fondo rojo, luz editorial."
+   "frame": "Modelo adulta con un blazer negro oversize sobre un fondo rojo, luz editorial."
   },
   "M06": {
    "title": "Presentación de una marca fitness",

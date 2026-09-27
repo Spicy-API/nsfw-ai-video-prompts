@@ -74,7 +74,7 @@
    "dur": 5,
    "ar": "9:16",
    "level": "Beginner",
-   "prompt": "Close-up of an adult woman's shoulder as an ivory silk robe slowly slides down her arm, revealing bare skin. The fabric falls in slow motion and the camera follows it down. Warm amber candlelight, soft bokeh in the background, natural skin glow, shallow depth of field.",
+   "prompt": "Close-up of an adult woman's shoulder as an ivory silk robe slowly slides down her arm, revealing her bare shoulder. The fabric falls in slow motion and the camera follows it down. Warm amber candlelight, soft bokeh in the background, natural skin glow, shallow depth of field.",
    "tip": "Begin with the robe already partly off one shoulder; the model continues the motion instead of inventing it.",
    "frame": "Tight crop of shoulder and collarbone, ivory silk robe draped loosely, candlelight."
   },
@@ -282,9 +282,9 @@
    "dur": 5,
    "ar": "16:9",
    "level": "Beginner",
-   "prompt": "Slatted light from window blinds falls across the nude torso of an adult woman standing in a dark room. She breathes slowly and turns a few degrees, so the stripes of light slide across her skin. High-contrast black and white, film noir, static camera.",
+   "prompt": "Slatted light from window blinds falls across the bare back and shoulders of an adult woman standing in a dark room, seen from behind. She breathes slowly and turns a few degrees, so the stripes of light slide across her skin. High-contrast black and white, film noir, static camera.",
    "tip": "Hard light patterns create motion without any body movement. Great for cheap models.",
-   "frame": "Adult woman's torso in a dark room with striped light from blinds, black and white."
+   "frame": "Adult woman seen from behind in a dark room, striped light from blinds across her back, black and white."
   },
   {
    "id": "F03",
@@ -425,7 +425,7 @@
    "dur": 5,
    "ar": "16:9",
    "level": "Beginner",
-   "prompt": "Coloured smoke in violet and teal curls slowly around the nude figure of an adult woman standing in a black studio, veiling and revealing her body. She turns her head to watch it drift. Low-key light, surreal fashion-art mood, static camera.",
+   "prompt": "Coloured smoke in violet and teal curls slowly around the nude figure of an adult woman standing in a black studio, the smoke veiling her body as it drifts. She turns her head to watch it. Low-key light, surreal fashion-art mood, static camera.",
    "tip": "Smoke is a top-tier reliable motion and adds built-in modesty.",
    "frame": "Adult woman in a black studio surrounded by coloured smoke."
   },
@@ -692,7 +692,7 @@
   {
    "id": "D06",
    "cat": "dance",
-   "title": "Jacket Striptease",
+   "title": "Suit Jacket Drop",
    "model": "sd20",
    "res": "720p",
    "dur": 5,
@@ -731,14 +731,14 @@
   {
    "id": "D09",
    "cat": "dance",
-   "title": "Towel Drop",
+   "title": "Towel Glance",
    "model": "wan22",
    "res": "720p",
    "dur": 5,
    "ar": "9:16",
    "level": "Beginner",
-   "prompt": "An adult woman stands in a steamy bathroom wrapped in a white towel, her hair wet. She looks over her shoulder at the camera, smiles, and lets the towel slip down to her lower back. Warm diffused light, steam, from behind, static camera.",
-   "tip": "Shooting from behind keeps the reveal simple and the anatomy easy.",
+   "prompt": "An adult woman stands in a steamy bathroom wrapped in a white towel, her hair wet. She looks over her shoulder at the camera, smiles, and pulls the towel snug around her. Warm diffused light, steam, from behind, static camera.",
+   "tip": "Shooting from behind keeps the motion simple and the anatomy easy.",
    "frame": "Adult woman from behind in a white towel, steamy bathroom."
   },
   {
@@ -893,7 +893,7 @@
    "dur": 8,
    "ar": "21:9",
    "level": "Beginner",
-   "prompt": "Wide shot of a nude adult woman lying on wet sand at the waterline as gentle waves wash over her legs and recede. Blue hour light, soft pastel sky, long exposure feel, slow drone descent.",
+   "prompt": "Wide shot of an adult woman in a white linen wrap lying on wet sand at the waterline as gentle waves wash over her legs and recede. Blue hour light, soft pastel sky, long exposure feel, slow drone descent.",
    "tip": "LTX handles long, calm natural motion cheaply.",
    "frame": "Wide shot of an adult woman lying at the waterline, blue hour."
   },
@@ -1075,7 +1075,7 @@
    "dur": 5,
    "ar": "16:9",
    "level": "Intermediate",
-   "prompt": "A nude adult female android with seamless white panels and faint blue seams lies on a lab table. Her eyes open, blue light pulses along the seams, and she slowly sits up. Clean white lab, cool light, sci-fi film look, slow push-in.",
+   "prompt": "An adult female android with a seamless white synthetic body and faint blue seams lies on a lab table. Her eyes open, blue light pulses along the seams, and she slowly sits up. Clean white lab, cool light, sci-fi film look, slow push-in.",
    "tip": "Synthetic skin panels read as sci-fi and sidestep realism problems.",
    "frame": "Adult female android on a white lab table, eyes closed."
   },
@@ -1283,9 +1283,9 @@
    "dur": 5,
    "ar": "3:4",
    "level": "Intermediate",
-   "prompt": "Living magazine cover. An adult model in a sheer black blazer and nothing underneath holds a confident pose against a bold red backdrop, then slowly turns her chin toward the camera. Hard fashion light, glossy editorial finish, static camera.",
+   "prompt": "Living magazine cover. An adult model in an oversized black blazer over a black lace bralette holds a confident pose against a bold red backdrop, then slowly turns her chin toward the camera. Hard fashion light, glossy editorial finish, static camera.",
    "tip": "Minimal motion on a strong still is the 'cinemagraph' look.",
-   "frame": "Adult model in a sheer blazer against a red backdrop, editorial light."
+   "frame": "Adult model in an oversized black blazer against a red backdrop, editorial light."
   },
   {
    "id": "M06",

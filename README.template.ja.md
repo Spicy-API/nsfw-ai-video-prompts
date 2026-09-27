@@ -223,7 +223,7 @@ SpicyAPI のテスト結果より（リーダーボード v2.1 とモデルレ�
 - **Wan 2.2 Spicy LoRA**（$0.024/s から）：`loras`、`high_noise_loras`（構図、動き）、`low_noise_loras`（質感、ディテール）で LoRA を 3 つまで使えます。`video-extend` エンドポイントで、同じ LoRA のまま動画を続けられます。
 - **LTX 2.3 Spicy**（$0.019/s から）：1 回で 3〜20 秒、プロンプトは省略可。長く落ち着いたカットに向いています。最上位のレベルでは Wan Spicy より表現が弱まりやすいです。
 - **Seedance 1.5 Pro Spicy**（$0.012/s から）：`camera_fixed` でカメラを固定できます。シネマグラフにはいちばん安いエンジンです。
-- **Seedance 2.0 Spicy / Mini Spicy / Fast Spicy**：最初と最後のフレームを指定可能、生成音声も付けられます。2.0 Spicy は 4K まで対応（Freedom 93.3）。Mini Spicy と Fast Spicy はテストで露骨なレベルの成功率が低かった（1/3 と 0/3）ので、露骨なショットには 2.0 Spicy か Seedance 2.5 Spicy を選んでください。
+- **Seedance 2.0 Spicy / Mini Spicy / Fast Spicy**：最初と最後のフレームを指定可能、生成音声も付けられます。2.0 Spicy は 4K まで対応（Freedom 93.3）。Mini Spicy と Fast Spicy はテストで露骨なレベルの成功率が低かった（1/3 と 0/3）ので、無修正のショットには 2.0 Spicy か Seedance 2.5 Spicy を選んでください。
 - **Seedance 2.5 Spicy** の詳細：4〜30 秒のカット、ネイティブ最大 1080p で 4K ティアもあります。仕上げや難しい動き（持ち上げる、2 人の接触）に使います。
 - **MiniMax H3 Spicy**（$0.038/s から、Freedom 97.5）：全身の自然な動き、3〜15 秒、プロンプトは省略可。大量生成に向いています。標準の MiniMax H3 はさらに安く、テスト動画 14 本すべてが指示どおりに生成されました（スコアはテストの網羅待ちです）。
 - **Vidu Q3 Spicy**（$0.0665/s から）：アニメや様式化された動き。`movement_amplitude` で動きの大きさを調整します。
@@ -334,7 +334,7 @@ Given a short idea and a description of the first frame, return ONE prompt of 40
 しっかりした開始フレームを用意し、動きだけを書きます。メインの動作 1 つ、副次的な動き 1 つ、カメラ、光。40〜80 語に収めてください。[うまくいく NSFW 動画プロンプトの書き方](#うまくいく-nsfw-動画プロンプトの書き方)を参照してください。
 
 ### NSFW の画像から動画に最適なモデルは？
-SpicyAPI のテストでは、1 ドルあたりの総合的な仕上がりで選ぶなら **Wan 3.0**（Index 76.5、Freedom 96、露骨なテストプロンプトはすべて指示どおりに生成、720p で 5 秒 $0.45）。最も露骨な画像から動画なら **Seedance 2.5 Spicy**、**Wan 2.7 Spicy**、**Vidu Q3 Spicy**（Freedom 96.7〜100）。自分のスタイルなら **MiniMax H3 LoRA**。低予算なら **Wan 2.6 Flash** と **Seedance 1.5 Pro Spicy**。[SpicyAPI のリーダーボード](https://spicyapi.ai/ja/leaderboards?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=faq-ja)で比較できます。
+SpicyAPI のテストでは、1 ドルあたりの総合的な仕上がりで選ぶなら **Wan 3.0**（Index 76.5、Freedom 96、露骨なテストプロンプトはすべて指示どおりに生成、720p で 5 秒 $0.45）。フィルターが最も少ない画像から動画なら **Seedance 2.5 Spicy**、**Wan 2.7 Spicy**、**Vidu Q3 Spicy**（Freedom 96.7〜100）。自分のスタイルなら **MiniMax H3 LoRA**。低予算なら **Wan 2.6 Flash** と **Seedance 1.5 Pro Spicy**。[SpicyAPI のリーダーボード](https://spicyapi.ai/ja/leaderboards?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=faq-ja)で比較できます。
 
 ### NSFW AI 動画で体の形が崩れるのはなぜ？
 たいていは、動画の長さに対して動きが多すぎるのが原因です。5 秒に縮め、動作を 1 つに減らし、手はフレームの外に出すか力を抜いた状態にし、全身のショットは横や後ろからのアングルにし、2 人のシーンでは強いモデル（Seedance 2.x）を選んでください。

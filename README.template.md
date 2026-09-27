@@ -219,7 +219,7 @@ From SpicyAPI's tests (leaderboard v2.1 and the model reviews, 2026-09-27):
 - **Wan 2.2 Spicy LoRA** (from $0.024/s): up to three LoRAs via `loras`, `high_noise_loras` (composition, motion) and `low_noise_loras` (texture, detail). The `video-extend` endpoint continues a clip with the same LoRAs.
 - **LTX 2.3 Spicy** (from $0.019/s): 3–20 seconds per call, prompt optional. Good for long, calm takes; the top level softens more often than on Wan Spicy.
 - **Seedance 1.5 Pro Spicy** (from $0.012/s): `camera_fixed` locks the camera. The cheapest engine for cinemagraphs.
-- **Seedance 2.0 Spicy / Mini Spicy / Fast Spicy**: first + last frame, optional generated audio. 2.0 Spicy goes up to 4K (Freedom 93.3); Mini Spicy and Fast Spicy handled the explicit level less reliably in testing (1/3 and 0/3), so prefer 2.0 Spicy or Seedance 2.5 Spicy for explicit shots.
+- **Seedance 2.0 Spicy / Mini Spicy / Fast Spicy**: first + last frame, optional generated audio. 2.0 Spicy goes up to 4K (Freedom 93.3); Mini Spicy and Fast Spicy handled the explicit level less reliably in testing (1/3 and 0/3), so prefer 2.0 Spicy or Seedance 2.5 Spicy for uncensored shots.
 - **Seedance 2.5 Spicy** details: 4–30 second takes, native up to 1080p with a 4K tier. Use it for finals and hard motion (lifting, two-person contact).
 - **MiniMax H3 Spicy** (from $0.038/s, Freedom 97.5): natural full-body motion, 3–15 seconds, prompt optional; good for bulk. Standard MiniMax H3 is cheaper and all 14 of its test clips came back as asked (its score awaits fuller coverage).
 - **Vidu Q3 Spicy** (from $0.0665/s): anime and stylised motion; `movement_amplitude` controls how much things move.
@@ -326,7 +326,7 @@ Short, single-action prompts with a named camera move: see [Boudoir & Lingerie](
 Start from a strong first frame, then describe only the motion: one main action, one secondary motion, the camera and the light. Keep it to 40–80 words. See [How to write an NSFW video prompt that works](#how-to-write-an-nsfw-video-prompt-that-works).
 
 ### Which model is best for NSFW image-to-video?
-In SpicyAPI's tests: **Wan 3.0** for the best all-round result per dollar (Index 76.5, Freedom 96, every explicit test prompt rendered, $0.45 per 5 s at 720p); **Seedance 2.5 Spicy**, **Wan 2.7 Spicy** and **Vidu Q3 Spicy** (Freedom 96.7–100) for the most explicit image-to-video; **MiniMax H3 LoRA** for your own styles; **Wan 2.6 Flash** and **Seedance 1.5 Pro Spicy** on a budget. Compare them on the [SpicyAPI leaderboards](https://spicyapi.ai/leaderboards?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=faq).
+In SpicyAPI's tests: **Wan 3.0** for the best all-round result per dollar (Index 76.5, Freedom 96, every explicit test prompt rendered, $0.45 per 5 s at 720p); **Seedance 2.5 Spicy**, **Wan 2.7 Spicy** and **Vidu Q3 Spicy** (Freedom 96.7–100) for the least filtered image-to-video; **MiniMax H3 LoRA** for your own styles; **Wan 2.6 Flash** and **Seedance 1.5 Pro Spicy** on a budget. Compare them on the [SpicyAPI leaderboards](https://spicyapi.ai/leaderboards?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=faq).
 
 ### Why do my NSFW AI videos have bad anatomy?
 Usually too much motion for the clip length. Shorten to 5 seconds, reduce to one action, keep hands out of frame or relaxed, use side or back angles for full-body shots, and prefer a stronger model (Seedance 2.x) for two-person scenes.

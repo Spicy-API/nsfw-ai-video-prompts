@@ -12,13 +12,13 @@
 <h1 align="center">NSFW AI Video Prompts</h1>
 
 <p align="center">
-  <b>116 prompts vidéo IA NSFW à copier-coller, 24 prompts pour générer la première image et 130 exemples avec résultats réels, pour Wan 2.2 Spicy, Seedance Spicy, MiniMax H3 Spicy, LTX 2.3 Spicy, Vidu Q3 Spicy et d'autres modèles image en vidéo sans censure.</b>
+  <b>116 prompts vidéo IA NSFW à copier-coller, 24 prompts pour générer la première image et 128 exemples avec résultats réels, pour Wan 2.2 Spicy, Seedance Spicy, MiniMax H3 Spicy, LTX 2.3 Spicy, Vidu Q3 Spicy et d'autres modèles image en vidéo sans censure.</b>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/video%20prompts-116-ff4d6d" alt="116 prompts vidéo">
   <img src="https://img.shields.io/badge/first--frame%20prompts-24-8b5cf6" alt="24 prompts d'image">
-  <img src="https://img.shields.io/badge/showcase-130-10b981" alt="130 exemples réels">
+  <img src="https://img.shields.io/badge/showcase-128-10b981" alt="128 exemples réels">
   <img src="https://img.shields.io/badge/updated-2026-09-27-blue" alt="Mis à jour le 2026-09-27">
   <img src="https://img.shields.io/badge/18%2B-adults%20only-red" alt="18+">
 </p>
@@ -153,7 +153,7 @@ L'ordre suit le catalogue SpicyAPI : les plus populaires d'abord, la version la 
 
 ## Galerie de résultats réels avec leurs prompts
 
-130 cas réels issus des pages de modèles et de la [bibliothèque de prompts](https://spicyapi.ai/fr/prompts?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=showcase-fr) de SpicyAPI. Chaque cas montre un résultat à côté du prompt exact qui l'a produit. Les modèles sont classés du plus populaire au moins populaire, la version la plus récente d'abord : éditions Spicy et modèles standard classés `unrestricted` dans le catalogue. Cliquez sur un aperçu pour voir le clip en pleine qualité.
+128 cas réels issus des pages de modèles et de la [bibliothèque de prompts](https://spicyapi.ai/fr/prompts?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=showcase-fr) de SpicyAPI. Chaque cas montre un résultat à côté du prompt exact qui l'a produit. Les modèles sont classés du plus populaire au moins populaire, la version la plus récente d'abord : éditions Spicy et modèles standard classés `unrestricted` dans le catalogue. Cliquez sur un aperçu pour voir le clip en pleine qualité.
 
 ### Seedance 2.5 Spicy
 
@@ -221,7 +221,6 @@ L'ordre suit le catalogue SpicyAPI : les plus populaires d'abord, la version la 
 <sub>🌶️ Édition Spicy · <a href="https://spicyapi.ai/fr/models/minimax-h3-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=showcase-fr">page du modèle</a></sub>
 
 <table>
-<tr><td width="250" align="center" valign="top"><sub>Aperçu non affiché sur GitHub.<br><a href="https://spicyapi.ai/fr/models/minimax-h3-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=showcase-fr">Voir sur spicyapi.ai</a></sub></td><td valign="top"><b>Sauna shoulder turn</b><br><sub><code>minimax/h3-spicy/image-to-video</code></sub><br><br>She rolls her shoulders back and stretches upward in the cedar heat, the towel at her hips sliding loose and dropping away out of frame, water running the length of her bare spine. She turns her head to look back over one shoulder into the lens, then steps forward into the billowing steam. The vapour boils up around her and swallows the far wall. Slow handheld drift following her, warm cedar light, condensation crawling down the glass. Cinematic, shallow depth of field, heavy film grain.</td></tr>
 <tr><td width="250" align="center" valign="top"><sub>Aperçu non affiché sur GitHub.<br><a href="https://spicyapi.ai/fr/models/minimax-h3-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=showcase-fr">Voir sur spicyapi.ai</a></sub></td><td valign="top"><b>Steam room turn</b><br><sub><code>minimax/h3-spicy/image-to-video</code></sub><br><br>She turns in the steam room, water beading down the shoulder blades, the steam swirling where she moves and closing again behind her. Water beads and runs the length of her spine as she turns, the towel slipping at the hip; close. Slow, single turn. Cinematic, shallow depth of field, heavy film grain, warm cedar and white vapour.</td></tr>
 <tr><td width="250" align="center" valign="top"><a href="https://cdn.spicyapi.ai/models/examples/minimax-h3-spicy/3ab0c4145b288d90.mp4"><img src="assets/showcase/minimax-h3-spicy--neon-window.gif" alt="Night interior: a woman on an apartment windowsill exhaling smoke against rain-streaked glass while a red neon sign pulses across her face" width="230"></a></td><td valign="top"><b>Red neon cigarette smoke by the window blinds</b><br><sub><code>minimax/h3-spicy/image-to-video</code> · <a href="https://cdn.spicyapi.ai/models/examples/minimax-h3-spicy/3ab0c4145b288d90.mp4">▶ clip complet</a></sub><br><br>She exhales a slow plume of smoke against the rain-streaked glass, the neon sign outside pulses red across her face, and she turns her head toward camera without changing expression. Blind shadows creep, rain runs down the window, distant traffic.</td></tr>
 <tr><td width="250" align="center" valign="top"><a href="https://cdn.spicyapi.ai/models/examples/minimax-h3-spicy/5b1f11a28c987479.mp4"><img src="assets/showcase/minimax-h3-spicy--pov-glove-tap.gif" alt="Pov glove tap" width="230"></a></td><td valign="top"><b>Pov glove tap</b><br><sub><code>minimax/h3-spicy/image-to-video</code> · <a href="https://cdn.spicyapi.ai/models/examples/minimax-h3-spicy/5b1f11a28c987479.mp4">▶ clip complet</a></sub><br><br>First person point of view, the camera never moves. She leans in toward the lens until her face and shoulders fill the frame, reaches out and presses one gloved fingertip against the lens, holds eye contact, then tilts her head and smiles. She keeps the black leather harness, satin camisole, long opera gloves and choker on the whole time. The hard overhead light rakes her collarbone and the background stays pure black.</td></tr>
@@ -251,7 +250,6 @@ L'ordre suit le catalogue SpicyAPI : les plus populaires d'abord, la version la 
 <sub>Modèle standard, niveau catalogue : unrestricted · <a href="https://spicyapi.ai/fr/models/wan-3-0-pro-prime?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=showcase-fr">page du modèle</a></sub>
 
 <table>
-<tr><td width="250" align="center" valign="top"><sub>Aperçu non affiché sur GitHub.<br><a href="https://spicyapi.ai/fr/models/wan-3-0-pro-prime?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=showcase-fr">Voir sur spicyapi.ai</a></sub></td><td valign="top"><b>Shirt drawn aside</b><br><sub><code>alibaba/wan-3.0-pro-prime/image-to-video</code></sub><br><br>Her hand comes into frame and touches the folds of the shirt, then lets them fall back. The bud between the folds opens a little in the warm air. Slow push in along the shirt, low gold light raking across the fabric, very shallow depth of field, heavy film grain.</td></tr>
 <tr><td width="250" align="center" valign="top"><a href="https://cdn.spicyapi.ai/models/examples/wan-3.0-pro-prime/5143df366cca3f75.mp4"><img src="assets/showcase/wan-3-0-pro-prime--dancer-three-stages-4k.gif" alt="A dancer in layered grey-white chiffon spins on a dark stage as a follow spot from behind turns the skirt translucent and glowing" width="230"></a></td><td valign="top"><b>Backlit dancer spinning in translucent chiffon</b><br><sub><code>alibaba/wan-3.0-pro-prime/reference-to-video</code> · <a href="https://cdn.spicyapi.ai/models/examples/wan-3.0-pro-prime/5143df366cca3f75.mp4">▶ clip complet</a></sub><br><br>The same dancer, the same layered chiffon, a third stage: the follow spot comes from behind this time and the fabric goes translucent as she turns through it. The chiffon glows as the backlight comes up; close. Cinematic, shallow depth of field, heavy film grain.</td></tr>
 </table>
 
@@ -678,7 +676,7 @@ A woman in her late 20s in black lace lingerie slowly turns toward the camera in
 #### B02 · Peignoir de soie qui glisse de l'épaule
 
 ```text
-Close-up of an adult woman's shoulder as an ivory silk robe slowly slides down her arm, revealing bare skin. The fabric falls in slow motion and the camera follows it down. Warm amber candlelight, soft bokeh in the background, natural skin glow, shallow depth of field.
+Close-up of an adult woman's shoulder as an ivory silk robe slowly slides down her arm, revealing her bare shoulder. The fabric falls in slow motion and the camera follows it down. Warm amber candlelight, soft bokeh in the background, natural skin glow, shallow depth of field.
 ```
 
 | Modèle | Réglages | Coût par génération | Niveau |
@@ -890,14 +888,14 @@ A nude adult woman reclines on draped white linen in the pose of a Renaissance V
 #### F02 · Jeu d'ombres
 
 ```text
-Slatted light from window blinds falls across the nude torso of an adult woman standing in a dark room. She breathes slowly and turns a few degrees, so the stripes of light slide across her skin. High-contrast black and white, film noir, static camera.
+Slatted light from window blinds falls across the bare back and shoulders of an adult woman standing in a dark room, seen from behind. She breathes slowly and turns a few degrees, so the stripes of light slide across her skin. High-contrast black and white, film noir, static camera.
 ```
 
 | Modèle | Réglages | Coût par génération | Niveau |
 |---|---|---|---|
 | [Wan 2.2 Spicy](https://spicyapi.ai/fr/models/wan-2-2-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=f02-fr) | 720p · 5 s · 16:9 | $0.19 | Débutant |
 
-**Première image :** Buste d'une femme adulte dans une pièce sombre, lumière rayée par des stores, noir et blanc.  
+**Première image :** Femme adulte de dos dans une pièce sombre, lumière rayée des stores sur son dos, noir et blanc.  
 **Conseil :** Des motifs de lumière dure créent du mouvement sans aucun mouvement du corps. Idéal pour les modèles bon marché.
 
 #### F03 · Paysage du corps
@@ -1033,7 +1031,7 @@ An adult woman stands in a white studio wrapped in a long sheet of red chiffon. 
 #### F13 · Fumée et formes
 
 ```text
-Coloured smoke in violet and teal curls slowly around the nude figure of an adult woman standing in a black studio, veiling and revealing her body. She turns her head to watch it drift. Low-key light, surreal fashion-art mood, static camera.
+Coloured smoke in violet and teal curls slowly around the nude figure of an adult woman standing in a black studio, the smoke veiling her body as it drifts. She turns her head to watch it. Low-key light, surreal fashion-art mood, static camera.
 ```
 
 | Modèle | Réglages | Coût par génération | Niveau |
@@ -1311,7 +1309,7 @@ An adult performer in a tuxedo jacket and heels sits backwards on a wooden chair
 **Première image :** Artiste adulte à califourchon sur une chaise retournée, veste de smoking et chapeau, projecteur.  
 **Conseil :** Les accessoires comme une chaise ou un chapeau ancrent le mouvement et limitent les dérives.
 
-#### D06 · Strip-tease de la veste
+#### D06 · La veste de costume tombe
 
 ```text
 An adult man in his 30s in a fitted black suit jacket over a bare chest stands under a spotlight and slowly slides the jacket off his shoulders, letting it fall to the floor. Smoky stage, amber light, confident smirk at the camera, slow push-in.
@@ -1350,10 +1348,10 @@ An adult woman in a white lace bodysuit rolls slowly from her stomach onto her b
 **Première image :** Vue en plongée d'une femme adulte allongée sur le ventre sur un lit blanc.  
 **Conseil :** L'angle en plongée transforme une roulade en mouvement plat et lisible.
 
-#### D09 · La serviette tombe
+#### D09 · Regard en serviette
 
 ```text
-An adult woman stands in a steamy bathroom wrapped in a white towel, her hair wet. She looks over her shoulder at the camera, smiles, and lets the towel slip down to her lower back. Warm diffused light, steam, from behind, static camera.
+An adult woman stands in a steamy bathroom wrapped in a white towel, her hair wet. She looks over her shoulder at the camera, smiles, and pulls the towel snug around her. Warm diffused light, steam, from behind, static camera.
 ```
 
 | Modèle | Réglages | Coût par génération | Niveau |
@@ -1361,7 +1359,7 @@ An adult woman stands in a steamy bathroom wrapped in a white towel, her hair we
 | [Wan 2.2 Spicy](https://spicyapi.ai/fr/models/wan-2-2-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=d09-fr) | 720p · 5 s · 9:16 | $0.19 | Débutant |
 
 **Première image :** Femme adulte de dos, en serviette blanche, salle de bain embuée.  
-**Conseil :** Filmer de dos garde le dévoilement simple et l'anatomie facile.
+**Conseil :** Filmer de dos garde le mouvement simple et l'anatomie facile.
 
 #### D10 · Marche en talons
 
@@ -1513,7 +1511,7 @@ An adult woman lying on a sun lounger slowly smooths tanning oil over her should
 #### W07 · Vagues de l'océan
 
 ```text
-Wide shot of a nude adult woman lying on wet sand at the waterline as gentle waves wash over her legs and recede. Blue hour light, soft pastel sky, long exposure feel, slow drone descent.
+Wide shot of an adult woman in a white linen wrap lying on wet sand at the waterline as gentle waves wash over her legs and recede. Blue hour light, soft pastel sky, long exposure feel, slow drone descent.
 ```
 
 | Modèle | Réglages | Coût par génération | Niveau |
@@ -1699,7 +1697,7 @@ An adult cosplayer in her 20s in a fitted black catsuit with cat ears poses in a
 #### X11 · Éveil d'une androïde
 
 ```text
-A nude adult female android with seamless white panels and faint blue seams lies on a lab table. Her eyes open, blue light pulses along the seams, and she slowly sits up. Clean white lab, cool light, sci-fi film look, slow push-in.
+An adult female android with a seamless white synthetic body and faint blue seams lies on a lab table. Her eyes open, blue light pulses along the seams, and she slowly sits up. Clean white lab, cool light, sci-fi film look, slow push-in.
 ```
 
 | Modèle | Réglages | Coût par génération | Niveau |
@@ -1915,14 +1913,14 @@ Behind-the-scenes of a boudoir photoshoot. An adult woman in a black bodysuit po
 #### M05 · Couverture de magazine
 
 ```text
-Living magazine cover. An adult model in a sheer black blazer and nothing underneath holds a confident pose against a bold red backdrop, then slowly turns her chin toward the camera. Hard fashion light, glossy editorial finish, static camera.
+Living magazine cover. An adult model in an oversized black blazer over a black lace bralette holds a confident pose against a bold red backdrop, then slowly turns her chin toward the camera. Hard fashion light, glossy editorial finish, static camera.
 ```
 
 | Modèle | Réglages | Coût par génération | Niveau |
 |---|---|---|---|
 | [Seedance 2.0 Spicy](https://spicyapi.ai/fr/models/seedance-2-0-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=m05-fr) | 1080p · 5 s · 3:4 | $2.85 | Intermédiaire |
 
-**Première image :** Mannequin adulte en blazer transparent sur fond rouge, éclairage éditorial.  
+**Première image :** Mannequin adulte en blazer noir oversize sur fond rouge, éclairage éditorial.  
 **Conseil :** Un mouvement minimal sur une image fixe forte donne l'effet « cinemagraph ».
 
 #### M06 · Lancement pour une marque de fitness
@@ -2495,7 +2493,7 @@ D'après les tests de SpicyAPI (classement v2.1 et avis sur les modèles, 2026-0
 - **Wan 2.2 Spicy LoRA** (à partir de $0.024/s) : jusqu'à trois LoRA via `loras`, `high_noise_loras` (composition, mouvement) et `low_noise_loras` (texture, détails). L'endpoint `video-extend` prolonge un clip avec les mêmes LoRA.
 - **LTX 2.3 Spicy** (à partir de $0.019/s) : 3 à 20 secondes par appel, prompt facultatif. Bien pour les plans longs et calmes ; le niveau le plus élevé est plus souvent adouci que sur Wan Spicy.
 - **Seedance 1.5 Pro Spicy** (à partir de $0.012/s) : `camera_fixed` bloque la caméra. Le moteur le moins cher pour les cinemagraphs.
-- **Seedance 2.0 Spicy / Mini Spicy / Fast Spicy** : première + dernière image, audio généré en option. 2.0 Spicy monte jusqu'à la 4K (Freedom 93.3) ; Mini Spicy et Fast Spicy ont rendu le niveau explicite de façon moins fiable en test (1/3 et 0/3) : préférez 2.0 Spicy ou Seedance 2.5 Spicy pour les plans explicites.
+- **Seedance 2.0 Spicy / Mini Spicy / Fast Spicy** : première + dernière image, audio généré en option. 2.0 Spicy monte jusqu'à la 4K (Freedom 93.3) ; Mini Spicy et Fast Spicy ont rendu le niveau explicite de façon moins fiable en test (1/3 et 0/3) : préférez 2.0 Spicy ou Seedance 2.5 Spicy pour les plans sans censure.
 - **Seedance 2.5 Spicy**, en détail : plans de 4 à 30 secondes, jusqu'à 1080p natif avec un palier 4K. À utiliser pour les versions finales et les mouvements difficiles (porter quelqu'un, contact entre deux personnes).
 - **MiniMax H3 Spicy** (à partir de $0.038/s, Freedom 97.5) : mouvement naturel du corps entier, 3 à 15 secondes, prompt facultatif ; bien pour le volume. MiniMax H3 standard est moins cher et ses 14 clips de test sont tous sortis comme demandé (son score attend une couverture plus complète).
 - **Vidu Q3 Spicy** (à partir de $0.0665/s) : anime et mouvement stylisé ; `movement_amplitude` règle l'ampleur du mouvement.
@@ -2602,7 +2600,7 @@ Des prompts courts, avec une seule action et un mouvement de caméra nommé : vo
 Partez d'une première image solide, puis décrivez uniquement le mouvement : une action principale, un mouvement secondaire, la caméra et la lumière. Restez entre 40 et 80 mots. Voir [Comment écrire un prompt vidéo NSFW qui fonctionne](#comment-écrire-un-prompt-vidéo-nsfw-qui-fonctionne).
 
 ### Quel est le meilleur modèle pour l'image en vidéo NSFW ?
-D'après les tests de SpicyAPI : **Wan 3.0** pour le meilleur résultat polyvalent par dollar (Index 76.5, Freedom 96, tous les prompts de test explicites rendus, $0.45 les 5 s en 720p) ; **Seedance 2.5 Spicy**, **Wan 2.7 Spicy** et **Vidu Q3 Spicy** (Freedom 96.7–100) pour l'image en vidéo la plus explicite ; **MiniMax H3 LoRA** pour vos propres styles ; **Wan 2.6 Flash** et **Seedance 1.5 Pro Spicy** pour les petits budgets. Comparez-les sur les [classements SpicyAPI](https://spicyapi.ai/fr/leaderboards?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=faq-fr).
+D'après les tests de SpicyAPI : **Wan 3.0** pour le meilleur résultat polyvalent par dollar (Index 76.5, Freedom 96, tous les prompts de test explicites rendus, $0.45 les 5 s en 720p) ; **Seedance 2.5 Spicy**, **Wan 2.7 Spicy** et **Vidu Q3 Spicy** (Freedom 96.7–100) pour l'image en vidéo la moins filtrée ; **MiniMax H3 LoRA** pour vos propres styles ; **Wan 2.6 Flash** et **Seedance 1.5 Pro Spicy** pour les petits budgets. Comparez-les sur les [classements SpicyAPI](https://spicyapi.ai/fr/leaderboards?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=faq-fr).
 
 ### Pourquoi l'anatomie est-elle ratée dans mes vidéos IA NSFW ?
 En général, il y a trop de mouvement pour la durée du clip. Réduisez à 5 secondes et à une seule action, gardez les mains détendues ou hors champ, préférez les angles de côté ou de dos pour les plans en pied, et choisissez un modèle plus puissant (Seedance 2.x) pour les scènes à deux.

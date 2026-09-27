@@ -160,7 +160,7 @@
   "F02": {
    "title": "Shadow Play",
    "tip": "Hard light patterns create motion without any body movement. Great for cheap models.",
-   "frame": "Adult woman's torso in a dark room with striped light from blinds, black and white."
+   "frame": "Adult woman seen from behind in a dark room, striped light from blinds across her back, black and white."
   },
   "F03": {
    "title": "Body Landscape",
@@ -318,7 +318,7 @@
    "frame": "Adult performer on a backwards chair, tuxedo jacket and hat, spotlight."
   },
   "D06": {
-   "title": "Jacket Striptease",
+   "title": "Suit Jacket Drop",
    "tip": "Removing one outer layer is a clear, single motion that models handle reliably.",
    "frame": "Adult man in a suit jacket over a bare chest, spotlight, smoky stage."
   },
@@ -333,8 +333,8 @@
    "frame": "Overhead view of an adult woman lying face-down on a white bed."
   },
   "D09": {
-   "title": "Towel Drop",
-   "tip": "Shooting from behind keeps the reveal simple and the anatomy easy.",
+   "title": "Towel Glance",
+   "tip": "Shooting from behind keeps the motion simple and the anatomy easy.",
    "frame": "Adult woman from behind in a white towel, steamy bathroom."
   },
   "D10": {
@@ -545,7 +545,7 @@
   "M05": {
    "title": "Magazine Cover",
    "tip": "Minimal motion on a strong still is the 'cinemagraph' look.",
-   "frame": "Adult model in a sheer blazer against a red backdrop, editorial light."
+   "frame": "Adult model in an oversized black blazer against a red backdrop, editorial light."
   },
   "M06": {
    "title": "Fitness Brand Reveal",

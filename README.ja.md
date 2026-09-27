@@ -12,13 +12,13 @@
 <h1 align="center">NSFW AI Video Prompts</h1>
 
 <p align="center">
-  <b>コピペで使える NSFW AI 動画プロンプト 116 本、開始フレーム用の画像プロンプト 24 本、実際の出力付きのショーケース 130 件。Wan 2.2 Spicy、Seedance Spicy、MiniMax H3 Spicy、LTX 2.3 Spicy、Vidu Q3 Spicy など、無修正の「画像から動画」モデル向けです。</b>
+  <b>コピペで使える NSFW AI 動画プロンプト 116 本、開始フレーム用の画像プロンプト 24 本、実際の出力付きのショーケース 128 件。Wan 2.2 Spicy、Seedance Spicy、MiniMax H3 Spicy、LTX 2.3 Spicy、Vidu Q3 Spicy など、無修正の「画像から動画」モデル向けです。</b>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/video%20prompts-116-ff4d6d" alt="動画プロンプト 116 本">
   <img src="https://img.shields.io/badge/first--frame%20prompts-24-8b5cf6" alt="画像プロンプト 24 本">
-  <img src="https://img.shields.io/badge/showcase-130-10b981" alt="ショーケース 130 件">
+  <img src="https://img.shields.io/badge/showcase-128-10b981" alt="ショーケース 128 件">
   <img src="https://img.shields.io/badge/updated-2026-09-27-blue" alt="更新日 2026-09-27">
   <img src="https://img.shields.io/badge/18%2B-adults%20only-red" alt="18 歳以上">
 </p>
@@ -151,7 +151,7 @@
 
 ## ショーケース: 実際の出力とプロンプト
 
-SpicyAPI のモデルページと[プロンプトライブラリ](https://spicyapi.ai/ja/prompts?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=showcase-ja)から集めた実例 130 件です。1 件ごとに、出力とそれを作った正確なプロンプトを並べています。モデルは人気順、新しいバージョンが先で、Spicy 版と、カタログ上のティアが `unrestricted` の標準モデルを載せています。プレビューをクリックすると、フル画質の動画を見られます。
+SpicyAPI のモデルページと[プロンプトライブラリ](https://spicyapi.ai/ja/prompts?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=showcase-ja)から集めた実例 128 件です。1 件ごとに、出力とそれを作った正確なプロンプトを並べています。モデルは人気順、新しいバージョンが先で、Spicy 版と、カタログ上のティアが `unrestricted` の標準モデルを載せています。プレビューをクリックすると、フル画質の動画を見られます。
 
 ### Seedance 2.5 Spicy
 
@@ -219,7 +219,6 @@ SpicyAPI のモデルページと[プロンプトライブラリ](https://spicya
 <sub>🌶️ Spicy 版 · <a href="https://spicyapi.ai/ja/models/minimax-h3-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=showcase-ja">モデルページ</a></sub>
 
 <table>
-<tr><td width="250" align="center" valign="top"><sub>GitHub ではプレビューを表示していません。<br><a href="https://spicyapi.ai/ja/models/minimax-h3-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=showcase-ja">spicyapi.ai で見る</a></sub></td><td valign="top"><b>Sauna shoulder turn</b><br><sub><code>minimax/h3-spicy/image-to-video</code></sub><br><br>She rolls her shoulders back and stretches upward in the cedar heat, the towel at her hips sliding loose and dropping away out of frame, water running the length of her bare spine. She turns her head to look back over one shoulder into the lens, then steps forward into the billowing steam. The vapour boils up around her and swallows the far wall. Slow handheld drift following her, warm cedar light, condensation crawling down the glass. Cinematic, shallow depth of field, heavy film grain.</td></tr>
 <tr><td width="250" align="center" valign="top"><sub>GitHub ではプレビューを表示していません。<br><a href="https://spicyapi.ai/ja/models/minimax-h3-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=showcase-ja">spicyapi.ai で見る</a></sub></td><td valign="top"><b>Steam room turn</b><br><sub><code>minimax/h3-spicy/image-to-video</code></sub><br><br>She turns in the steam room, water beading down the shoulder blades, the steam swirling where she moves and closing again behind her. Water beads and runs the length of her spine as she turns, the towel slipping at the hip; close. Slow, single turn. Cinematic, shallow depth of field, heavy film grain, warm cedar and white vapour.</td></tr>
 <tr><td width="250" align="center" valign="top"><a href="https://cdn.spicyapi.ai/models/examples/minimax-h3-spicy/3ab0c4145b288d90.mp4"><img src="assets/showcase/minimax-h3-spicy--neon-window.gif" alt="Night interior: a woman on an apartment windowsill exhaling smoke against rain-streaked glass while a red neon sign pulses across her face" width="230"></a></td><td valign="top"><b>Red neon cigarette smoke by the window blinds</b><br><sub><code>minimax/h3-spicy/image-to-video</code> · <a href="https://cdn.spicyapi.ai/models/examples/minimax-h3-spicy/3ab0c4145b288d90.mp4">▶ 動画全体</a></sub><br><br>She exhales a slow plume of smoke against the rain-streaked glass, the neon sign outside pulses red across her face, and she turns her head toward camera without changing expression. Blind shadows creep, rain runs down the window, distant traffic.</td></tr>
 <tr><td width="250" align="center" valign="top"><a href="https://cdn.spicyapi.ai/models/examples/minimax-h3-spicy/5b1f11a28c987479.mp4"><img src="assets/showcase/minimax-h3-spicy--pov-glove-tap.gif" alt="Pov glove tap" width="230"></a></td><td valign="top"><b>Pov glove tap</b><br><sub><code>minimax/h3-spicy/image-to-video</code> · <a href="https://cdn.spicyapi.ai/models/examples/minimax-h3-spicy/5b1f11a28c987479.mp4">▶ 動画全体</a></sub><br><br>First person point of view, the camera never moves. She leans in toward the lens until her face and shoulders fill the frame, reaches out and presses one gloved fingertip against the lens, holds eye contact, then tilts her head and smiles. She keeps the black leather harness, satin camisole, long opera gloves and choker on the whole time. The hard overhead light rakes her collarbone and the background stays pure black.</td></tr>
@@ -249,7 +248,6 @@ SpicyAPI のモデルページと[プロンプトライブラリ](https://spicya
 <sub>標準モデル、カタログ上のティア: unrestricted · <a href="https://spicyapi.ai/ja/models/wan-3-0-pro-prime?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=showcase-ja">モデルページ</a></sub>
 
 <table>
-<tr><td width="250" align="center" valign="top"><sub>GitHub ではプレビューを表示していません。<br><a href="https://spicyapi.ai/ja/models/wan-3-0-pro-prime?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=showcase-ja">spicyapi.ai で見る</a></sub></td><td valign="top"><b>Shirt drawn aside</b><br><sub><code>alibaba/wan-3.0-pro-prime/image-to-video</code></sub><br><br>Her hand comes into frame and touches the folds of the shirt, then lets them fall back. The bud between the folds opens a little in the warm air. Slow push in along the shirt, low gold light raking across the fabric, very shallow depth of field, heavy film grain.</td></tr>
 <tr><td width="250" align="center" valign="top"><a href="https://cdn.spicyapi.ai/models/examples/wan-3.0-pro-prime/5143df366cca3f75.mp4"><img src="assets/showcase/wan-3-0-pro-prime--dancer-three-stages-4k.gif" alt="A dancer in layered grey-white chiffon spins on a dark stage as a follow spot from behind turns the skirt translucent and glowing" width="230"></a></td><td valign="top"><b>Backlit dancer spinning in translucent chiffon</b><br><sub><code>alibaba/wan-3.0-pro-prime/reference-to-video</code> · <a href="https://cdn.spicyapi.ai/models/examples/wan-3.0-pro-prime/5143df366cca3f75.mp4">▶ 動画全体</a></sub><br><br>The same dancer, the same layered chiffon, a third stage: the follow spot comes from behind this time and the fabric goes translucent as she turns through it. The chiffon glows as the backlight comes up; close. Cinematic, shallow depth of field, heavy film grain.</td></tr>
 </table>
 
@@ -678,7 +676,7 @@ A woman in her late 20s in black lace lingerie slowly turns toward the camera in
 #### B02 · 肩からすべり落ちるシルクのローブ
 
 ```text
-Close-up of an adult woman's shoulder as an ivory silk robe slowly slides down her arm, revealing bare skin. The fabric falls in slow motion and the camera follows it down. Warm amber candlelight, soft bokeh in the background, natural skin glow, shallow depth of field.
+Close-up of an adult woman's shoulder as an ivory silk robe slowly slides down her arm, revealing her bare shoulder. The fabric falls in slow motion and the camera follows it down. Warm amber candlelight, soft bokeh in the background, natural skin glow, shallow depth of field.
 ```
 
 | モデル | 設定 | 1 回あたりの費用 | 難易度 |
@@ -890,14 +888,14 @@ A nude adult woman reclines on draped white linen in the pose of a Renaissance V
 #### F02 · 光と影の遊び
 
 ```text
-Slatted light from window blinds falls across the nude torso of an adult woman standing in a dark room. She breathes slowly and turns a few degrees, so the stripes of light slide across her skin. High-contrast black and white, film noir, static camera.
+Slatted light from window blinds falls across the bare back and shoulders of an adult woman standing in a dark room, seen from behind. She breathes slowly and turns a few degrees, so the stripes of light slide across her skin. High-contrast black and white, film noir, static camera.
 ```
 
 | モデル | 設定 | 1 回あたりの費用 | 難易度 |
 |---|---|---|---|
 | [Wan 2.2 Spicy](https://spicyapi.ai/ja/models/wan-2-2-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=f02-ja) | 720p · 5 s · 16:9 | $0.19 | 初級 |
 
-**開始フレーム:** ブラインド越しの縞模様の光が差す暗い部屋の成人女性の胴体、モノクロ。  
+**開始フレーム:** 暗い部屋に立つ成人女性の後ろ姿、背中にブラインド越しの縞模様の光、モノクロ。  
 **コツ:** くっきりした光のパターンがあれば、体を動かさなくても動きが生まれます。安いモデルに最適です。
 
 #### F03 · ボディランドスケープ
@@ -1033,7 +1031,7 @@ An adult woman stands in a white studio wrapped in a long sheet of red chiffon. 
 #### F13 · 煙とフォルム
 
 ```text
-Coloured smoke in violet and teal curls slowly around the nude figure of an adult woman standing in a black studio, veiling and revealing her body. She turns her head to watch it drift. Low-key light, surreal fashion-art mood, static camera.
+Coloured smoke in violet and teal curls slowly around the nude figure of an adult woman standing in a black studio, the smoke veiling her body as it drifts. She turns her head to watch it. Low-key light, surreal fashion-art mood, static camera.
 ```
 
 | モデル | 設定 | 1 回あたりの費用 | 難易度 |
@@ -1311,7 +1309,7 @@ An adult performer in a tuxedo jacket and heels sits backwards on a wooden chair
 **開始フレーム:** 逆向きに置いた椅子に座る成人のパフォーマー、タキシードジャケットと帽子、スポットライト。  
 **コツ:** 椅子や帽子などの小道具が動きの支点になり、ぶれを減らします。
 
-#### D06 · ジャケットのストリップ
+#### D06 · スーツのジャケットを脱ぐ
 
 ```text
 An adult man in his 30s in a fitted black suit jacket over a bare chest stands under a spotlight and slowly slides the jacket off his shoulders, letting it fall to the floor. Smoky stage, amber light, confident smirk at the camera, slow push-in.
@@ -1350,10 +1348,10 @@ An adult woman in a white lace bodysuit rolls slowly from her stomach onto her b
 **開始フレーム:** 白いベッドにうつ伏せになった成人女性を真上から。  
 **コツ:** 真上からのアングルにすると、寝返りが平面的でわかりやすい動きになります。
 
-#### D09 · タオルが落ちる
+#### D09 · タオル姿で振り返る
 
 ```text
-An adult woman stands in a steamy bathroom wrapped in a white towel, her hair wet. She looks over her shoulder at the camera, smiles, and lets the towel slip down to her lower back. Warm diffused light, steam, from behind, static camera.
+An adult woman stands in a steamy bathroom wrapped in a white towel, her hair wet. She looks over her shoulder at the camera, smiles, and pulls the towel snug around her. Warm diffused light, steam, from behind, static camera.
 ```
 
 | モデル | 設定 | 1 回あたりの費用 | 難易度 |
@@ -1361,7 +1359,7 @@ An adult woman stands in a steamy bathroom wrapped in a white towel, her hair we
 | [Wan 2.2 Spicy](https://spicyapi.ai/ja/models/wan-2-2-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=d09-ja) | 720p · 5 s · 9:16 | $0.19 | 初級 |
 
 **開始フレーム:** 湯気の立つバスルームで白いタオルを巻いた成人女性の後ろ姿。  
-**コツ:** 後ろから撮ると見せ方がシンプルになり、体の形も描きやすくなります。
+**コツ:** 後ろから撮ると動きがシンプルになり、体の形も描きやすくなります。
 
 #### D10 · ヒールで歩く
 
@@ -1513,7 +1511,7 @@ An adult woman lying on a sun lounger slowly smooths tanning oil over her should
 #### W07 · 打ち寄せる波
 
 ```text
-Wide shot of a nude adult woman lying on wet sand at the waterline as gentle waves wash over her legs and recede. Blue hour light, soft pastel sky, long exposure feel, slow drone descent.
+Wide shot of an adult woman in a white linen wrap lying on wet sand at the waterline as gentle waves wash over her legs and recede. Blue hour light, soft pastel sky, long exposure feel, slow drone descent.
 ```
 
 | モデル | 設定 | 1 回あたりの費用 | 難易度 |
@@ -1699,7 +1697,7 @@ An adult cosplayer in her 20s in a fitted black catsuit with cat ears poses in a
 #### X11 · アンドロイドの目覚め
 
 ```text
-A nude adult female android with seamless white panels and faint blue seams lies on a lab table. Her eyes open, blue light pulses along the seams, and she slowly sits up. Clean white lab, cool light, sci-fi film look, slow push-in.
+An adult female android with a seamless white synthetic body and faint blue seams lies on a lab table. Her eyes open, blue light pulses along the seams, and she slowly sits up. Clean white lab, cool light, sci-fi film look, slow push-in.
 ```
 
 | モデル | 設定 | 1 回あたりの費用 | 難易度 |
@@ -1915,14 +1913,14 @@ Behind-the-scenes of a boudoir photoshoot. An adult woman in a black bodysuit po
 #### M05 · 雑誌の表紙
 
 ```text
-Living magazine cover. An adult model in a sheer black blazer and nothing underneath holds a confident pose against a bold red backdrop, then slowly turns her chin toward the camera. Hard fashion light, glossy editorial finish, static camera.
+Living magazine cover. An adult model in an oversized black blazer over a black lace bralette holds a confident pose against a bold red backdrop, then slowly turns her chin toward the camera. Hard fashion light, glossy editorial finish, static camera.
 ```
 
 | モデル | 設定 | 1 回あたりの費用 | 難易度 |
 |---|---|---|---|
 | [Seedance 2.0 Spicy](https://spicyapi.ai/ja/models/seedance-2-0-spicy?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=m05-ja) | 1080p · 5 s · 3:4 | $2.85 | 中級 |
 
-**開始フレーム:** 赤い背景の前に立つ、透けるブレザーの成人モデル、エディトリアル風の照明。  
+**開始フレーム:** 赤い背景の前に立つ、オーバーサイズの黒いブレザーの成人モデル、エディトリアル風の照明。  
 **コツ:** 強い静止画に最小限の動きを加えるのが「シネマグラフ」の見た目です。
 
 #### M06 · フィットネスブランドのお披露目
@@ -2495,7 +2493,7 @@ SpicyAPI のテスト結果より（リーダーボード v2.1 とモデルレ�
 - **Wan 2.2 Spicy LoRA**（$0.024/s から）：`loras`、`high_noise_loras`（構図、動き）、`low_noise_loras`（質感、ディテール）で LoRA を 3 つまで使えます。`video-extend` エンドポイントで、同じ LoRA のまま動画を続けられます。
 - **LTX 2.3 Spicy**（$0.019/s から）：1 回で 3〜20 秒、プロンプトは省略可。長く落ち着いたカットに向いています。最上位のレベルでは Wan Spicy より表現が弱まりやすいです。
 - **Seedance 1.5 Pro Spicy**（$0.012/s から）：`camera_fixed` でカメラを固定できます。シネマグラフにはいちばん安いエンジンです。
-- **Seedance 2.0 Spicy / Mini Spicy / Fast Spicy**：最初と最後のフレームを指定可能、生成音声も付けられます。2.0 Spicy は 4K まで対応（Freedom 93.3）。Mini Spicy と Fast Spicy はテストで露骨なレベルの成功率が低かった（1/3 と 0/3）ので、露骨なショットには 2.0 Spicy か Seedance 2.5 Spicy を選んでください。
+- **Seedance 2.0 Spicy / Mini Spicy / Fast Spicy**：最初と最後のフレームを指定可能、生成音声も付けられます。2.0 Spicy は 4K まで対応（Freedom 93.3）。Mini Spicy と Fast Spicy はテストで露骨なレベルの成功率が低かった（1/3 と 0/3）ので、無修正のショットには 2.0 Spicy か Seedance 2.5 Spicy を選んでください。
 - **Seedance 2.5 Spicy** の詳細：4〜30 秒のカット、ネイティブ最大 1080p で 4K ティアもあります。仕上げや難しい動き（持ち上げる、2 人の接触）に使います。
 - **MiniMax H3 Spicy**（$0.038/s から、Freedom 97.5）：全身の自然な動き、3〜15 秒、プロンプトは省略可。大量生成に向いています。標準の MiniMax H3 はさらに安く、テスト動画 14 本すべてが指示どおりに生成されました（スコアはテストの網羅待ちです）。
 - **Vidu Q3 Spicy**（$0.0665/s から）：アニメや様式化された動き。`movement_amplitude` で動きの大きさを調整します。
@@ -2606,7 +2604,7 @@ Given a short idea and a description of the first frame, return ONE prompt of 40
 しっかりした開始フレームを用意し、動きだけを書きます。メインの動作 1 つ、副次的な動き 1 つ、カメラ、光。40〜80 語に収めてください。[うまくいく NSFW 動画プロンプトの書き方](#うまくいく-nsfw-動画プロンプトの書き方)を参照してください。
 
 ### NSFW の画像から動画に最適なモデルは？
-SpicyAPI のテストでは、1 ドルあたりの総合的な仕上がりで選ぶなら **Wan 3.0**（Index 76.5、Freedom 96、露骨なテストプロンプトはすべて指示どおりに生成、720p で 5 秒 $0.45）。最も露骨な画像から動画なら **Seedance 2.5 Spicy**、**Wan 2.7 Spicy**、**Vidu Q3 Spicy**（Freedom 96.7〜100）。自分のスタイルなら **MiniMax H3 LoRA**。低予算なら **Wan 2.6 Flash** と **Seedance 1.5 Pro Spicy**。[SpicyAPI のリーダーボード](https://spicyapi.ai/ja/leaderboards?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=faq-ja)で比較できます。
+SpicyAPI のテストでは、1 ドルあたりの総合的な仕上がりで選ぶなら **Wan 3.0**（Index 76.5、Freedom 96、露骨なテストプロンプトはすべて指示どおりに生成、720p で 5 秒 $0.45）。フィルターが最も少ない画像から動画なら **Seedance 2.5 Spicy**、**Wan 2.7 Spicy**、**Vidu Q3 Spicy**（Freedom 96.7〜100）。自分のスタイルなら **MiniMax H3 LoRA**。低予算なら **Wan 2.6 Flash** と **Seedance 1.5 Pro Spicy**。[SpicyAPI のリーダーボード](https://spicyapi.ai/ja/leaderboards?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=faq-ja)で比較できます。
 
 ### NSFW AI 動画で体の形が崩れるのはなぜ？
 たいていは、動画の長さに対して動きが多すぎるのが原因です。5 秒に縮め、動作を 1 つに減らし、手はフレームの外に出すか力を抜いた状態にし、全身のショットは横や後ろからのアングルにし、2 人のシーンでは強いモデル（Seedance 2.x）を選んでください。
