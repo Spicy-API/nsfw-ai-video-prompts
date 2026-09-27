@@ -8,19 +8,19 @@
 <h1 align="center">NSFW AI Video Prompts</h1>
 
 <p align="center">
-  <b>{{VIDEO_COUNT}} copy-paste NSFW AI video prompts, {{IMAGE_COUNT}} first-frame image prompts and {{VERIFIED_COUNT}} verified examples with real outputs, for Wan 2.2 Spicy, Seedance Spicy, MiniMax H3 Spicy, LTX 2.3 Spicy, Vidu Q3 Spicy and other uncensored image-to-video models.</b>
+  <b>{{VIDEO_COUNT}} copy-paste NSFW AI video prompts, {{IMAGE_COUNT}} first-frame image prompts and {{SHOWCASE_COUNT}} showcase examples with real outputs, for Wan 2.2 Spicy, Seedance Spicy, MiniMax H3 Spicy, LTX 2.3 Spicy, Vidu Q3 Spicy and other uncensored image-to-video models.</b>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/video%20prompts-{{VIDEO_COUNT}}-ff4d6d" alt="{{VIDEO_COUNT}} video prompts">
   <img src="https://img.shields.io/badge/first--frame%20prompts-{{IMAGE_COUNT}}-8b5cf6" alt="{{IMAGE_COUNT}} image prompts">
-  <img src="https://img.shields.io/badge/verified%20examples-{{VERIFIED_COUNT}}-10b981" alt="{{VERIFIED_COUNT}} verified examples">
+  <img src="https://img.shields.io/badge/showcase-{{SHOWCASE_COUNT}}-10b981" alt="{{SHOWCASE_COUNT}} showcase examples">
   <img src="https://img.shields.io/badge/updated-{{READ_ON}}-blue" alt="Updated {{READ_ON}}">
   <img src="https://img.shields.io/badge/18%2B-adults%20only-red" alt="18+">
 </p>
 
 <p align="center">
-  <a href="#verified-examples-with-real-outputs">Verified examples</a> ·
+  <a href="#showcase-real-outputs-and-exact-requests">Showcase</a> ·
   <a href="#the-prompts">Prompts</a> ·
   <a href="#first-frame-image-prompts">First frames</a> ·
   <a href="#negative-prompts">Negative prompts</a> ·
@@ -45,14 +45,14 @@ Most "NSFW prompt" lists are keyword dumps written for Stable Diffusion stills. 
 - a **first-frame description** so you know what image to start from,
 - a **pro tip** explaining why it works or what breaks.
 
-Tips are practical guidance from production use, not benchmark results. The [verified examples](#verified-examples-with-real-outputs) are the part of this repo with reviewed, real outputs.
+Tips are practical guidance from production use, not benchmark results. The [showcase](#showcase-real-outputs-and-exact-requests) is the part of this repo with real outputs.
 
 Model facts and prices come from the SpicyAPI public catalog, read on {{READ_ON}}.
 
 ## Contents
 
 - [Models covered](#models-covered)
-- [Verified examples with real outputs](#verified-examples-with-real-outputs)
+- [Showcase: real outputs and exact requests](#showcase-real-outputs-and-exact-requests)
 - [How to write an NSFW video prompt that works](#how-to-write-an-nsfw-video-prompt-that-works)
 - [The prompts](#the-prompts)
 {{PROMPTS_TOC}}
@@ -76,18 +76,23 @@ Durations and tiers change as providers update models; the model page is always 
 
 ---
 
-## Verified examples with real outputs
+## Showcase: real outputs and exact requests
 
-These prompts come from the [SpicyAPI prompt library](https://spicyapi.ai/prompts?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=verified), where each example was generated on the named model and **reviewed by a person watching the full output** (review date shown). Click a thumbnail to play the clip.
+{{SHOWCASE_COUNT}} examples from the model pages and the [prompt library](https://spicyapi.ai/prompts?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=showcase) on SpicyAPI, each generated on the named model. Previews play right here; click one for the full-quality clip. Open an entry to copy the prompt, read **why it works**, and grab the **exact API request** (first frame and settings included) to reproduce it.
 
-{{VERIFIED}}
+Jump to: {{SHOWCASE_INDEX}}
 
-What these verified prompts teach:
+{{SHOWCASE}}
+
+A few showcase outputs contain nudity; for those, only the prompt and request are shown here and the output is linked on spicyapi.ai.
+
+What these examples teach:
 
 1. **Describe what changes, not what is already there.** "She turns slowly from the window toward camera" assumes the first frame shows her at the window.
 2. **Say who is in shot.** A line like `Cast: two women.` stops the model from inventing extra people.
 3. **Pin the camera.** "Locked-off camera, no move" or "the camera stays on her back" removes a whole class of failures.
 4. **Give the motion a physical cause.** A draught pulls the silk, steam fogs the glass, a gust lifts the robe.
+5. **Pin the ending when it matters.** Supplying `last_image_url` lets you approve the final look as a still before paying for the motion.
 
 ---
 
@@ -341,7 +346,7 @@ Use the [LLM system prompt](#let-an-llm-write-your-prompts) above with any chat 
 
 - **[awesome-nsfw-ai](https://github.com/Spicy-API/awesome-nsfw-ai)**: curated list of uncensored AI image, video and text tools, APIs and models.
 - **[nsfw-ai-skill](https://github.com/Spicy-API/nsfw-ai-skill)**: generate NSFW images and videos from Claude Code, Cursor, Codex and other agents.
-- Machine-readable data: [`data/video-prompts.json`](data/video-prompts.json), [`data/image-prompts.json`](data/image-prompts.json), [`data/verified-examples.json`](data/verified-examples.json).
+- Machine-readable data: [`data/video-prompts.json`](data/video-prompts.json), [`data/image-prompts.json`](data/image-prompts.json), [`data/showcase.json`](data/showcase.json).
 
 ## Contributing
 
@@ -349,6 +354,6 @@ Prompt pull requests are welcome. Add them to `data/video-prompts.json` (adult c
 
 ## License
 
-Prompts and documentation: [CC0 1.0](LICENSE). Verified example media is hosted by SpicyAPI and linked, not redistributed.
+Prompts and documentation: [CC0 1.0](LICENSE). Showcase previews in `assets/showcase/` are short GIF excerpts of SpicyAPI example outputs; full clips stay on the SpicyAPI CDN.
 
 <p align="center"><sub>⭐ Star the repo if a prompt saved you a few re-rolls.</sub></p>

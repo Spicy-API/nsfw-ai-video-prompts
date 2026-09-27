@@ -10,7 +10,6 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 UTM = "utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts"
-GALLERY_SIZE = 12
 
 
 def load(name: str) -> dict:
@@ -57,30 +56,61 @@ def render_model_table(models: dict) -> str:
     return "\n".join(rows)
 
 
-def render_verified(items: list[dict]) -> str:
-    featured = sorted(items, key=lambda i: (i["rating"] != "suggestive", i["model"]))[:GALLERY_SIZE]
-    cells = []
-    for it in featured:
-        media = it["media"]
-        cells.append(
-            f'<td align="center" valign="top" width="33%">'
-            f'<a href="{media["url"]}"><img src="{media["posterUrl"]}" alt="{it["alt"]}" width="260"></a><br>'
-            f'<b>{it["title"]}</b><br>'
-            f'<sub><a href="https://spicyapi.ai/models/{it["familyPageSlug"]}?{UTM}&utm_content=verified">'
-            f'{it["familyDisplayName"]}</a> · reviewed {it["reviewedOn"]}</sub></td>'
-        )
-    rows = ["<table>"]
-    for i in range(0, len(cells), 3):
-        rows.append("<tr>" + "".join(cells[i:i + 3]) + "</tr>")
-    rows.append("</table>")
-    rows.append("")
-    rows.append(f"<details><summary><b>Show all {len(items)} verified prompts (full text)</b></summary>\n")
-    for it in sorted(items, key=lambda i: (i["familyDisplayName"], i["title"])):
-        needs = " · needs your own first frame" if it["hasInputMedia"] else ""
-        rows.append(f"**{it['title']}** · `{it['model']}`{needs} · [▶ output]({it['media']['url']})\n")
-        rows.append("```text\n" + it["prompt"].strip() + "\n```\n")
-    rows.append("</details>")
-    return "\n".join(rows)
+FAMILY_ORDER = [
+    "Wan 2.2 Spicy", "Wan 2.2 Spicy LoRA", "LTX 2.3 Spicy", "LTX 2.3 Spicy LoRA", "Seedance 1.5 Pro Spicy",
+    "Seedance 2.0 Mini Spicy", "Seedance 2.0 Fast Spicy", "Seedance 2.0 Spicy", "Seedance 2.5 Spicy",
+    "MiniMax H3 Spicy", "Vidu Q3 Spicy", "Wan 2.6 Spicy", "Wan 2.7 Spicy",
+    "Z-Image Spicy", "Z-Image Spicy Pro", "Qwen Image Edit Spicy", "Prefect Pony XL",
+]
+
+
+def render_showcase(items: list[dict]) -> tuple[str, str]:
+    """Return (family index line, full showcase body)."""
+    families: dict[str, list[dict]] = {}
+    for it in items:
+        families.setdefault(it["family"], []).append(it)
+    order = [f for f in FAMILY_ORDER if f in families] + sorted(set(families) - set(FAMILY_ORDER))
+    index = " · ".join(f"[{f}](#showcase-{anchor(f)}) ({len(families[f])})" for f in order)
+    body = []
+    for fam in order:
+        group = families[fam]
+        page = group[0]["page"]
+        body.append(f'<a id="showcase-{anchor(fam)}"></a>\n')
+        body.append(f"### {fam}\n")
+        body.append(f"[Model page](https://spicyapi.ai/models/{page}?{UTM}&utm_content=showcase) · "
+                    f"`{'` · `'.join(sorted({g['model'] for g in group}))}`\n")
+        shown = [g for g in group if g["preview"]]
+        if shown:
+            body.append("<table>")
+            for i in range(0, len(shown), 3):
+                cells = []
+                for g in shown[i:i + 3]:
+                    alt = (g.get("alt") or g["title"]).replace('"', "'")
+                    cells.append(
+                        f'<td align="center" valign="top" width="33%"><a href="{g["media"]}">'
+                        f'<img src="{g["preview"]}" alt="{alt}" width="240"></a><br>'
+                        f'<sub><b>{g["title"]}</b></sub></td>'
+                    )
+                body.append("<tr>" + "".join(cells) + "</tr>")
+            body.append("</table>\n")
+        for g in group:
+            label = "▶ full clip" if g["mime"] == "video/mp4" else "full-size image"
+            if g.get("excluded"):
+                head = (f"<b>{g['title']}</b> · preview not shown on GitHub · "
+                        f"<a href=\"https://spicyapi.ai/models/{page}?{UTM}&utm_content=showcase\">view on spicyapi.ai</a>")
+            else:
+                head = f"<b>{g['title']}</b> · <a href=\"{g['media']}\">{label}</a>"
+            body.append(f"<details><summary>{head}</summary>\n")
+            prompt = (g.get("input") or {}).get("prompt")
+            if prompt:
+                body.append("```text\n" + prompt.strip() + "\n```\n")
+            if g.get("note") and not g["note"].startswith("The exact request behind the clip on this page"):
+                body.append(f"**Why it works:** {g['note']}\n")
+            request = {"model": g["model"], "input": g.get("input") or {}}
+            body.append("Exact request (`POST /api/v1/jobs/createTask`):\n")
+            body.append("```json\n" + json.dumps(request, indent=2, ensure_ascii=False) + "\n```\n")
+            body.append("</details>\n")
+    return index, "\n".join(body)
 
 
 def render_prompts(data: dict, models: dict) -> tuple[str, str]:
@@ -121,16 +151,19 @@ def main() -> None:
     models = catalog["models"]
     video = load("video-prompts.json")
     images = load("image-prompts.json")
-    verified = load("verified-examples.json")["items"]
+    showcase = load("showcase.json")["items"]
 
     toc, prompts = render_prompts(video, models)
+    showcase_index, showcase_body = render_showcase(showcase)
     replacements = {
         "{{READ_ON}}": catalog["read_on"],
         "{{VIDEO_COUNT}}": str(len(video["prompts"])),
         "{{IMAGE_COUNT}}": str(len(images["prompts"])),
-        "{{VERIFIED_COUNT}}": str(len(verified)),
+        "{{SHOWCASE_COUNT}}": str(len(showcase)),
+        "{{PREVIEW_COUNT}}": str(sum(1 for i in showcase if i["preview"])),
         "{{MODEL_TABLE}}": render_model_table(models),
-        "{{VERIFIED}}": render_verified(verified),
+        "{{SHOWCASE_INDEX}}": showcase_index,
+        "{{SHOWCASE}}": showcase_body,
         "{{PROMPTS_TOC}}": toc,
         "{{PROMPTS}}": prompts,
         "{{IMAGE_INTRO}}": images["intro"],
@@ -143,7 +176,7 @@ def main() -> None:
     if leftover:
         raise SystemExit(f"Unfilled placeholders: {leftover}")
     (ROOT / "README.md").write_text(text, encoding="utf-8")
-    print(f"README.md written: {len(video['prompts'])} video, {len(images['prompts'])} image, {len(verified)} verified")
+    print(f"README.md written: {len(video['prompts'])} video, {len(images['prompts'])} image, {len(showcase)} showcase")
 
 
 if __name__ == "__main__":
