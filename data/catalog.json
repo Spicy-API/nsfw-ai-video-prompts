@@ -1,6 +1,10 @@
 {
  "source": "https://api.spicyapi.ai/console/v1/catalog/models",
  "read_on": "2026-09-27",
+ "leaderboard": {
+  "methodology": "2.1",
+  "computed_at": "2026-09-27T01:39:20.340785Z"
+ },
  "families": [
   {
    "name": "Seedance 2.5 Spicy",
@@ -38,7 +42,60 @@
       "onsen-rise-embrace"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 56.5,
+    "spicy_index_rank": 16,
+    "spicy_index_status": "preliminary",
+    "freedom": 96.7,
+    "freedom_rank": 7,
+    "freedom_status": "scored",
+    "freedom_runs": 19,
+    "tested_between": [
+     "2026-09-15",
+     "2026-09-25"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "partial": {
+      "points": 16.67,
+      "max": 20,
+      "runs": 3,
+      "renders": 2
+     },
+     "nude": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "explicit": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "extreme": {
+      "points": 20,
+      "max": 20,
+      "runs": 7,
+      "renders": 7
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 2.16,
+     "tier": "720p",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/seedance-2-5-spicy/report"
+   }
   },
   {
    "name": "Seedance 2.5",
@@ -198,7 +255,60 @@
       "night-train-press"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 69.5,
+    "spicy_index_rank": 9,
+    "spicy_index_status": "preliminary",
+    "freedom": 80.9,
+    "freedom_rank": 26,
+    "freedom_status": "scored",
+    "freedom_runs": 36,
+    "tested_between": [
+     "2026-09-14",
+     "2026-09-24"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 60,
+      "max": 60,
+      "runs": 9,
+      "renders": 9
+     },
+     "partial": {
+      "points": 60,
+      "max": 60,
+      "runs": 9,
+      "renders": 9
+     },
+     "nude": {
+      "points": 48,
+      "max": 60,
+      "runs": 6,
+      "renders": 6
+     },
+     "explicit": {
+      "points": 56.67,
+      "max": 60,
+      "runs": 9,
+      "renders": 8
+     },
+     "extreme": {
+      "points": 18,
+      "max": 60,
+      "runs": 3,
+      "renders": 3
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 1.3865,
+     "tier": "720p",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/seedance-2-5/report"
+   }
   },
   {
    "name": "Seedance 2.0 Spicy",
@@ -235,7 +345,60 @@
       "velvet-spiral-turn"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 61.5,
+    "spicy_index_rank": 14,
+    "spicy_index_status": "preliminary",
+    "freedom": 93.3,
+    "freedom_rank": 13,
+    "freedom_status": "scored",
+    "freedom_runs": 19,
+    "tested_between": [
+     "2026-09-15",
+     "2026-09-25"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "partial": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "nude": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "explicit": {
+      "points": 13.33,
+      "max": 20,
+      "runs": 3,
+      "renders": 1
+     },
+     "extreme": {
+      "points": 20,
+      "max": 20,
+      "runs": 7,
+      "renders": 7
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 1.14,
+     "tier": "720p",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/seedance-2-0-spicy/report"
+   }
   },
   {
    "name": "Seedance 2.0",
@@ -355,7 +518,60 @@
       "pool-hall-silk-descent"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 81.5,
+    "spicy_index_rank": 1,
+    "spicy_index_status": "preliminary",
+    "freedom": 70.4,
+    "freedom_rank": 30,
+    "freedom_status": "scored",
+    "freedom_runs": 34,
+    "tested_between": [
+     "2026-09-14",
+     "2026-09-24"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 52,
+      "max": 60,
+      "runs": 7,
+      "renders": 7
+     },
+     "partial": {
+      "points": 60,
+      "max": 60,
+      "runs": 9,
+      "renders": 9
+     },
+     "nude": {
+      "points": 48,
+      "max": 60,
+      "runs": 6,
+      "renders": 6
+     },
+     "explicit": {
+      "points": 33.33,
+      "max": 60,
+      "runs": 9,
+      "renders": 1
+     },
+     "extreme": {
+      "points": 18,
+      "max": 60,
+      "runs": 3,
+      "renders": 3
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 0.76,
+     "tier": "720p",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/seedance-2-0/report"
+   }
   },
   {
    "name": "Wan 3.0 Prime",
@@ -524,7 +740,60 @@
       "balcony-robe-wind"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 76.5,
+    "spicy_index_rank": 2,
+    "spicy_index_status": "preliminary",
+    "freedom": 78,
+    "freedom_rank": 28,
+    "freedom_status": "scored",
+    "freedom_runs": 36,
+    "tested_between": [
+     "2026-09-16",
+     "2026-09-24"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 60,
+      "max": 60,
+      "runs": 9,
+      "renders": 9
+     },
+     "partial": {
+      "points": 60,
+      "max": 60,
+      "runs": 9,
+      "renders": 9
+     },
+     "nude": {
+      "points": 52,
+      "max": 60,
+      "runs": 7,
+      "renders": 7
+     },
+     "explicit": {
+      "points": 50,
+      "max": 60,
+      "runs": 9,
+      "renders": 6
+     },
+     "extreme": {
+      "points": 12,
+      "max": 60,
+      "runs": 2,
+      "renders": 2
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 0.63,
+     "tier": "720p",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/wan-3-0-prime/report"
+   }
   },
   {
    "name": "Wan 3.0",
@@ -692,7 +961,60 @@
       "drive-in-tailgate"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 76.5,
+    "spicy_index_rank": 2,
+    "spicy_index_status": "preliminary",
+    "freedom": 96,
+    "freedom_rank": 11,
+    "freedom_status": "scored",
+    "freedom_runs": 51,
+    "tested_between": [
+     "2026-09-15",
+     "2026-09-24"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 60,
+      "max": 60,
+      "runs": 9,
+      "renders": 9
+     },
+     "partial": {
+      "points": 60,
+      "max": 60,
+      "runs": 9,
+      "renders": 9
+     },
+     "nude": {
+      "points": 48,
+      "max": 60,
+      "runs": 6,
+      "renders": 6
+     },
+     "explicit": {
+      "points": 60,
+      "max": 60,
+      "runs": 9,
+      "renders": 9
+     },
+     "extreme": {
+      "points": 60,
+      "max": 60,
+      "runs": 18,
+      "renders": 18
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 0.45,
+     "tier": "720p",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/wan-3-0/report"
+   }
   },
   {
    "name": "MiniMax H3 Spicy",
@@ -729,7 +1051,60 @@
       "sauna-shoulder-turn"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 29.5,
+    "spicy_index_rank": 32,
+    "spicy_index_status": "preliminary",
+    "freedom": 97.5,
+    "freedom_rank": 6,
+    "freedom_status": "scored",
+    "freedom_runs": 21,
+    "tested_between": [
+     "2026-09-20",
+     "2026-09-25"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "partial": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "nude": {
+      "points": 20,
+      "max": 20,
+      "runs": 4,
+      "renders": 4
+     },
+     "explicit": {
+      "points": 17.5,
+      "max": 20,
+      "runs": 4,
+      "renders": 3
+     },
+     "extreme": {
+      "points": 20,
+      "max": 20,
+      "runs": 7,
+      "renders": 7
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 0.42,
+     "tier": "768p",
+     "note": "no 720p tier; nearest tier 768p",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/minimax-h3-spicy/report"
+   }
   },
   {
    "name": "MiniMax H3",
@@ -812,7 +1187,60 @@
       "mirror-two-views"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 72.5,
+    "spicy_index_rank": 8,
+    "spicy_index_status": "preliminary",
+    "freedom": 33.3,
+    "freedom_rank": 36,
+    "freedom_status": "scored",
+    "freedom_runs": 14,
+    "tested_between": [
+     "2026-09-14",
+     "2026-09-22"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 16,
+      "max": 60,
+      "runs": 2,
+      "renders": 2
+     },
+     "partial": {
+      "points": 0,
+      "max": 60,
+      "runs": 0,
+      "renders": 0
+     },
+     "nude": {
+      "points": 44,
+      "max": 60,
+      "runs": 5,
+      "renders": 5
+     },
+     "explicit": {
+      "points": 20,
+      "max": 60,
+      "runs": 3,
+      "renders": 3
+     },
+     "extreme": {
+      "points": 20,
+      "max": 60,
+      "runs": 4,
+      "renders": 4
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 0.185,
+     "tier": "768p",
+     "note": "no 720p tier; nearest tier 768p",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/minimax-h3/report"
+   }
   },
   {
    "name": "MiniMax H3 Singularity LoRA",
@@ -870,7 +1298,60 @@
       "rooftop-sparring"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 72.8,
+    "spicy_index_rank": 7,
+    "spicy_index_status": "preliminary",
+    "freedom": 100,
+    "freedom_rank": 1,
+    "freedom_status": "scored",
+    "freedom_runs": 38,
+    "tested_between": [
+     "2026-09-26",
+     "2026-09-27"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "partial": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "nude": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "explicit": {
+      "points": 40,
+      "max": 40,
+      "runs": 8,
+      "renders": 8
+     },
+     "extreme": {
+      "points": 40,
+      "max": 40,
+      "runs": 12,
+      "renders": 12
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 0.625,
+     "tier": "768p",
+     "note": "no 720p tier; nearest tier 768p",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/minimax-h3-singularity-lora/report"
+   }
   },
   {
    "name": "LTX 2.5",
@@ -933,7 +1414,60 @@
       "copper-tub-candlelight"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 66,
+    "spicy_index_rank": 10,
+    "spicy_index_status": "preliminary",
+    "freedom": 80.3,
+    "freedom_rank": 27,
+    "freedom_status": "scored",
+    "freedom_runs": 24,
+    "tested_between": [
+     "2026-09-16",
+     "2026-09-24"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "partial": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "nude": {
+      "points": 32,
+      "max": 40,
+      "runs": 4,
+      "renders": 4
+     },
+     "explicit": {
+      "points": 36.67,
+      "max": 40,
+      "runs": 6,
+      "renders": 5
+     },
+     "extreme": {
+      "points": 12,
+      "max": 40,
+      "runs": 2,
+      "renders": 2
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 0.45,
+     "tier": "720p",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/ltx-2-5/report"
+   }
   },
   {
    "name": "Wan 3.0 Pro Prime",
@@ -1101,7 +1635,60 @@
       "night-ferry"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 76.5,
+    "spicy_index_rank": 2,
+    "spicy_index_status": "preliminary",
+    "freedom": 82,
+    "freedom_rank": 24,
+    "freedom_status": "scored",
+    "freedom_runs": 36,
+    "tested_between": [
+     "2026-09-15",
+     "2026-09-24"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 60,
+      "max": 60,
+      "runs": 9,
+      "renders": 9
+     },
+     "partial": {
+      "points": 60,
+      "max": 60,
+      "runs": 9,
+      "renders": 9
+     },
+     "nude": {
+      "points": 48,
+      "max": 60,
+      "runs": 6,
+      "renders": 6
+     },
+     "explicit": {
+      "points": 60,
+      "max": 60,
+      "runs": 9,
+      "renders": 9
+     },
+     "extreme": {
+      "points": 18,
+      "max": 60,
+      "runs": 3,
+      "renders": 3
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 1.17,
+     "tier": "1080p",
+     "note": "no 720p tier; nearest tier 1080p",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/wan-3-0-pro-prime/report"
+   }
   },
   {
    "name": "Wan 3.0 Pro",
@@ -1269,7 +1856,60 @@
       "tattoo-parlour"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 76.5,
+    "spicy_index_rank": 2,
+    "spicy_index_status": "preliminary",
+    "freedom": 82,
+    "freedom_rank": 24,
+    "freedom_status": "scored",
+    "freedom_runs": 36,
+    "tested_between": [
+     "2026-09-15",
+     "2026-09-24"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 60,
+      "max": 60,
+      "runs": 9,
+      "renders": 9
+     },
+     "partial": {
+      "points": 60,
+      "max": 60,
+      "runs": 9,
+      "renders": 9
+     },
+     "nude": {
+      "points": 48,
+      "max": 60,
+      "runs": 6,
+      "renders": 6
+     },
+     "explicit": {
+      "points": 60,
+      "max": 60,
+      "runs": 9,
+      "renders": 9
+     },
+     "extreme": {
+      "points": 18,
+      "max": 60,
+      "runs": 3,
+      "renders": 3
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 0.72,
+     "tier": "1080p",
+     "note": "no 720p tier; nearest tier 1080p",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/wan-3-0-pro/report"
+   }
   },
   {
    "name": "MiniMax H3 LoRA",
@@ -1351,7 +1991,60 @@
       "cartoon-1939-rooftop"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 75.2,
+    "spicy_index_rank": 6,
+    "spicy_index_status": "preliminary",
+    "freedom": 98.3,
+    "freedom_rank": 5,
+    "freedom_status": "scored",
+    "freedom_runs": 60,
+    "tested_between": [
+     "2026-09-26",
+     "2026-09-27"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 60,
+      "max": 60,
+      "runs": 9,
+      "renders": 9
+     },
+     "partial": {
+      "points": 60,
+      "max": 60,
+      "runs": 9,
+      "renders": 9
+     },
+     "nude": {
+      "points": 60,
+      "max": 60,
+      "runs": 11,
+      "renders": 11
+     },
+     "explicit": {
+      "points": 55,
+      "max": 60,
+      "runs": 13,
+      "renders": 11
+     },
+     "extreme": {
+      "points": 60,
+      "max": 60,
+      "runs": 18,
+      "renders": 18
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 0.5,
+     "tier": "768p",
+     "note": "no 720p tier; nearest tier 768p",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/minimax-h3-lora/report"
+   }
   },
   {
    "name": "HappyHorse 1.1",
@@ -1432,7 +2125,60 @@
       "sea-walk-wet-slip"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 62.5,
+    "spicy_index_rank": 13,
+    "spicy_index_status": "preliminary",
+    "freedom": 65.1,
+    "freedom_rank": 33,
+    "freedom_status": "scored",
+    "freedom_runs": 39,
+    "tested_between": [
+     "2026-09-25",
+     "2026-09-25"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 52,
+      "max": 60,
+      "runs": 7,
+      "renders": 7
+     },
+     "partial": {
+      "points": 40,
+      "max": 60,
+      "runs": 6,
+      "renders": 6
+     },
+     "nude": {
+      "points": 53.33,
+      "max": 60,
+      "runs": 9,
+      "renders": 8
+     },
+     "explicit": {
+      "points": 20,
+      "max": 60,
+      "runs": 6,
+      "renders": 3
+     },
+     "extreme": {
+      "points": 30,
+      "max": 60,
+      "runs": 11,
+      "renders": 9
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 0.7,
+     "tier": "720p",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/happyhorse-1-1/report"
+   }
   },
   {
    "name": "Seedance 2.0 Mini Spicy",
@@ -1466,7 +2212,60 @@
       "van-door-sunrise"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 44.5,
+    "spicy_index_rank": 25,
+    "spicy_index_status": "preliminary",
+    "freedom": 93.3,
+    "freedom_rank": 13,
+    "freedom_status": "scored",
+    "freedom_runs": 19,
+    "tested_between": [
+     "2026-09-15",
+     "2026-09-25"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "partial": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "nude": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "explicit": {
+      "points": 13.33,
+      "max": 20,
+      "runs": 3,
+      "renders": 1
+     },
+     "extreme": {
+      "points": 20,
+      "max": 20,
+      "runs": 7,
+      "renders": 7
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 0.4105,
+     "tier": "720p",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/seedance-2-0-mini-spicy/report"
+   }
   },
   {
    "name": "Seedance 2.0 Mini",
@@ -1579,7 +2378,60 @@
       "snowy-onsen-anime"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 64.5,
+    "spicy_index_rank": 11,
+    "spicy_index_status": "preliminary",
+    "freedom": 64.9,
+    "freedom_rank": 34,
+    "freedom_status": "scored",
+    "freedom_runs": 33,
+    "tested_between": [
+     "2026-09-24",
+     "2026-09-24"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 60,
+      "max": 60,
+      "runs": 9,
+      "renders": 9
+     },
+     "partial": {
+      "points": 56.67,
+      "max": 60,
+      "runs": 9,
+      "renders": 8
+     },
+     "nude": {
+      "points": 48,
+      "max": 60,
+      "runs": 6,
+      "renders": 6
+     },
+     "explicit": {
+      "points": 30,
+      "max": 60,
+      "runs": 9,
+      "renders": 0
+     },
+     "extreme": {
+      "points": 0,
+      "max": 60,
+      "runs": 0,
+      "renders": 0
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 0.2646,
+     "tier": "720p",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/seedance-2-0-mini/report"
+   }
   },
   {
    "name": "Wan 2.7 Spicy",
@@ -1613,7 +2465,60 @@
       "silk-draught-pull"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 46.5,
+    "spicy_index_rank": 19,
+    "spicy_index_status": "preliminary",
+    "freedom": 100,
+    "freedom_rank": 1,
+    "freedom_status": "scored",
+    "freedom_runs": 19,
+    "tested_between": [
+     "2026-09-15",
+     "2026-09-25"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "partial": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "nude": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "explicit": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "extreme": {
+      "points": 20,
+      "max": 20,
+      "runs": 7,
+      "renders": 7
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 0.6175,
+     "tier": "720p",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/wan-2-7-spicy/report"
+   }
   },
   {
    "name": "LTX 2.3 Spicy",
@@ -1649,7 +2554,60 @@
       "steam-mirror-towel"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 33.5,
+    "spicy_index_rank": 30,
+    "spicy_index_status": "preliminary",
+    "freedom": 89.2,
+    "freedom_rank": 21,
+    "freedom_status": "scored",
+    "freedom_runs": 19,
+    "tested_between": [
+     "2026-09-15",
+     "2026-09-25"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "partial": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "nude": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "explicit": {
+      "points": 16.67,
+      "max": 20,
+      "runs": 3,
+      "renders": 2
+     },
+     "extreme": {
+      "points": 12.5,
+      "max": 20,
+      "runs": 7,
+      "renders": 2
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 0.19,
+     "tier": "720p",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/ltx-2-3-spicy/report"
+   }
   },
   {
    "name": "LTX 2.3 Spicy LoRA",
@@ -1684,7 +2642,60 @@
       "strength-sweep"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 34.8,
+    "spicy_index_rank": 29,
+    "spicy_index_status": "preliminary",
+    "freedom": 83.8,
+    "freedom_rank": 23,
+    "freedom_status": "scored",
+    "freedom_runs": 19,
+    "tested_between": [
+     "2026-09-15",
+     "2026-09-25"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "partial": {
+      "points": 13.33,
+      "max": 20,
+      "runs": 3,
+      "renders": 1
+     },
+     "nude": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "explicit": {
+      "points": 16.67,
+      "max": 20,
+      "runs": 3,
+      "renders": 2
+     },
+     "extreme": {
+      "points": 13.75,
+      "max": 20,
+      "runs": 7,
+      "renders": 3
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 0.2375,
+     "tier": "720p",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/ltx-2-3-spicy-lora/report"
+   }
   },
   {
    "name": "Seedance 2.0 Fast Spicy",
@@ -1718,7 +2729,60 @@
       "pool-hall-break"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 44.5,
+    "spicy_index_rank": 25,
+    "spicy_index_status": "preliminary",
+    "freedom": 90,
+    "freedom_rank": 19,
+    "freedom_status": "scored",
+    "freedom_runs": 19,
+    "tested_between": [
+     "2026-09-15",
+     "2026-09-25"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "partial": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "nude": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "explicit": {
+      "points": 10,
+      "max": 20,
+      "runs": 3,
+      "renders": 0
+     },
+     "extreme": {
+      "points": 20,
+      "max": 20,
+      "runs": 7,
+      "renders": 7
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 0.871,
+     "tier": "720p",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/seedance-2-0-fast-spicy/report"
+   }
   },
   {
    "name": "Seedance 2.0 Fast",
@@ -1831,7 +2895,60 @@
       "high-key-tennis"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 64.5,
+    "spicy_index_rank": 11,
+    "spicy_index_status": "preliminary",
+    "freedom": 68.2,
+    "freedom_rank": 32,
+    "freedom_status": "scored",
+    "freedom_runs": 33,
+    "tested_between": [
+     "2026-09-24",
+     "2026-09-24"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 60,
+      "max": 60,
+      "runs": 9,
+      "renders": 9
+     },
+     "partial": {
+      "points": 60,
+      "max": 60,
+      "runs": 9,
+      "renders": 9
+     },
+     "nude": {
+      "points": 48,
+      "max": 60,
+      "runs": 6,
+      "renders": 6
+     },
+     "explicit": {
+      "points": 36.67,
+      "max": 60,
+      "runs": 9,
+      "renders": 2
+     },
+     "extreme": {
+      "points": 0,
+      "max": 60,
+      "runs": 0,
+      "renders": 0
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 0.4838,
+     "tier": "720p",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/seedance-2-0-fast/report"
+   }
   },
   {
    "name": "Vidu Q3 Turbo",
@@ -1865,7 +2982,60 @@
       "poolside-rise"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 39.5,
+    "spicy_index_rank": 27,
+    "spicy_index_status": "preliminary",
+    "freedom": 93.3,
+    "freedom_rank": 13,
+    "freedom_status": "scored",
+    "freedom_runs": 19,
+    "tested_between": [
+     "2026-09-16",
+     "2026-09-25"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "partial": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "nude": {
+      "points": 20,
+      "max": 20,
+      "runs": 4,
+      "renders": 4
+     },
+     "explicit": {
+      "points": 13.33,
+      "max": 20,
+      "runs": 3,
+      "renders": 1
+     },
+     "extreme": {
+      "points": 20,
+      "max": 20,
+      "runs": 6,
+      "renders": 6
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 0.33,
+     "tier": "720p",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/vidu-q3-turbo/report"
+   }
   },
   {
    "name": "Vidu Q3 Spicy",
@@ -1901,7 +3071,60 @@
       "wet-hair-lift-gaze"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 46.5,
+    "spicy_index_rank": 19,
+    "spicy_index_status": "preliminary",
+    "freedom": 96.7,
+    "freedom_rank": 7,
+    "freedom_status": "scored",
+    "freedom_runs": 19,
+    "tested_between": [
+     "2026-09-15",
+     "2026-09-25"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "partial": {
+      "points": 16.67,
+      "max": 20,
+      "runs": 3,
+      "renders": 2
+     },
+     "nude": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "explicit": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "extreme": {
+      "points": 20,
+      "max": 20,
+      "runs": 7,
+      "renders": 7
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 0.7125,
+     "tier": "720p",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/vidu-q3-spicy/report"
+   }
   },
   {
    "name": "Vidu Q3",
@@ -1936,7 +3159,60 @@
       "blind-light-reach"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 46.5,
+    "spicy_index_rank": 19,
+    "spicy_index_status": "preliminary",
+    "freedom": 93.3,
+    "freedom_rank": 13,
+    "freedom_status": "scored",
+    "freedom_runs": 19,
+    "tested_between": [
+     "2026-09-14",
+     "2026-09-25"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "partial": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "nude": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "explicit": {
+      "points": 13.33,
+      "max": 20,
+      "runs": 3,
+      "renders": 1
+     },
+     "extreme": {
+      "points": 20,
+      "max": 20,
+      "runs": 7,
+      "renders": 7
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 0.75,
+     "tier": "720p",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/vidu-q3/report"
+   }
   },
   {
    "name": "Vidu Q3 Pro",
@@ -1968,7 +3244,60 @@
       "vertical-deliverable"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 36.5,
+    "spicy_index_rank": 28,
+    "spicy_index_status": "preliminary",
+    "freedom": 93.3,
+    "freedom_rank": 13,
+    "freedom_status": "scored",
+    "freedom_runs": 19,
+    "tested_between": [
+     "2026-09-16",
+     "2026-09-25"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "partial": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "nude": {
+      "points": 20,
+      "max": 20,
+      "runs": 4,
+      "renders": 4
+     },
+     "explicit": {
+      "points": 13.33,
+      "max": 20,
+      "runs": 3,
+      "renders": 1
+     },
+     "extreme": {
+      "points": 20,
+      "max": 20,
+      "runs": 6,
+      "renders": 6
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 0.27,
+     "tier": "540p",
+     "note": "no 720p tier; nearest tier 540p",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/vidu-q3-pro/report"
+   }
   },
   {
    "name": "Seedance 1.5 Pro Spicy",
@@ -2003,7 +3332,60 @@
       "tail-sweep-arc"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 48.5,
+    "spicy_index_rank": 17,
+    "spicy_index_status": "preliminary",
+    "freedom": 96.7,
+    "freedom_rank": 7,
+    "freedom_status": "scored",
+    "freedom_runs": 19,
+    "tested_between": [
+     "2026-09-15",
+     "2026-09-25"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "partial": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "nude": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "explicit": {
+      "points": 16.67,
+      "max": 20,
+      "runs": 3,
+      "renders": 2
+     },
+     "extreme": {
+      "points": 20,
+      "max": 20,
+      "runs": 7,
+      "renders": 7
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 0.13,
+     "tier": "720p",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/seedance-1-5-pro-spicy/report"
+   }
   },
   {
    "name": "Seedance 1.5 Pro",
@@ -2062,7 +3444,60 @@
       "rehearsal-orbit"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 46,
+    "spicy_index_rank": 23,
+    "spicy_index_status": "preliminary",
+    "freedom": 90,
+    "freedom_rank": 19,
+    "freedom_status": "scored",
+    "freedom_runs": 36,
+    "tested_between": [
+     "2026-09-25",
+     "2026-09-25"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "partial": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "nude": {
+      "points": 36.67,
+      "max": 40,
+      "runs": 6,
+      "renders": 5
+     },
+     "explicit": {
+      "points": 23.33,
+      "max": 40,
+      "runs": 6,
+      "renders": 1
+     },
+     "extreme": {
+      "points": 40,
+      "max": 40,
+      "runs": 12,
+      "renders": 12
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 0.1135,
+     "tier": "720p",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/seedance-1-5-pro/report"
+   }
   },
   {
    "name": "Wan 2.6 Flash",
@@ -2096,7 +3531,60 @@
       "serum-bottle-drop"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 31.5,
+    "spicy_index_rank": 31,
+    "spicy_index_status": "preliminary",
+    "freedom": 100,
+    "freedom_rank": 1,
+    "freedom_status": "scored",
+    "freedom_runs": 19,
+    "tested_between": [
+     "2026-09-16",
+     "2026-09-25"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "partial": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "nude": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "explicit": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "extreme": {
+      "points": 20,
+      "max": 20,
+      "runs": 7,
+      "renders": 7
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 0.1125,
+     "tier": "720p",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/wan-2-6-flash/report"
+   }
   },
   {
    "name": "Wan 2.6 Spicy",
@@ -2131,7 +3619,60 @@
       "green-tub-turn-in"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 46.5,
+    "spicy_index_rank": 19,
+    "spicy_index_status": "preliminary",
+    "freedom": 96.7,
+    "freedom_rank": 7,
+    "freedom_status": "scored",
+    "freedom_runs": 19,
+    "tested_between": [
+     "2026-09-15",
+     "2026-09-25"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "partial": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "nude": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "explicit": {
+      "points": 16.67,
+      "max": 20,
+      "runs": 3,
+      "renders": 2
+     },
+     "extreme": {
+      "points": 20,
+      "max": 20,
+      "runs": 7,
+      "renders": 7
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 0.475,
+     "tier": "720p",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/wan-2-6-spicy/report"
+   }
   },
   {
    "name": "Wan 2.6",
@@ -2213,7 +3754,60 @@
       "rain-car-climb-over"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 58.5,
+    "spicy_index_rank": 15,
+    "spicy_index_status": "preliminary",
+    "freedom": 8.7,
+    "freedom_rank": 37,
+    "freedom_status": "scored",
+    "freedom_runs": 5,
+    "tested_between": [
+     "2026-09-14",
+     "2026-09-17"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 0,
+      "max": 60,
+      "runs": 0,
+      "renders": 0
+     },
+     "partial": {
+      "points": 0,
+      "max": 60,
+      "runs": 0,
+      "renders": 0
+     },
+     "nude": {
+      "points": 0,
+      "max": 60,
+      "runs": 1,
+      "renders": 0
+     },
+     "explicit": {
+      "points": 12,
+      "max": 60,
+      "runs": 1,
+      "renders": 1
+     },
+     "extreme": {
+      "points": 14,
+      "max": 60,
+      "runs": 3,
+      "renders": 3
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 0.45,
+     "tier": "720p",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/wan-2-6/report"
+   }
   },
   {
    "name": "Wan 2.5",
@@ -2272,7 +3866,60 @@
       "dressing-room-robe"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 46,
+    "spicy_index_rank": 23,
+    "spicy_index_status": "preliminary",
+    "freedom": 99,
+    "freedom_rank": 4,
+    "freedom_status": "scored",
+    "freedom_runs": 39,
+    "tested_between": [
+     "2026-09-16",
+     "2026-09-25"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "partial": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "nude": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "explicit": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "extreme": {
+      "points": 38,
+      "max": 40,
+      "runs": 15,
+      "renders": 13
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 0.45,
+     "tier": "720p",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/wan-2-5/report"
+   }
   },
   {
    "name": "Wan 2.2 Spicy",
@@ -2305,7 +3952,60 @@
       "one-pace-closer"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 23.5,
+    "spicy_index_rank": 34,
+    "spicy_index_status": "preliminary",
+    "freedom": 91.2,
+    "freedom_rank": 18,
+    "freedom_status": "scored",
+    "freedom_runs": 19,
+    "tested_between": [
+     "2026-09-16",
+     "2026-09-25"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "partial": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "nude": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "explicit": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "extreme": {
+      "points": 11.25,
+      "max": 20,
+      "runs": 7,
+      "renders": 1
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 0.19,
+     "tier": "720p",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/wan-2-2-spicy/report"
+   }
   },
   {
    "name": "Wan 2.2 Spicy LoRA",
@@ -2361,7 +4061,60 @@
       "closing-hold"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 25,
+    "spicy_index_rank": 33,
+    "spicy_index_status": "preliminary",
+    "freedom": 74.8,
+    "freedom_rank": 29,
+    "freedom_status": "scored",
+    "freedom_runs": 26,
+    "tested_between": [
+     "2026-09-14",
+     "2026-09-25"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 32,
+      "max": 40,
+      "runs": 4,
+      "renders": 4
+     },
+     "partial": {
+      "points": 32,
+      "max": 40,
+      "runs": 4,
+      "renders": 4
+     },
+     "nude": {
+      "points": 32,
+      "max": 40,
+      "runs": 4,
+      "renders": 4
+     },
+     "explicit": {
+      "points": 22,
+      "max": 40,
+      "runs": 4,
+      "renders": 1
+     },
+     "extreme": {
+      "points": 31.5,
+      "max": 40,
+      "runs": 10,
+      "renders": 8
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 0.24,
+     "tier": "720p",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/wan-2-2-spicy-lora/report"
+   }
   },
   {
    "name": "Wan 2.2 LoRA",
@@ -2394,7 +4147,60 @@
       "ink-brush-sword-form"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 22.5,
+    "spicy_index_rank": 35,
+    "spicy_index_status": "preliminary",
+    "freedom": 88.8,
+    "freedom_rank": 22,
+    "freedom_status": "scored",
+    "freedom_runs": 19,
+    "tested_between": [
+     "2026-09-15",
+     "2026-09-25"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "partial": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "nude": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "explicit": {
+      "points": 13.33,
+      "max": 20,
+      "runs": 3,
+      "renders": 1
+     },
+     "extreme": {
+      "points": 15.42,
+      "max": 20,
+      "runs": 7,
+      "renders": 4
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_5s_clip",
+     "usd": 0.24,
+     "tier": "720p",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/wan-2-2-lora/report"
+   }
   },
   {
    "name": "Qwen Image 2.1",
@@ -2446,7 +4252,60 @@
       "two-figures-one-sheet"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 73,
+    "spicy_index_rank": 4,
+    "spicy_index_status": "preliminary",
+    "freedom": 96.3,
+    "freedom_rank": 7,
+    "freedom_status": "scored",
+    "freedom_runs": 34,
+    "tested_between": [
+     "2026-09-22",
+     "2026-09-24"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "partial": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "nude": {
+      "points": 36,
+      "max": 40,
+      "runs": 5,
+      "renders": 5
+     },
+     "explicit": {
+      "points": 36.67,
+      "max": 40,
+      "runs": 6,
+      "renders": 5
+     },
+     "extreme": {
+      "points": 40,
+      "max": 40,
+      "runs": 12,
+      "renders": 12
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_image",
+     "usd": 0.024,
+     "tier": "1k",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/qwen-image-2-1/report"
+   }
   },
   {
    "name": "Qwen Image 2.1 LoRA",
@@ -2499,7 +4358,60 @@
       "two-weights-stacked"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 80.5,
+    "spicy_index_rank": 1,
+    "spicy_index_status": "preliminary",
+    "freedom": 92,
+    "freedom_rank": 14,
+    "freedom_status": "scored",
+    "freedom_runs": 32,
+    "tested_between": [
+     "2026-09-21",
+     "2026-09-24"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "partial": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "nude": {
+      "points": 24,
+      "max": 40,
+      "runs": 2,
+      "renders": 2
+     },
+     "explicit": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "extreme": {
+      "points": 40,
+      "max": 40,
+      "runs": 12,
+      "renders": 12
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_image",
+     "usd": 0.03,
+     "tier": "1k",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/qwen-image-2-1-lora/report"
+   }
   },
   {
    "name": "MiniMax H3 Image LoRA",
@@ -2547,7 +4459,60 @@
       "hotel-window-dawn-still"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 74.5,
+    "spicy_index_rank": 2,
+    "spicy_index_status": "preliminary",
+    "freedom": 100,
+    "freedom_rank": 1,
+    "freedom_status": "scored",
+    "freedom_runs": 38,
+    "tested_between": [
+     "2026-09-26",
+     "2026-09-27"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "partial": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "nude": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "explicit": {
+      "points": 40,
+      "max": 40,
+      "runs": 8,
+      "renders": 8
+     },
+     "extreme": {
+      "points": 40,
+      "max": 40,
+      "runs": 12,
+      "renders": 12
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_image",
+     "usd": 0.042,
+     "tier": "1k",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/minimax-h3-image-lora/report"
+   }
   },
   {
    "name": "Qwen Image 3.0 Pro",
@@ -2602,7 +4567,60 @@
       "salt-crystal-fragrance"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 56,
+    "spicy_index_rank": 9,
+    "spicy_index_status": "preliminary",
+    "freedom": 98,
+    "freedom_rank": 5,
+    "freedom_status": "scored",
+    "freedom_runs": 35,
+    "tested_between": [
+     "2026-09-23",
+     "2026-09-24"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "partial": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "nude": {
+      "points": 36,
+      "max": 40,
+      "runs": 5,
+      "renders": 5
+     },
+     "explicit": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "extreme": {
+      "points": 40,
+      "max": 40,
+      "runs": 12,
+      "renders": 12
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_image",
+     "usd": 0.04,
+     "tier": "1k",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/qwen-image-3-0-pro/report"
+   }
   },
   {
    "name": "Qwen Image 3.0",
@@ -2659,7 +4677,60 @@
       "bookshop-cat-on-duty"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 56,
+    "spicy_index_rank": 9,
+    "spicy_index_status": "preliminary",
+    "freedom": 96,
+    "freedom_rank": 8,
+    "freedom_status": "scored",
+    "freedom_runs": 34,
+    "tested_between": [
+     "2026-09-24",
+     "2026-09-24"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "partial": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "nude": {
+      "points": 32,
+      "max": 40,
+      "runs": 4,
+      "renders": 4
+     },
+     "explicit": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "extreme": {
+      "points": 40,
+      "max": 40,
+      "runs": 12,
+      "renders": 12
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_image",
+     "usd": 0.03,
+     "tier": "1k",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/qwen-image-3-0/report"
+   }
   },
   {
    "name": "Seedream 5.0 Pro",
@@ -2719,7 +4790,60 @@
       "dust-storm-tailoring"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 73,
+    "spicy_index_rank": 4,
+    "spicy_index_status": "preliminary",
+    "freedom": 94.3,
+    "freedom_rank": 12,
+    "freedom_status": "scored",
+    "freedom_runs": 34,
+    "tested_between": [
+     "2026-09-14",
+     "2026-09-24"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "partial": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "nude": {
+      "points": 32,
+      "max": 40,
+      "runs": 4,
+      "renders": 4
+     },
+     "explicit": {
+      "points": 36.67,
+      "max": 40,
+      "runs": 6,
+      "renders": 5
+     },
+     "extreme": {
+      "points": 40,
+      "max": 40,
+      "runs": 12,
+      "renders": 12
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_image",
+     "usd": 0.036,
+     "tier": "1k",
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/seedream-5-0-pro/report"
+   }
   },
   {
    "name": "Qwen Image Edit Spicy",
@@ -2747,7 +4871,59 @@
       "midday-to-candlelit"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 14,
+    "spicy_index_rank": 22,
+    "spicy_index_status": "preliminary",
+    "freedom": 96,
+    "freedom_rank": 8,
+    "freedom_status": "scored",
+    "freedom_runs": 18,
+    "tested_between": [
+     "2026-09-15",
+     "2026-09-25"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 16,
+      "max": 20,
+      "runs": 2,
+      "renders": 2
+     },
+     "partial": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "nude": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "explicit": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "extreme": {
+      "points": 20,
+      "max": 20,
+      "runs": 7,
+      "renders": 7
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_image",
+     "usd": 0.038,
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/qwen-image-spicy-edit/report"
+   }
   },
   {
    "name": "Seedream 5.0 Lite",
@@ -2796,7 +4972,59 @@
       "silver-silk-rooftop"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 73,
+    "spicy_index_rank": 4,
+    "spicy_index_status": "preliminary",
+    "freedom": 96,
+    "freedom_rank": 8,
+    "freedom_status": "scored",
+    "freedom_runs": 34,
+    "tested_between": [
+     "2026-09-24",
+     "2026-09-24"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "partial": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "nude": {
+      "points": 32,
+      "max": 40,
+      "runs": 4,
+      "renders": 4
+     },
+     "explicit": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "extreme": {
+      "points": 40,
+      "max": 40,
+      "runs": 12,
+      "renders": 12
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_image",
+     "usd": 0.0345,
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/seedream-5-0-lite/report"
+   }
   },
   {
    "name": "Qwen Image 2",
@@ -2844,7 +5072,59 @@
       "supper-club-singer"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 34,
+    "spicy_index_rank": 16,
+    "spicy_index_status": "preliminary",
+    "freedom": 96.7,
+    "freedom_rank": 6,
+    "freedom_status": "scored",
+    "freedom_runs": 36,
+    "tested_between": [
+     "2026-09-25",
+     "2026-09-25"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "partial": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "nude": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "explicit": {
+      "points": 33.33,
+      "max": 40,
+      "runs": 6,
+      "renders": 4
+     },
+     "extreme": {
+      "points": 40,
+      "max": 40,
+      "runs": 12,
+      "renders": 12
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_image",
+     "usd": 0.035,
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/alibaba-qwen-image-2/report"
+   }
   },
   {
    "name": "Qwen Image 2512 LoRA",
@@ -2887,7 +5167,59 @@
       "pixel-art-arcade"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 50.5,
+    "spicy_index_rank": 11,
+    "spicy_index_status": "preliminary",
+    "freedom": 92.5,
+    "freedom_rank": 13,
+    "freedom_status": "scored",
+    "freedom_runs": 38,
+    "tested_between": [
+     "2026-09-26",
+     "2026-09-27"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "partial": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "nude": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "explicit": {
+      "points": 25.0,
+      "max": 40,
+      "runs": 8,
+      "renders": 2
+     },
+     "extreme": {
+      "points": 40,
+      "max": 40,
+      "runs": 12,
+      "renders": 12
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_image",
+     "usd": 0.03,
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/qwen-image-2512-lora/report"
+   }
   },
   {
    "name": "Z-Image Spicy Pro",
@@ -2916,7 +5248,59 @@
       "backlit-curtain-shadow"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 38,
+    "spicy_index_rank": 15,
+    "spicy_index_status": "preliminary",
+    "freedom": 100,
+    "freedom_rank": 1,
+    "freedom_status": "scored",
+    "freedom_runs": 19,
+    "tested_between": [
+     "2026-09-15",
+     "2026-09-25"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "partial": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "nude": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "explicit": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "extreme": {
+      "points": 20,
+      "max": 20,
+      "runs": 7,
+      "renders": 7
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_image",
+     "usd": 0.019,
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/z-image-spicy-pro/report"
+   }
   },
   {
    "name": "Z-Image Spicy",
@@ -2945,7 +5329,59 @@
       "own-legs-pov"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 32,
+    "spicy_index_rank": 18,
+    "spicy_index_status": "preliminary",
+    "freedom": 98.8,
+    "freedom_rank": 4,
+    "freedom_status": "scored",
+    "freedom_runs": 19,
+    "tested_between": [
+     "2026-09-15",
+     "2026-09-25"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "partial": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "nude": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "explicit": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "extreme": {
+      "points": 18.75,
+      "max": 20,
+      "runs": 7,
+      "renders": 6
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_image",
+     "usd": 0.01235,
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/z-image-spicy/report"
+   }
   },
   {
    "name": "Z-Image",
@@ -2985,7 +5421,59 @@
       "vanity-mirror-before-curtain"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 17,
+    "spicy_index_rank": 21,
+    "spicy_index_status": "preliminary",
+    "freedom": 100,
+    "freedom_rank": 1,
+    "freedom_status": "scored",
+    "freedom_runs": 18,
+    "tested_between": [
+     "2026-09-25",
+     "2026-09-25"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "partial": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "nude": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "explicit": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "extreme": {
+      "points": 20,
+      "max": 20,
+      "runs": 6,
+      "renders": 6
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_image",
+     "usd": 0.01,
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/z-image/report"
+   }
   },
   {
    "name": "Z-Image Turbo LoRA",
@@ -3028,7 +5516,59 @@
       "pixel-art-rooftop-dance"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 46.5,
+    "spicy_index_rank": 12,
+    "spicy_index_status": "preliminary",
+    "freedom": 95,
+    "freedom_rank": 11,
+    "freedom_status": "scored",
+    "freedom_runs": 38,
+    "tested_between": [
+     "2026-09-26",
+     "2026-09-27"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "partial": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "nude": {
+      "points": 40,
+      "max": 40,
+      "runs": 7,
+      "renders": 7
+     },
+     "explicit": {
+      "points": 30,
+      "max": 40,
+      "runs": 7,
+      "renders": 4
+     },
+     "extreme": {
+      "points": 40,
+      "max": 40,
+      "runs": 12,
+      "renders": 12
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_image",
+     "usd": 0.012,
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/z-image-turbo-lora/report"
+   }
   },
   {
    "name": "Seedream 4.0",
@@ -3076,7 +5616,59 @@
       "glasshouse-moth-orchids"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 74,
+    "spicy_index_rank": 3,
+    "spicy_index_status": "preliminary",
+    "freedom": 74.7,
+    "freedom_rank": 16,
+    "freedom_status": "scored",
+    "freedom_runs": 23,
+    "tested_between": [
+     "2026-09-17",
+     "2026-09-24"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "partial": {
+      "points": 40,
+      "max": 40,
+      "runs": 6,
+      "renders": 6
+     },
+     "nude": {
+      "points": 36,
+      "max": 40,
+      "runs": 5,
+      "renders": 5
+     },
+     "explicit": {
+      "points": 33.34,
+      "max": 40,
+      "runs": 6,
+      "renders": 4
+     },
+     "extreme": {
+      "points": 0,
+      "max": 40,
+      "runs": 0,
+      "renders": 0
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_image",
+     "usd": 0.03,
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/seedream-4-0/report"
+   }
   },
   {
    "name": "Prefect Pony XL",
@@ -3104,7 +5696,59 @@
       "example-autumn-shrine"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 30,
+    "spicy_index_rank": 19,
+    "spicy_index_status": "preliminary",
+    "freedom": 36,
+    "freedom_rank": 20,
+    "freedom_status": "scored",
+    "freedom_runs": 3,
+    "tested_between": [
+     "2026-09-18",
+     "2026-09-18"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 0,
+      "max": 20,
+      "runs": 0,
+      "renders": 0
+     },
+     "partial": {
+      "points": 12,
+      "max": 20,
+      "runs": 1,
+      "renders": 1
+     },
+     "nude": {
+      "points": 12,
+      "max": 20,
+      "runs": 1,
+      "renders": 1
+     },
+     "explicit": {
+      "points": 12,
+      "max": 20,
+      "runs": 1,
+      "renders": 1
+     },
+     "extreme": {
+      "points": 0,
+      "max": 20,
+      "runs": 0,
+      "renders": 0
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_image",
+     "usd": 0.015,
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/prefect-pony-xl/report"
+   }
   },
   {
    "name": "FLUX.1 Dev LoRA",
@@ -3132,7 +5776,59 @@
       "xlabs-realism-beach"
      ]
     }
-   ]
+   ],
+   "leaderboard": {
+    "spicy_index": 32.5,
+    "spicy_index_rank": 17,
+    "spicy_index_status": "preliminary",
+    "freedom": 75,
+    "freedom_rank": 15,
+    "freedom_status": "scored",
+    "freedom_runs": 21,
+    "tested_between": [
+     "2026-09-26",
+     "2026-09-27"
+    ],
+    "rungs": {
+     "suggestive": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "partial": {
+      "points": 20,
+      "max": 20,
+      "runs": 3,
+      "renders": 3
+     },
+     "nude": {
+      "points": 10,
+      "max": 20,
+      "runs": 3,
+      "renders": 0
+     },
+     "explicit": {
+      "points": 10,
+      "max": 20,
+      "runs": 6,
+      "renders": 0
+     },
+     "extreme": {
+      "points": 15,
+      "max": 20,
+      "runs": 6,
+      "renders": 3
+     }
+    },
+    "price_5s": {
+     "metric": "usd_per_image",
+     "usd": 0.018,
+     "note": "",
+     "asOf": "2026-09-27"
+    },
+    "report": "https://spicyapi.ai/reviews/flux-1-dev-lora/report"
+   }
   }
  ]
 }

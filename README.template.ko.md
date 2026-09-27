@@ -76,7 +76,7 @@
 
 {{MODEL_TABLE}}
 
-순서는 SpicyAPI 카탈로그를 따릅니다. 인기순이며, 같은 계열 안에서는 최신 버전이 먼저입니다. 🌶️ Spicy 에디션은 성인 콘텐츠 출력에 맞춰 튜닝된 버전입니다. 여기 실린 표준 모델은 카탈로그 등급이 `unrestricted`(제공업체가 필터링하지 않음)이므로 성인 프롬프트에도 쓸 수 있고, 텍스트 투 비디오와 레퍼런스 투 비디오도 지원합니다. 가격은 가장 저렴한 등급 기준이며, 정확한 정보는 항상 모델 페이지를 기준으로 하세요. 실패한 생성은 자동으로 환불됩니다.
+순서는 SpicyAPI 카탈로그를 따릅니다. 인기순이며, 같은 계열 안에서는 최신 버전이 먼저입니다. 🌶️ Spicy 에디션은 성인 콘텐츠 출력에 맞춰 튜닝된 버전입니다. 여기 실린 표준 모델은 카탈로그 등급이 `unrestricted`(제공업체가 필터링하지 않음)이므로 성인 프롬프트에도 쓸 수 있고, 텍스트 투 비디오와 레퍼런스 투 비디오도 지원합니다. 가격은 가장 저렴한 등급 기준이며, 정확한 정보는 항상 모델 페이지를 기준으로 하세요. **Spicy Index**(잠정 성능 점수)와 **Freedom**(다섯 단계의 노골성 수준을 요청대로 얼마나 안정적으로 렌더링하는지)은 공개된 [SpicyAPI 리더보드](https://spicyapi.ai/ko/leaderboards?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=models-ko)에서 가져왔습니다: ✅ 90 이상 · ◐ 70–89 · ⚠️ 70 미만 · 🧪 테스트 실행 15회 미만. 실패한 생성은 자동으로 환불됩니다.
 
 ---
 
@@ -210,14 +210,20 @@ childlike proportions
 
 ## 모델별 팁
 
+SpicyAPI 테스트 결과 기준(리더보드 v2.1과 모델 리뷰, 2026-09-27):
+
+- **Wan 3.0** (초당 $0.045부터): 테스트에서 전반적으로 가장 뛰어난 NSFW 영상 모델입니다. Index 76.5, Freedom 96이며 노골적 테스트 프롬프트를 모두 렌더링했습니다. 텍스트, 스틸 이미지, 레퍼런스로 2–30초 영상을 사운드와 함께 만듭니다. 프롬프트보다 수위가 더 높아질 수 있으니 마지막 몇 초를 확인하세요. 레퍼런스 투 비디오는 실제 얼굴 사진을 거부합니다.
+- **Seedance 2.5 Spicy** (초당 $0.216부터): 스틸 이미지에서 가장 높은 단계까지 가장 과감하게 표현하며, 최대 4K를 지원합니다. 표준 **Seedance 2.5**는 긴 스크립트를 가장 충실하게 따르고(노골적 8/9) 더 저렴합니다.
+- **MiniMax H3 LoRA / Singularity LoRA**: 직접 준비한 LoRA로 Freedom 98.3 / 100. 빠른 액션과 멀리 있는 얼굴에는 Singularity를 쓰세요.
+- **표준 Seedance 2.0 / 2.0 Fast / 2.0 Mini**는 테스트에서 노골적 프롬프트를 순화했습니다(9개 중 노골적 0–2개). 성인용 클립에는 🌶️ Spicy 에디션을 쓰세요.
 - **Seedance 2.5 / Seedance 2.0 / Wan 3.0 (표준, unrestricted)**: 텍스트 투 비디오나 레퍼런스 투 비디오(`@Image1`의 캐릭터를 새 장면에 넣기)가 필요할 때 쓰세요. 성인 프롬프트를 받아들이지만 Spicy 에디션처럼 노골적인 출력에 맞춰 튜닝되어 있지는 않습니다.
-- **Wan 2.2 Spicy** (초당 $0.019부터): 길이는 정확히 5초 또는 8초입니다. `last_image_url`로 마지막 장면을 고정할 수 있고 `enable_prompt_expansion`을 지원합니다. 초안은 480p, 최종본은 720p로 만드세요.
+- **Wan 2.2 Spicy** (초당 $0.019부터): 가장 저렴한 Wan Spicy이며, 가장 높은 단계는 가끔 순화됩니다. 길이는 정확히 5초 또는 8초입니다. `last_image_url`로 마지막 장면을 고정할 수 있고 `enable_prompt_expansion`을 지원합니다. 초안은 480p, 최종본은 720p로 만드세요.
 - **Wan 2.2 Spicy LoRA** (초당 $0.024부터): `loras`, `high_noise_loras`(구도, 모션), `low_noise_loras`(질감, 디테일)로 LoRA를 최대 3개까지 쓸 수 있습니다. `video-extend` 엔드포인트는 같은 LoRA로 클립을 이어서 생성합니다.
-- **LTX 2.3 Spicy** (초당 $0.019부터): 한 번에 최대 20초, 프롬프트는 선택 사항입니다. 길고 잔잔한 테이크에 좋습니다.
+- **LTX 2.3 Spicy** (초당 $0.019부터): 한 번에 3–20초, 프롬프트는 선택 사항입니다. 길고 잔잔한 테이크에 좋으며, 최상위 단계는 Wan Spicy보다 더 자주 순화됩니다.
 - **Seedance 1.5 Pro Spicy** (초당 $0.012부터): `camera_fixed`로 카메라를 고정합니다. 시네마그래프를 만들기에 가장 저렴한 엔진입니다.
-- **Seedance 2.0 Mini / Fast / 2.0 Spicy**: 첫 프레임 + 마지막 프레임, 선택형 오디오 생성, 비용 대비 가장 강력한 모션 일관성. 2.0 Spicy는 최대 4K까지 지원합니다.
-- **Seedance 2.5 Spicy** (초당 $0.216부터): 4–30초 테이크, 네이티브 최대 1080p. 최종본이나 어려운 모션(들어 올리기, 두 사람의 신체 접촉)에 쓰세요.
-- **MiniMax H3 Spicy** (초당 $0.038부터): 자연스러운 전신 모션, 3–15초, 프롬프트는 선택 사항입니다.
+- **Seedance 2.0 Spicy / Mini Spicy / Fast Spicy**: 첫 프레임 + 마지막 프레임, 선택형 오디오 생성. 2.0 Spicy는 최대 4K까지 지원합니다(Freedom 93.3). Mini Spicy와 Fast Spicy는 테스트에서 노골적 단계를 덜 안정적으로 처리했으므로(1/3, 0/3), 노골적인 샷에는 2.0 Spicy나 Seedance 2.5 Spicy를 쓰세요.
+- **Seedance 2.5 Spicy** 세부 정보: 4–30초 테이크, 네이티브 최대 1080p에 4K 등급도 있습니다. 최종본이나 어려운 모션(들어 올리기, 두 사람의 신체 접촉)에 쓰세요.
+- **MiniMax H3 Spicy** (초당 $0.038부터, Freedom 97.5): 자연스러운 전신 모션, 3–15초, 프롬프트는 선택 사항이며 대량 생성에 좋습니다. 표준 MiniMax H3는 더 저렴하고 테스트 클립 14개가 모두 요청대로 나왔습니다(점수는 더 넓은 범위의 테스트가 끝나야 확정됩니다).
 - **Vidu Q3 Spicy** (초당 $0.0665부터): 애니메이션과 스타일화된 모션. `movement_amplitude`로 움직임의 크기를 조절합니다.
 - **Wan 2.6 Spicy / Wan 2.7 Spicy**: `negative_prompt`와 직접 준비한 `audio_url`을 지원합니다. Wan 2.6에는 멀티샷용 `shot_type`이 있고, Wan 2.7은 오디오를 생성할 수 있습니다.
 
@@ -228,13 +234,13 @@ childlike proportions
 ```
 1. First frame   → Qwen Image 2.1 (photoreal, from $0.024) or Prefect Pony XL (anime)
 2. Fix details   → Qwen Image Edit Spicy (change outfit, pose, lighting with one instruction)
-3. Draft motion  → Wan 2.2 Spicy or LTX 2.3 Spicy at 480p, 3–5 variations
-4. Final render  → the best draft's prompt on Seedance 2.0 Spicy / 2.5 Spicy or Wan 2.6 Spicy at 720p–1080p
+3. Draft motion  → Wan 2.6 Flash, Seedance 1.5 Pro Spicy or Wan 2.2 Spicy at 480p, 3–5 variations
+4. Final render  → the best draft's prompt on Wan 3.0, Seedance 2.5 Spicy or Wan 2.7 Spicy at 720p–1080p
 5. Extend        → Wan 2.2 Spicy LoRA video-extend, or last-frame chaining
 6. Polish        → Video Upscaler, Lip Sync or Video Sound Effects
 ```
 
-이 방식으로 만드는 일반적인 5초 클립의 비용은 약 **$0.024(첫 프레임) + $0.29(480p 초안 3개) + $1.14(720p Seedance 2.0 Spicy 최종본 1개) ≈ $1.45**입니다.
+이 방식으로 만드는 일반적인 5초 클립의 비용은 약 **$0.024(첫 프레임) + $0.29(480p Wan 2.2 Spicy 초안 3개) + $0.45(720p Wan 3.0 최종본 1개) ≈ $0.76**입니다.
 
 ---
 
@@ -322,7 +328,7 @@ Given a short idea and a description of the first frame, return ONE prompt of 40
 좋은 첫 프레임에서 시작한 다음 움직임만 묘사하세요. 주요 동작 하나, 보조 움직임 하나, 카메라, 조명이면 됩니다. 길이는 40–80단어로 유지하세요. [제대로 작동하는 NSFW 영상 프롬프트 작성법](#제대로-작동하는-nsfw-영상-프롬프트-작성법)을 참고하세요.
 
 ### NSFW 이미지 투 비디오에 가장 좋은 모델은?
-품질은 Seedance 2.5 Spicy와 Seedance 2.0 Spicy, 가격은 Wan 2.2 Spicy와 LTX 2.3 Spicy(초당 $0.019부터), 애니메이션은 Vidu Q3 Spicy, 커스텀 스타일은 Wan 2.2 Spicy LoRA입니다. [SpicyAPI 리더보드](https://spicyapi.ai/ko/leaderboards?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=faq-ko)에서 비교해 보세요.
+SpicyAPI 테스트 기준으로, 비용 대비 전반적으로 가장 좋은 결과는 **Wan 3.0**(Index 76.5, Freedom 96, 노골적 테스트 프롬프트를 모두 렌더링, 720p 5초당 $0.45), 가장 노골적인 이미지 투 비디오는 **Seedance 2.5 Spicy**, **Wan 2.7 Spicy**, **Vidu Q3 Spicy**(Freedom 96.7–100), 나만의 스타일은 **MiniMax H3 LoRA**, 저예산은 **Wan 2.6 Flash**와 **Seedance 1.5 Pro Spicy**입니다. [SpicyAPI 리더보드](https://spicyapi.ai/ko/leaderboards?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=faq-ko)에서 비교해 보세요.
 
 ### NSFW AI 영상에서 인체가 이상하게 나오는 이유는?
 대개 클립 길이에 비해 움직임이 너무 많기 때문입니다. 5초로 줄이고, 동작을 하나로 줄이고, 손은 화면 밖에 두거나 편안하게 두고, 전신 샷은 옆이나 뒤 앵글을 쓰고, 2인 장면에는 더 강력한 모델(Seedance 2.x)을 쓰세요.

@@ -78,8 +78,8 @@ def render_model_table(catalog: dict) -> str:
                             ("image", L("image_models", "**Image models** (first frames and stills)"))):
         out.append(title + "\n")
         head = (f"| {L('col_model', 'Model')} | {L('col_type', 'Type')} | {L('col_tasks', 'Tasks')} | "
-                + (f"{L('col_duration', 'Duration')} | " if modality == "video" else "") + f"{L('col_from', 'From')} |")
-        out += [head, "|---|---|---|" + ("---|" if modality == "video" else "") + "---|"]
+                + (f"{L('col_duration', 'Duration')} | " if modality == "video" else "") + f"{L('col_from', 'From')} | Spicy Index | Freedom |")
+        out += [head, "|---|---|---|" + ("---|" if modality == "video" else "") + "---|---|---|"]
         for fam in catalog["families"]:
             if fam["modality"] != modality:
                 continue
@@ -90,6 +90,17 @@ def render_model_table(catalog: dict) -> str:
             cells = [f"[{fam['name']}]({site('/models/' + fam['page'], 'model-table')})", kind, tasks]
             cells += [_duration(fam)] if modality == "video" else []
             cells.append(price)
+            lb = fam.get("leaderboard") or {}
+            si, fr = lb.get("spicy_index"), lb.get("freedom")
+            cells.append(f"{si:g}" if isinstance(si, (int, float)) else "—")
+            if isinstance(fr, (int, float)):
+                if (lb.get("freedom_runs") or 0) < 15:
+                    mark = "🧪"
+                else:
+                    mark = "✅" if fr >= 90 else ("◐" if fr >= 70 else "⚠️")
+                cells.append(f"{mark} {fr:g}")
+            else:
+                cells.append("—")
             out.append("| " + " | ".join(cells) + " |")
         out.append("")
     return "\n".join(out)

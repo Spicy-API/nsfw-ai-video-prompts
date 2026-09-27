@@ -78,7 +78,7 @@ Les prompts restent en anglais, la langue que ces modèles suivent le mieux ; le
 
 {{MODEL_TABLE}}
 
-L'ordre suit le catalogue SpicyAPI : les plus populaires d'abord, la version la plus récente d'abord. Les éditions 🌶️ Spicy sont réglées pour le contenu adulte ; les modèles Standard listés ici sont classés `unrestricted` dans le catalogue (le fournisseur ne les filtre pas) : ils fonctionnent donc aussi avec des prompts pour adultes et ajoutent le texte en vidéo et la vidéo à partir de références. Les prix indiqués sont ceux du palier le moins cher ; la page du modèle fait toujours foi. Les générations échouées sont remboursées automatiquement.
+L'ordre suit le catalogue SpicyAPI : les plus populaires d'abord, la version la plus récente d'abord. Les éditions 🌶️ Spicy sont réglées pour le contenu adulte ; les modèles Standard listés ici sont classés `unrestricted` dans le catalogue (le fournisseur ne les filtre pas) : ils fonctionnent donc aussi avec des prompts pour adultes et ajoutent le texte en vidéo et la vidéo à partir de références. Les prix indiqués sont ceux du palier le moins cher ; la page du modèle fait toujours foi. Le **Spicy Index** (score de capacités préliminaire) et le **Freedom** (la fiabilité avec laquelle cinq niveaux de contenu explicite sont rendus comme demandé) proviennent des [classements publics de SpicyAPI](https://spicyapi.ai/fr/leaderboards?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=models-fr) : ✅ 90+ · ◐ 70–89 · ⚠️ moins de 70 · 🧪 moins de 15 tests. Les générations échouées sont remboursées automatiquement.
 
 ---
 
@@ -212,14 +212,20 @@ childlike proportions
 
 ## Conseils par modèle
 
+D'après les tests de SpicyAPI (classement v2.1 et avis sur les modèles, 2026-09-27) :
+
+- **Wan 3.0** (à partir de $0.045/s) : le meilleur modèle vidéo NSFW polyvalent des tests : Index 76.5, Freedom 96, tous les prompts de test explicites rendus. Texte, image fixe ou références, 2 à 30 s avec le son. Il peut aller plus loin que votre prompt, vérifiez donc les dernières secondes ; la vidéo à partir de références refuse les photos de vrais visages.
+- **Seedance 2.5 Spicy** (à partir de $0.216/s) : c'est lui qui va le plus loin sur les niveaux les plus durs à partir d'une image fixe, jusqu'à la 4K. **Seedance 2.5** standard reste le plus fidèle à un long script (explicite 8/9) et coûte moins cher.
+- **MiniMax H3 LoRA / Singularity LoRA** : Freedom 98.3 / 100 avec vos propres LoRA ; Singularity pour l'action rapide et les visages lointains.
+- **Seedance 2.0 / 2.0 Fast / 2.0 Mini standard** : ils adoucissent les prompts explicites en test (explicite 0 à 2 sur 9) ; utilisez leurs éditions 🌶️ Spicy pour les clips pour adultes.
 - **Seedance 2.5 / Seedance 2.0 / Wan 3.0 (standard, unrestricted)** : à utiliser pour le texte en vidéo ou la vidéo à partir de références (placer votre personnage de `@Image1` dans une nouvelle scène). Ils acceptent les prompts pour adultes mais ne sont pas réglés pour le contenu explicite comme les éditions Spicy.
-- **Wan 2.2 Spicy** (à partir de $0.019/s) : durées de 5 ou 8 secondes exactement. Accepte `last_image_url` pour fixer la fin, et `enable_prompt_expansion`. Brouillons en 480p, version finale en 720p.
+- **Wan 2.2 Spicy** (à partir de $0.019/s) : le Wan Spicy le moins cher ; le niveau le plus élevé est parfois adouci. Durées de 5 ou 8 secondes exactement. Accepte `last_image_url` pour fixer la fin, et `enable_prompt_expansion`. Brouillons en 480p, version finale en 720p.
 - **Wan 2.2 Spicy LoRA** (à partir de $0.024/s) : jusqu'à trois LoRA via `loras`, `high_noise_loras` (composition, mouvement) et `low_noise_loras` (texture, détails). L'endpoint `video-extend` prolonge un clip avec les mêmes LoRA.
-- **LTX 2.3 Spicy** (à partir de $0.019/s) : jusqu'à 20 secondes par appel, prompt facultatif. Bien pour les plans longs et calmes.
+- **LTX 2.3 Spicy** (à partir de $0.019/s) : 3 à 20 secondes par appel, prompt facultatif. Bien pour les plans longs et calmes ; le niveau le plus élevé est plus souvent adouci que sur Wan Spicy.
 - **Seedance 1.5 Pro Spicy** (à partir de $0.012/s) : `camera_fixed` bloque la caméra. Le moteur le moins cher pour les cinemagraphs.
-- **Seedance 2.0 Mini / Fast / 2.0 Spicy** : première + dernière image, audio généré en option, meilleure cohérence du mouvement par dollar dépensé. 2.0 Spicy monte jusqu'à la 4K.
-- **Seedance 2.5 Spicy** (à partir de $0.216/s) : plans de 4 à 30 secondes, jusqu'à 1080p natif. À utiliser pour les versions finales et les mouvements difficiles (porter quelqu'un, contact entre deux personnes).
-- **MiniMax H3 Spicy** (à partir de $0.038/s) : mouvement naturel du corps entier, 3 à 15 secondes, prompt facultatif.
+- **Seedance 2.0 Spicy / Mini Spicy / Fast Spicy** : première + dernière image, audio généré en option. 2.0 Spicy monte jusqu'à la 4K (Freedom 93.3) ; Mini Spicy et Fast Spicy ont rendu le niveau explicite de façon moins fiable en test (1/3 et 0/3) : préférez 2.0 Spicy ou Seedance 2.5 Spicy pour les plans explicites.
+- **Seedance 2.5 Spicy**, en détail : plans de 4 à 30 secondes, jusqu'à 1080p natif avec un palier 4K. À utiliser pour les versions finales et les mouvements difficiles (porter quelqu'un, contact entre deux personnes).
+- **MiniMax H3 Spicy** (à partir de $0.038/s, Freedom 97.5) : mouvement naturel du corps entier, 3 à 15 secondes, prompt facultatif ; bien pour le volume. MiniMax H3 standard est moins cher et ses 14 clips de test sont tous sortis comme demandé (son score attend une couverture plus complète).
 - **Vidu Q3 Spicy** (à partir de $0.0665/s) : anime et mouvement stylisé ; `movement_amplitude` règle l'ampleur du mouvement.
 - **Wan 2.6 Spicy / Wan 2.7 Spicy** : acceptent `negative_prompt` et votre propre `audio_url` ; Wan 2.6 propose `shot_type` pour le multi-plans, Wan 2.7 peut générer l'audio.
 
@@ -230,13 +236,13 @@ childlike proportions
 ```
 1. Première image    → Qwen Image 2.1 (photoréaliste, à partir de $0.024) ou Prefect Pony XL (anime)
 2. Corriger          → Qwen Image Edit Spicy (changer tenue, pose, éclairage en une instruction)
-3. Brouillons        → Wan 2.2 Spicy ou LTX 2.3 Spicy en 480p, 3 à 5 variantes
-4. Rendu final       → le prompt du meilleur brouillon sur Seedance 2.0 Spicy / 2.5 Spicy ou Wan 2.6 Spicy en 720p–1080p
+3. Brouillons        → Wan 2.6 Flash, Seedance 1.5 Pro Spicy ou Wan 2.2 Spicy en 480p, 3 à 5 variantes
+4. Rendu final       → le prompt du meilleur brouillon sur Wan 3.0, Seedance 2.5 Spicy ou Wan 2.7 Spicy en 720p–1080p
 5. Prolonger         → video-extend de Wan 2.2 Spicy LoRA, ou enchaînement par la dernière image
 6. Finitions         → Video Upscaler, Lip Sync ou Video Sound Effects
 ```
 
-Un clip typique de 5 secondes réalisé ainsi coûte environ **$0.024 (première image) + $0.29 (trois brouillons en 480p) + $1.14 (une version finale en 720p sur Seedance 2.0 Spicy) ≈ $1.45**.
+Un clip typique de 5 secondes réalisé ainsi coûte environ **$0.024 (première image) + $0.29 (trois brouillons Wan 2.2 Spicy en 480p) + $0.45 (une version finale en 720p sur Wan 3.0) ≈ $0.76**.
 
 ---
 
@@ -324,7 +330,7 @@ Des prompts courts, avec une seule action et un mouvement de caméra nommé : vo
 Partez d'une première image solide, puis décrivez uniquement le mouvement : une action principale, un mouvement secondaire, la caméra et la lumière. Restez entre 40 et 80 mots. Voir [Comment écrire un prompt vidéo NSFW qui fonctionne](#comment-écrire-un-prompt-vidéo-nsfw-qui-fonctionne).
 
 ### Quel est le meilleur modèle pour l'image en vidéo NSFW ?
-Pour la qualité, Seedance 2.5 Spicy et Seedance 2.0 Spicy. Pour le prix, Wan 2.2 Spicy et LTX 2.3 Spicy (à partir de $0.019/s). Pour l'anime, Vidu Q3 Spicy. Pour des styles personnalisés, Wan 2.2 Spicy LoRA. Comparez-les sur les [classements SpicyAPI](https://spicyapi.ai/fr/leaderboards?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=faq-fr).
+D'après les tests de SpicyAPI : **Wan 3.0** pour le meilleur résultat polyvalent par dollar (Index 76.5, Freedom 96, tous les prompts de test explicites rendus, $0.45 les 5 s en 720p) ; **Seedance 2.5 Spicy**, **Wan 2.7 Spicy** et **Vidu Q3 Spicy** (Freedom 96.7–100) pour l'image en vidéo la plus explicite ; **MiniMax H3 LoRA** pour vos propres styles ; **Wan 2.6 Flash** et **Seedance 1.5 Pro Spicy** pour les petits budgets. Comparez-les sur les [classements SpicyAPI](https://spicyapi.ai/fr/leaderboards?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=faq-fr).
 
 ### Pourquoi l'anatomie est-elle ratée dans mes vidéos IA NSFW ?
 En général, il y a trop de mouvement pour la durée du clip. Réduisez à 5 secondes et à une seule action, gardez les mains détendues ou hors champ, préférez les angles de côté ou de dos pour les plans en pied, et choisissez un modèle plus puissant (Seedance 2.x) pour les scènes à deux.
