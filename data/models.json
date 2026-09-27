@@ -27,6 +27,30 @@
       ],
       "note": "$0.024 at 1k, $0.048 at 1.5k/2k"
     },
+    "qwen21lora": {
+      "id": "alibaba/qwen-image-2.1-lora/text-to-image",
+      "name": "Qwen Image 2.1 LoRA",
+      "page": "qwen-image-2-1-lora",
+      "per_image": 0.03,
+      "aspect_ratios": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "21:9",
+        "9:21",
+        "2:1",
+        "1:2",
+        "3:1",
+        "1:3",
+        "5:4",
+        "4:5"
+      ],
+      "note": "$0.03 at 1k; up to three LoRAs via `loras`"
+    },
     "wan22": {
       "id": "alibaba/wan-2.2-spicy/image-to-video",
       "name": "Wan 2.2 Spicy",

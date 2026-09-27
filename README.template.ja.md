@@ -234,7 +234,7 @@ SpicyAPI のテスト結果より（リーダーボード v2.1 とモデルレ�
 ## 画像から動画へのパイプライン
 
 ```
-1. First frame   → Qwen Image 2.1 (photoreal, from $0.024) or Prefect Pony XL (anime)
+1. First frame   → Qwen Image 2.1 (photoreal, from $0.024) or Qwen Image 2.1 LoRA + an anime LoRA (anime)
 2. Fix details   → Qwen Image Edit Spicy (change outfit, pose, lighting with one instruction)
 3. Draft motion  → Wan 2.6 Flash, Seedance 1.5 Pro Spicy or Wan 2.2 Spicy at 480p, 3–5 variations
 4. Final render  → the best draft's prompt on Wan 3.0, Seedance 2.5 Spicy or Wan 2.7 Spicy at 720p–1080p
@@ -242,7 +242,7 @@ SpicyAPI のテスト結果より（リーダーボード v2.1 とモデルレ�
 6. Polish        → Video Upscaler, Lip Sync or Video Sound Effects
 ```
 
-手順：① 開始フレームを作る（フォトリアルなら Qwen Image 2.1、アニメなら Prefect Pony XL）→ ② Qwen Image Edit Spicy で細部を直す（服装、ポーズ、ライティングを指示 1 つで変更）→ ③ Wan 2.6 Flash、Seedance 1.5 Pro Spicy、Wan 2.2 Spicy のいずれかの 480p で 3〜5 パターンの下書き → ④ いちばん良い下書きのプロンプトを Wan 3.0、Seedance 2.5 Spicy、Wan 2.7 Spicy のいずれかの 720p〜1080p で仕上げ → ⑤ Wan 2.2 Spicy LoRA の video-extend か最後のフレームをつないで延長 → ⑥ Video Upscaler、Lip Sync、Video Sound Effects で仕上げ。
+手順：① 開始フレームを作る（フォトリアルなら Qwen Image 2.1、アニメなら Qwen Image 2.1 LoRA＋アニメ LoRA）→ ② Qwen Image Edit Spicy で細部を直す（服装、ポーズ、ライティングを指示 1 つで変更）→ ③ Wan 2.6 Flash、Seedance 1.5 Pro Spicy、Wan 2.2 Spicy のいずれかの 480p で 3〜5 パターンの下書き → ④ いちばん良い下書きのプロンプトを Wan 3.0、Seedance 2.5 Spicy、Wan 2.7 Spicy のいずれかの 720p〜1080p で仕上げ → ⑤ Wan 2.2 Spicy LoRA の video-extend か最後のフレームをつないで延長 → ⑥ Video Upscaler、Lip Sync、Video Sound Effects で仕上げ。
 
 この流れで 5 秒の動画を 1 本作ると、おおよそ **$0.024（開始フレーム）+ $0.29（Wan 2.2 Spicy の 480p 下書き 3 本）+ $0.45（Wan 3.0 の 720p 仕上げ 1 本）≈ $0.76** です。
 
@@ -360,6 +360,7 @@ SpicyAPI（{{READ_ON}} のカタログ）では、5 秒の動画 1 本が $0.06�
 ## 関連リポジトリ
 
 - **[awesome-nsfw-ai](https://github.com/Spicy-API/awesome-nsfw-ai/blob/main/README.ja.md)**：無修正の AI 画像・動画・テキストツール、API、モデルをまとめたリスト。
+- **[nsfw-ai-image-prompts](https://github.com/Spicy-API/nsfw-ai-image-prompts/blob/main/README.ja.md)**：NSFW 画像プロンプトと編集プロンプト 104 本。より良い開始フレームを作れます。
 - **[nsfw-ai-skill](https://github.com/Spicy-API/nsfw-ai-skill/blob/main/README.ja.md)**：Claude Code、Cursor、Codex などのエージェントから NSFW の画像や動画を生成。
 - 機械可読なデータ：[`data/video-prompts.json`](data/video-prompts.json)、[`data/image-prompts.json`](data/image-prompts.json)、[`data/showcase.json`](data/showcase.json)。
 

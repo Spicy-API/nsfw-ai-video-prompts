@@ -1722,7 +1722,7 @@ At a candlelit Venetian masquerade, an adult woman in a gold lace mask and a low
 
 ### 애니메이션 & 헨타이 스타일
 
-여기 나오는 모든 캐릭터는 명확하게 성인으로 디자인되어 있습니다. Prefect Pony XL로 첫 프레임을 만든 뒤 Vidu Q3 Spicy나 Wan 2.2 Spicy로 움직임을 입히세요.
+여기 나오는 모든 캐릭터는 명확하게 성인으로 디자인되어 있습니다. Qwen Image 2.1 LoRA로 첫 프레임을 만든 뒤 Vidu Q3 Spicy나 Wan 2.2 Spicy로 움직임을 입히세요.
 
 #### A01 · 밤의 온천 (애니)
 
@@ -2136,7 +2136,7 @@ Smooth, natural transition from the opening pose to the closing pose. Subject mo
 |---|---|---|---|
 | [Wan 2.2 Spicy LoRA](https://spicyapi.ai/ko/models/wan-2-2-spicy-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=l01-ko) | 480p · 5 s · 16:9 | $0.12 | 중급 |
 
-**첫 프레임:** Prefect Pony XL로 생성한, 창가에 선 애니 스타일 성인 여성.  
+**첫 프레임:** Qwen Image 2.1 LoRA로 생성한, 창가에 선 애니 스타일 성인 여성.  
 **팁:** 애니 LoRA를 high_noise_loras에 넣어 구도를 잡으세요. 강도는 0.8부터 시작하는 것이 좋습니다.
 
 #### L02 · 필름 사진 LoRA
@@ -2209,7 +2209,7 @@ Continue the motion naturally from the last frame. Same subject, same wardrobe, 
 
 ## 첫 프레임 이미지 프롬프트
 
-이미지 투 비디오의 결과물은 첫 프레임의 품질을 넘기 어렵습니다. 아래 프롬프트는 움직임을 입히기 좋은, 깔끔하고 조명이 좋은 성인 피사체의 첫 프레임을 만듭니다. 피사체는 한 명(또는 확실히 떨어져 있는 커플), 배경은 단순하게, 손은 편안하게, 얼굴은 가리지 않거나 의도적으로 가립니다. 실사 첫 프레임은 SpicyAPI에서 추천하는 무검열 이미지 모델인 Qwen Image 2.1을, 애니 프레임은 Prefect Pony XL을 사용합니다.
+이미지 투 비디오의 결과물은 첫 프레임의 품질을 넘기 어렵습니다. 아래 프롬프트는 움직임을 입히기 좋은, 깔끔하고 조명이 좋은 성인 피사체의 첫 프레임을 만듭니다. 피사체는 한 명(또는 확실히 떨어져 있는 커플), 배경은 단순하게, 손은 편안하게, 얼굴은 가리지 않거나 의도적으로 가립니다. 실사 첫 프레임은 SpicyAPI에서 추천하는 무검열 이미지 모델인 Qwen Image 2.1을, 애니 프레임은 Qwen Image 2.1 LoRA을 사용합니다.
 
 #### R01 · 창가 빛 부두아
 
@@ -2334,42 +2334,42 @@ Baroque masquerade photograph of an adult woman in a gold lace mask and a low-ba
 #### R16 · 애니 온천
 
 ```text
-score_9, score_8_up, anime style, 1woman, adult, mature female, long purple hair, towel, outdoor hot spring, night, steam, cherry blossoms, paper lanterns, soft smile, detailed background
+storybook anime illustration of an adult woman in her 20s with long purple hair relaxing in an outdoor hot spring at night, a towel wrapped around her, steam drifting, cherry petals falling on the water, paper lanterns glowing, soft smile, clean cel shading, detailed background
 ```
 
-[Prefect Pony XL](https://spicyapi.ai/ko/models/prefect-pony-xl?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=r16-ko) · `size=1216*832` · $0.015 (이미지당)
+[Qwen Image 2.1 LoRA](https://spicyapi.ai/ko/models/qwen-image-2-1-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=r16-ko) · `aspect_ratio=3:2` `resolution=1k` · LoRA: [storybook-anime LoRA](https://huggingface.co/neonforestmist/qwen-image-2512-storybook-anime-lora) (`loras=[{"path": "https://huggingface.co/neonforestmist/qwen-image-2512-storybook-anime-lora/resolve/main/qwen_image_2512_storybook_anime_lora.safetensors", "scale": 1}]`) · $0.03 (이미지당)
 
 #### R17 · 애니 해변
 
 ```text
-score_9, score_8_up, anime style, 1woman, adult, mature female, short blonde hair, red bikini, beach, running, splashing water, summer sky, vibrant colors, dynamic pose
+storybook anime illustration of an adult woman with short blonde hair in a red bikini running along the shoreline, water splashing around her ankles, bright summer sky, sparkling sea, dynamic pose, vivid colors
 ```
 
-[Prefect Pony XL](https://spicyapi.ai/ko/models/prefect-pony-xl?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=r17-ko) · `size=1216*832` · $0.015 (이미지당)
+[Qwen Image 2.1 LoRA](https://spicyapi.ai/ko/models/qwen-image-2-1-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=r17-ko) · `aspect_ratio=3:2` `resolution=1k` · LoRA: [storybook-anime LoRA](https://huggingface.co/neonforestmist/qwen-image-2512-storybook-anime-lora) (`loras=[{"path": "https://huggingface.co/neonforestmist/qwen-image-2512-storybook-anime-lora/resolve/main/qwen_image_2512_storybook_anime_lora.safetensors", "scale": 1}]`) · $0.03 (이미지당)
 
 #### R18 · 애니 데몬 퀸
 
 ```text
-score_9, score_8_up, anime style, 1woman, adult, mature female, demon queen, horns, red eyes, tail, black lace outfit, throne room, purple fire braziers, dramatic lighting, confident expression
+watercolor anime of an adult demon queen with curved horns, red eyes and a slender tail, wearing a black lace outfit, seated in a throne room lit by purple fire braziers, confident expression, deep ink shadows, oxblood and violet washes
 ```
 
-[Prefect Pony XL](https://spicyapi.ai/ko/models/prefect-pony-xl?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=r18-ko) · `size=832*1216` · $0.015 (이미지당)
+[Qwen Image 2.1 LoRA](https://spicyapi.ai/ko/models/qwen-image-2-1-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=r18-ko) · `aspect_ratio=2:3` `resolution=1k` · LoRA: [watercolor-anime LoRA](https://huggingface.co/neonforestmist/qwen-image-2512-watercolor-anime-lora) (`loras=[{"path": "https://huggingface.co/neonforestmist/qwen-image-2512-watercolor-anime-lora/resolve/main/qwen_image_2512_watercolor_anime_lora.safetensors", "scale": 1}]`) · $0.03 (이미지당)
 
 #### R19 · 애니 은발 캐릭터의 침실
 
 ```text
-score_9, score_8_up, anime style, 1woman, adult, mature female, long silver hair, oversized shirt, lying on side, bed, propped on elbow, afternoon light, curtains, soft smile, detailed room
+storybook anime illustration of an adult woman with long silver hair lying on her side on a bed in an oversized shirt, propped on one elbow, afternoon light through curtains, soft smile, cozy detailed room, soft cel shading
 ```
 
-[Prefect Pony XL](https://spicyapi.ai/ko/models/prefect-pony-xl?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=r19-ko) · `size=1216*832` · $0.015 (이미지당)
+[Qwen Image 2.1 LoRA](https://spicyapi.ai/ko/models/qwen-image-2-1-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=r19-ko) · `aspect_ratio=3:2` `resolution=1k` · LoRA: [storybook-anime LoRA](https://huggingface.co/neonforestmist/qwen-image-2512-storybook-anime-lora) (`loras=[{"path": "https://huggingface.co/neonforestmist/qwen-image-2512-storybook-anime-lora/resolve/main/qwen_image_2512_storybook_anime_lora.safetensors", "scale": 1}]`) · $0.03 (이미지당)
 
 #### R20 · 애니 사이버펑크 옥상
 
 ```text
-score_9, score_8_up, anime style, 1woman, adult, mature female, cropped leather jacket, bodysuit, rooftop, neon city, night, rain, wind in hair, looking back, cyberpunk
+watercolor anime of an adult woman in a cropped leather jacket and bodysuit on a rooftop in a neon city at night, rain falling, wind in her hair, looking back over her shoulder, pink and cyan washes on wet paper texture
 ```
 
-[Prefect Pony XL](https://spicyapi.ai/ko/models/prefect-pony-xl?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=r20-ko) · `size=1216*832` · $0.015 (이미지당)
+[Qwen Image 2.1 LoRA](https://spicyapi.ai/ko/models/qwen-image-2-1-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=r20-ko) · `aspect_ratio=3:2` `resolution=1k` · LoRA: [watercolor-anime LoRA](https://huggingface.co/neonforestmist/qwen-image-2512-watercolor-anime-lora) (`loras=[{"path": "https://huggingface.co/neonforestmist/qwen-image-2512-watercolor-anime-lora/resolve/main/qwen_image_2512_watercolor_anime_lora.safetensors", "scale": 1}]`) · $0.03 (이미지당)
 
 #### R21 · 란제리 카탈로그
 
@@ -2504,7 +2504,7 @@ SpicyAPI 테스트 결과 기준(리더보드 v2.1과 모델 리뷰, 2026-09-27)
 ## 이미지 투 비디오 파이프라인
 
 ```
-1. First frame   → Qwen Image 2.1 (photoreal, from $0.024) or Prefect Pony XL (anime)
+1. First frame   → Qwen Image 2.1 (photoreal, from $0.024) or Qwen Image 2.1 LoRA + an anime LoRA (anime)
 2. Fix details   → Qwen Image Edit Spicy (change outfit, pose, lighting with one instruction)
 3. Draft motion  → Wan 2.6 Flash, Seedance 1.5 Pro Spicy or Wan 2.2 Spicy at 480p, 3–5 variations
 4. Final render  → the best draft's prompt on Wan 3.0, Seedance 2.5 Spicy or Wan 2.7 Spicy at 720p–1080p
@@ -2626,6 +2626,7 @@ SpicyAPI 기준(2026-09-27 카탈로그), 5초 클립은 $0.06(Seedance 1.5 Pro 
 ## 관련 저장소
 
 - **[awesome-nsfw-ai](https://github.com/Spicy-API/awesome-nsfw-ai/blob/main/README.ko.md)**: 무검열 AI 이미지·영상·텍스트 도구, API, 모델을 엄선한 목록.
+- **[nsfw-ai-image-prompts](https://github.com/Spicy-API/nsfw-ai-image-prompts/blob/main/README.ko.md)**: NSFW 이미지·편집 프롬프트 104개. 더 좋은 첫 프레임을 만들 수 있습니다.
 - **[nsfw-ai-skill](https://github.com/Spicy-API/nsfw-ai-skill/blob/main/README.ko.md)**: Claude Code, Cursor, Codex 등 에이전트에서 NSFW 이미지와 영상을 생성.
 - 기계 판독용 데이터: [`data/video-prompts.json`](data/video-prompts.json), [`data/image-prompts.json`](data/image-prompts.json), [`data/showcase.json`](data/showcase.json).
 

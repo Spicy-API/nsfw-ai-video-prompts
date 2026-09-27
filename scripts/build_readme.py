@@ -179,6 +179,9 @@ def render_image_prompts(data: dict, models: dict) -> str:
         else:
             w, h = p["size"].split("x")
             params = f"`size={w}*{h}`" if "sizes" in m else f"`width={w}` `height={h}`"
+        if p.get("lora"):
+            lo = p["lora"]
+            params += f" · LoRA: [{lo['name']}]({lo['page']}) (`loras=[{{\"path\": \"{lo['path']}\", \"scale\": {lo['scale']}}}]`)"
         out.append(f"{model_link(m, p['id'].lower())} · {params} · {money(m['per_image'])} {L('per_image', 'per image')}\n")
     return "\n".join(out)
 

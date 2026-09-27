@@ -234,7 +234,7 @@ Según las pruebas de SpicyAPI (clasificación v2.1 y las reseñas de los modelo
 ## El flujo de imagen a video
 
 ```
-1. Primer fotograma → Qwen Image 2.1 (fotorrealista, desde $0.024) o Prefect Pony XL (anime)
+1. Primer fotograma → Qwen Image 2.1 (fotorrealista, desde $0.024) o Qwen Image 2.1 LoRA + una LoRA de anime (anime)
 2. Retocar detalles → Qwen Image Edit Spicy (cambia ropa, pose o iluminación con una instrucción)
 3. Borrador         → Wan 2.6 Flash, Seedance 1.5 Pro Spicy o Wan 2.2 Spicy a 480p, 3–5 variaciones
 4. Render final     → el prompt del mejor borrador en Wan 3.0, Seedance 2.5 Spicy o Wan 2.7 Spicy a 720p–1080p
@@ -356,6 +356,7 @@ Usa el [prompt de sistema para LLM](#deja-que-un-llm-escriba-tus-prompts) de arr
 ## Relacionados
 
 - **[awesome-nsfw-ai](https://github.com/Spicy-API/awesome-nsfw-ai/blob/main/README.es.md)**: lista seleccionada de herramientas, APIs y modelos de IA sin censura para imagen, video y texto.
+- **[nsfw-ai-image-prompts](https://github.com/Spicy-API/nsfw-ai-image-prompts/blob/main/README.es.md)**: 104 prompts NSFW de imagen y de edición; genera mejores primeros fotogramas.
 - **[nsfw-ai-skill](https://github.com/Spicy-API/nsfw-ai-skill/blob/main/README.es.md)**: genera imágenes y videos NSFW desde Claude Code, Cursor, Codex y otros agentes.
 - Datos legibles por máquina: [`data/video-prompts.json`](data/video-prompts.json), [`data/image-prompts.json`](data/image-prompts.json), [`data/showcase.json`](data/showcase.json).
 

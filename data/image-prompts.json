@@ -1,5 +1,5 @@
 {
- "intro": "Image-to-video is only as good as its first frame. These prompts generate clean, well-lit first frames of adult subjects that animate well: one subject (or a clearly separated couple), simple background, hands relaxed, face unobstructed or deliberately hidden. Photoreal first frames use Qwen Image 2.1, the recommended uncensored image model on SpicyAPI; anime frames use Prefect Pony XL.",
+ "intro": "Image-to-video is only as good as its first frame. These prompts generate clean, well-lit first frames of adult subjects that animate well: one subject (or a clearly separated couple), simple background, hands relaxed, face unobstructed or deliberately hidden. Photoreal first frames use Qwen Image 2.1, the recommended uncensored image model on SpicyAPI; anime frames use Qwen Image 2.1 LoRA with an open anime LoRA (the same ones used in SpicyAPI's own examples).",
  "prompts": [
   {
    "id": "R01",
@@ -109,37 +109,67 @@
   {
    "id": "R16",
    "title": "Anime Onsen",
-   "model": "pony",
-   "size": "1216x832",
-   "prompt": "score_9, score_8_up, anime style, 1woman, adult, mature female, long purple hair, towel, outdoor hot spring, night, steam, cherry blossoms, paper lanterns, soft smile, detailed background"
+   "model": "qwen21lora",
+   "prompt": "storybook anime illustration of an adult woman in her 20s with long purple hair relaxing in an outdoor hot spring at night, a towel wrapped around her, steam drifting, cherry petals falling on the water, paper lanterns glowing, soft smile, clean cel shading, detailed background",
+   "aspect_ratio": "3:2",
+   "lora": {
+    "name": "storybook-anime LoRA",
+    "page": "https://huggingface.co/neonforestmist/qwen-image-2512-storybook-anime-lora",
+    "path": "https://huggingface.co/neonforestmist/qwen-image-2512-storybook-anime-lora/resolve/main/qwen_image_2512_storybook_anime_lora.safetensors",
+    "scale": 1
+   }
   },
   {
    "id": "R17",
    "title": "Anime Beach",
-   "model": "pony",
-   "size": "1216x832",
-   "prompt": "score_9, score_8_up, anime style, 1woman, adult, mature female, short blonde hair, red bikini, beach, running, splashing water, summer sky, vibrant colors, dynamic pose"
+   "model": "qwen21lora",
+   "prompt": "storybook anime illustration of an adult woman with short blonde hair in a red bikini running along the shoreline, water splashing around her ankles, bright summer sky, sparkling sea, dynamic pose, vivid colors",
+   "aspect_ratio": "3:2",
+   "lora": {
+    "name": "storybook-anime LoRA",
+    "page": "https://huggingface.co/neonforestmist/qwen-image-2512-storybook-anime-lora",
+    "path": "https://huggingface.co/neonforestmist/qwen-image-2512-storybook-anime-lora/resolve/main/qwen_image_2512_storybook_anime_lora.safetensors",
+    "scale": 1
+   }
   },
   {
    "id": "R18",
    "title": "Anime Demon Queen",
-   "model": "pony",
-   "size": "832x1216",
-   "prompt": "score_9, score_8_up, anime style, 1woman, adult, mature female, demon queen, horns, red eyes, tail, black lace outfit, throne room, purple fire braziers, dramatic lighting, confident expression"
+   "model": "qwen21lora",
+   "prompt": "watercolor anime of an adult demon queen with curved horns, red eyes and a slender tail, wearing a black lace outfit, seated in a throne room lit by purple fire braziers, confident expression, deep ink shadows, oxblood and violet washes",
+   "aspect_ratio": "2:3",
+   "lora": {
+    "name": "watercolor-anime LoRA",
+    "page": "https://huggingface.co/neonforestmist/qwen-image-2512-watercolor-anime-lora",
+    "path": "https://huggingface.co/neonforestmist/qwen-image-2512-watercolor-anime-lora/resolve/main/qwen_image_2512_watercolor_anime_lora.safetensors",
+    "scale": 1
+   }
   },
   {
    "id": "R19",
    "title": "Anime Silver-Hair Bedroom",
-   "model": "pony",
-   "size": "1216x832",
-   "prompt": "score_9, score_8_up, anime style, 1woman, adult, mature female, long silver hair, oversized shirt, lying on side, bed, propped on elbow, afternoon light, curtains, soft smile, detailed room"
+   "model": "qwen21lora",
+   "prompt": "storybook anime illustration of an adult woman with long silver hair lying on her side on a bed in an oversized shirt, propped on one elbow, afternoon light through curtains, soft smile, cozy detailed room, soft cel shading",
+   "aspect_ratio": "3:2",
+   "lora": {
+    "name": "storybook-anime LoRA",
+    "page": "https://huggingface.co/neonforestmist/qwen-image-2512-storybook-anime-lora",
+    "path": "https://huggingface.co/neonforestmist/qwen-image-2512-storybook-anime-lora/resolve/main/qwen_image_2512_storybook_anime_lora.safetensors",
+    "scale": 1
+   }
   },
   {
    "id": "R20",
    "title": "Anime Cyberpunk Rooftop",
-   "model": "pony",
-   "size": "1216x832",
-   "prompt": "score_9, score_8_up, anime style, 1woman, adult, mature female, cropped leather jacket, bodysuit, rooftop, neon city, night, rain, wind in hair, looking back, cyberpunk"
+   "model": "qwen21lora",
+   "prompt": "watercolor anime of an adult woman in a cropped leather jacket and bodysuit on a rooftop in a neon city at night, rain falling, wind in her hair, looking back over her shoulder, pink and cyan washes on wet paper texture",
+   "aspect_ratio": "3:2",
+   "lora": {
+    "name": "watercolor-anime LoRA",
+    "page": "https://huggingface.co/neonforestmist/qwen-image-2512-watercolor-anime-lora",
+    "path": "https://huggingface.co/neonforestmist/qwen-image-2512-watercolor-anime-lora/resolve/main/qwen_image_2512_watercolor_anime_lora.safetensors",
+    "scale": 1
+   }
   },
   {
    "id": "R21",

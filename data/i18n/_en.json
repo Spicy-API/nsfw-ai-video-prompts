@@ -56,7 +56,7 @@
   },
   "anime": {
    "title": "Anime & Hentai Style",
-   "intro": "Every character here is an explicitly adult design. Generate the first frame with Prefect Pony XL, then animate with Vidu Q3 Spicy or Wan 2.2 Spicy."
+   "intro": "Every character here is an explicitly adult design. Generate the first frame with Qwen Image 2.1 LoRA, then animate with Vidu Q3 Spicy or Wan 2.2 Spicy."
   },
   "commercial": {
    "title": "Commercial & Brand-Safe Sensual",
@@ -625,7 +625,7 @@
   "L01": {
    "title": "Anime Style LoRA",
    "tip": "Pass the anime LoRA in high_noise_loras to shape composition; strength 0.8 is a good start.",
-   "frame": "Anime-style adult woman by a window, generated with Prefect Pony XL."
+   "frame": "Anime-style adult woman by a window, generated with Qwen Image 2.1 LoRA."
   },
   "L02": {
    "title": "Film Photography LoRA",
@@ -654,7 +654,7 @@
   }
  },
  "images": {
-  "intro": "Image-to-video is only as good as its first frame. These prompts generate clean, well-lit first frames of adult subjects that animate well: one subject (or a clearly separated couple), simple background, hands relaxed, face unobstructed or deliberately hidden. Photoreal first frames use Qwen Image 2.1, the recommended uncensored image model on SpicyAPI; anime frames use Prefect Pony XL.",
+  "intro": "Image-to-video is only as good as its first frame. These prompts generate clean, well-lit first frames of adult subjects that animate well: one subject (or a clearly separated couple), simple background, hands relaxed, face unobstructed or deliberately hidden. Photoreal first frames use Qwen Image 2.1, the recommended uncensored image model on SpicyAPI; anime frames use Qwen Image 2.1 LoRA.",
   "R01": {
    "title": "Boudoir Window Light"
   },

@@ -230,7 +230,7 @@ From SpicyAPI's tests (leaderboard v2.1 and the model reviews, 2026-09-27):
 ## The image-to-video pipeline
 
 ```
-1. First frame   → Qwen Image 2.1 (photoreal, from $0.024) or Prefect Pony XL (anime)
+1. First frame   → Qwen Image 2.1 (photoreal, from $0.024) or Qwen Image 2.1 LoRA + an anime LoRA (anime)
 2. Fix details   → Qwen Image Edit Spicy (change outfit, pose, lighting with one instruction)
 3. Draft motion  → Wan 2.6 Flash, Seedance 1.5 Pro Spicy or Wan 2.2 Spicy at 480p, 3–5 variations
 4. Final render  → the best draft's prompt on Wan 3.0, Seedance 2.5 Spicy or Wan 2.7 Spicy at 720p–1080p
@@ -352,6 +352,7 @@ Use the [LLM system prompt](#let-an-llm-write-your-prompts) above with any chat 
 ## Related
 
 - **[awesome-nsfw-ai](https://github.com/Spicy-API/awesome-nsfw-ai)**: curated list of uncensored AI image, video and text tools, APIs and models.
+- **[nsfw-ai-image-prompts](https://github.com/Spicy-API/nsfw-ai-image-prompts)**: 104 NSFW image and editing prompts; generate better first frames.
 - **[nsfw-ai-skill](https://github.com/Spicy-API/nsfw-ai-skill)**: generate NSFW images and videos from Claude Code, Cursor, Codex and other agents.
 - Machine-readable data: [`data/video-prompts.json`](data/video-prompts.json), [`data/image-prompts.json`](data/image-prompts.json), [`data/showcase.json`](data/showcase.json).
 

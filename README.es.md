@@ -1724,7 +1724,7 @@ At a candlelit Venetian masquerade, an adult woman in a gold lace mask and a low
 
 ### Estilo anime y hentai
 
-Todos los personajes de esta sección tienen un diseño explícitamente adulto. Genera el primer fotograma con Prefect Pony XL y luego anímalo con Vidu Q3 Spicy o Wan 2.2 Spicy.
+Todos los personajes de esta sección tienen un diseño explícitamente adulto. Genera el primer fotograma con Qwen Image 2.1 LoRA y luego anímalo con Vidu Q3 Spicy o Wan 2.2 Spicy.
 
 #### A01 · Noche en el onsen (anime)
 
@@ -2138,7 +2138,7 @@ Prompts pensados para combinarse con un LoRA de estilo. Pon primero la palabra d
 |---|---|---|---|
 | [Wan 2.2 Spicy LoRA](https://spicyapi.ai/es/models/wan-2-2-spicy-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=l01-es) | 480p · 5 s · 16:9 | $0.12 | Intermedio |
 
-**Primer fotograma:** Mujer adulta estilo anime junto a una ventana, generada con Prefect Pony XL.  
+**Primer fotograma:** Mujer adulta estilo anime junto a una ventana, generada con Qwen Image 2.1 LoRA.  
 **Consejo:** Pasa el LoRA de anime en high_noise_loras para definir la composición; una intensidad de 0.8 es un buen punto de partida.
 
 #### L02 · LoRA de fotografía analógica
@@ -2211,7 +2211,7 @@ Continue the motion naturally from the last frame. Same subject, same wardrobe, 
 
 ## Prompts de imagen para el primer fotograma
 
-Un video de imagen a video solo es tan bueno como su primer fotograma. Estos prompts generan primeros fotogramas limpios y bien iluminados de sujetos adultos que se animan bien: un solo sujeto (o una pareja claramente separada), fondo sencillo, manos relajadas y la cara despejada u oculta a propósito. Los primeros fotogramas fotorrealistas usan Qwen Image 2.1, el modelo de imagen sin censura recomendado en SpicyAPI; los de anime usan Prefect Pony XL.
+Un video de imagen a video solo es tan bueno como su primer fotograma. Estos prompts generan primeros fotogramas limpios y bien iluminados de sujetos adultos que se animan bien: un solo sujeto (o una pareja claramente separada), fondo sencillo, manos relajadas y la cara despejada u oculta a propósito. Los primeros fotogramas fotorrealistas usan Qwen Image 2.1, el modelo de imagen sin censura recomendado en SpicyAPI; los de anime usan Qwen Image 2.1 LoRA.
 
 #### R01 · Boudoir con luz de ventana
 
@@ -2336,42 +2336,42 @@ Baroque masquerade photograph of an adult woman in a gold lace mask and a low-ba
 #### R16 · Onsen anime
 
 ```text
-score_9, score_8_up, anime style, 1woman, adult, mature female, long purple hair, towel, outdoor hot spring, night, steam, cherry blossoms, paper lanterns, soft smile, detailed background
+storybook anime illustration of an adult woman in her 20s with long purple hair relaxing in an outdoor hot spring at night, a towel wrapped around her, steam drifting, cherry petals falling on the water, paper lanterns glowing, soft smile, clean cel shading, detailed background
 ```
 
-[Prefect Pony XL](https://spicyapi.ai/es/models/prefect-pony-xl?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=r16-es) · `size=1216*832` · $0.015 por imagen
+[Qwen Image 2.1 LoRA](https://spicyapi.ai/es/models/qwen-image-2-1-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=r16-es) · `aspect_ratio=3:2` `resolution=1k` · LoRA: [storybook-anime LoRA](https://huggingface.co/neonforestmist/qwen-image-2512-storybook-anime-lora) (`loras=[{"path": "https://huggingface.co/neonforestmist/qwen-image-2512-storybook-anime-lora/resolve/main/qwen_image_2512_storybook_anime_lora.safetensors", "scale": 1}]`) · $0.03 por imagen
 
 #### R17 · Playa anime
 
 ```text
-score_9, score_8_up, anime style, 1woman, adult, mature female, short blonde hair, red bikini, beach, running, splashing water, summer sky, vibrant colors, dynamic pose
+storybook anime illustration of an adult woman with short blonde hair in a red bikini running along the shoreline, water splashing around her ankles, bright summer sky, sparkling sea, dynamic pose, vivid colors
 ```
 
-[Prefect Pony XL](https://spicyapi.ai/es/models/prefect-pony-xl?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=r17-es) · `size=1216*832` · $0.015 por imagen
+[Qwen Image 2.1 LoRA](https://spicyapi.ai/es/models/qwen-image-2-1-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=r17-es) · `aspect_ratio=3:2` `resolution=1k` · LoRA: [storybook-anime LoRA](https://huggingface.co/neonforestmist/qwen-image-2512-storybook-anime-lora) (`loras=[{"path": "https://huggingface.co/neonforestmist/qwen-image-2512-storybook-anime-lora/resolve/main/qwen_image_2512_storybook_anime_lora.safetensors", "scale": 1}]`) · $0.03 por imagen
 
 #### R18 · Reina demonio anime
 
 ```text
-score_9, score_8_up, anime style, 1woman, adult, mature female, demon queen, horns, red eyes, tail, black lace outfit, throne room, purple fire braziers, dramatic lighting, confident expression
+watercolor anime of an adult demon queen with curved horns, red eyes and a slender tail, wearing a black lace outfit, seated in a throne room lit by purple fire braziers, confident expression, deep ink shadows, oxblood and violet washes
 ```
 
-[Prefect Pony XL](https://spicyapi.ai/es/models/prefect-pony-xl?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=r18-es) · `size=832*1216` · $0.015 por imagen
+[Qwen Image 2.1 LoRA](https://spicyapi.ai/es/models/qwen-image-2-1-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=r18-es) · `aspect_ratio=2:3` `resolution=1k` · LoRA: [watercolor-anime LoRA](https://huggingface.co/neonforestmist/qwen-image-2512-watercolor-anime-lora) (`loras=[{"path": "https://huggingface.co/neonforestmist/qwen-image-2512-watercolor-anime-lora/resolve/main/qwen_image_2512_watercolor_anime_lora.safetensors", "scale": 1}]`) · $0.03 por imagen
 
 #### R19 · Dormitorio anime de pelo plateado
 
 ```text
-score_9, score_8_up, anime style, 1woman, adult, mature female, long silver hair, oversized shirt, lying on side, bed, propped on elbow, afternoon light, curtains, soft smile, detailed room
+storybook anime illustration of an adult woman with long silver hair lying on her side on a bed in an oversized shirt, propped on one elbow, afternoon light through curtains, soft smile, cozy detailed room, soft cel shading
 ```
 
-[Prefect Pony XL](https://spicyapi.ai/es/models/prefect-pony-xl?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=r19-es) · `size=1216*832` · $0.015 por imagen
+[Qwen Image 2.1 LoRA](https://spicyapi.ai/es/models/qwen-image-2-1-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=r19-es) · `aspect_ratio=3:2` `resolution=1k` · LoRA: [storybook-anime LoRA](https://huggingface.co/neonforestmist/qwen-image-2512-storybook-anime-lora) (`loras=[{"path": "https://huggingface.co/neonforestmist/qwen-image-2512-storybook-anime-lora/resolve/main/qwen_image_2512_storybook_anime_lora.safetensors", "scale": 1}]`) · $0.03 por imagen
 
 #### R20 · Azotea cyberpunk anime
 
 ```text
-score_9, score_8_up, anime style, 1woman, adult, mature female, cropped leather jacket, bodysuit, rooftop, neon city, night, rain, wind in hair, looking back, cyberpunk
+watercolor anime of an adult woman in a cropped leather jacket and bodysuit on a rooftop in a neon city at night, rain falling, wind in her hair, looking back over her shoulder, pink and cyan washes on wet paper texture
 ```
 
-[Prefect Pony XL](https://spicyapi.ai/es/models/prefect-pony-xl?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=r20-es) · `size=1216*832` · $0.015 por imagen
+[Qwen Image 2.1 LoRA](https://spicyapi.ai/es/models/qwen-image-2-1-lora?utm_source=github&utm_medium=repo&utm_campaign=2026-09-nsfw-ai-video-prompts&utm_content=r20-es) · `aspect_ratio=3:2` `resolution=1k` · LoRA: [watercolor-anime LoRA](https://huggingface.co/neonforestmist/qwen-image-2512-watercolor-anime-lora) (`loras=[{"path": "https://huggingface.co/neonforestmist/qwen-image-2512-watercolor-anime-lora/resolve/main/qwen_image_2512_watercolor_anime_lora.safetensors", "scale": 1}]`) · $0.03 por imagen
 
 #### R21 · Catálogo de lencería
 
@@ -2506,7 +2506,7 @@ Según las pruebas de SpicyAPI (clasificación v2.1 y las reseñas de los modelo
 ## El flujo de imagen a video
 
 ```
-1. Primer fotograma → Qwen Image 2.1 (fotorrealista, desde $0.024) o Prefect Pony XL (anime)
+1. Primer fotograma → Qwen Image 2.1 (fotorrealista, desde $0.024) o Qwen Image 2.1 LoRA + una LoRA de anime (anime)
 2. Retocar detalles → Qwen Image Edit Spicy (cambia ropa, pose o iluminación con una instrucción)
 3. Borrador         → Wan 2.6 Flash, Seedance 1.5 Pro Spicy o Wan 2.2 Spicy a 480p, 3–5 variaciones
 4. Render final     → el prompt del mejor borrador en Wan 3.0, Seedance 2.5 Spicy o Wan 2.7 Spicy a 720p–1080p
@@ -2628,6 +2628,7 @@ Usa el [prompt de sistema para LLM](#deja-que-un-llm-escriba-tus-prompts) de arr
 ## Relacionados
 
 - **[awesome-nsfw-ai](https://github.com/Spicy-API/awesome-nsfw-ai/blob/main/README.es.md)**: lista seleccionada de herramientas, APIs y modelos de IA sin censura para imagen, video y texto.
+- **[nsfw-ai-image-prompts](https://github.com/Spicy-API/nsfw-ai-image-prompts/blob/main/README.es.md)**: 104 prompts NSFW de imagen y de edición; genera mejores primeros fotogramas.
 - **[nsfw-ai-skill](https://github.com/Spicy-API/nsfw-ai-skill/blob/main/README.es.md)**: genera imágenes y videos NSFW desde Claude Code, Cursor, Codex y otros agentes.
 - Datos legibles por máquina: [`data/video-prompts.json`](data/video-prompts.json), [`data/image-prompts.json`](data/image-prompts.json), [`data/showcase.json`](data/showcase.json).
 

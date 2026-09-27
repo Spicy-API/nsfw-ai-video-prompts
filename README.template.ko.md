@@ -232,7 +232,7 @@ SpicyAPI 테스트 결과 기준(리더보드 v2.1과 모델 리뷰, 2026-09-27)
 ## 이미지 투 비디오 파이프라인
 
 ```
-1. First frame   → Qwen Image 2.1 (photoreal, from $0.024) or Prefect Pony XL (anime)
+1. First frame   → Qwen Image 2.1 (photoreal, from $0.024) or Qwen Image 2.1 LoRA + an anime LoRA (anime)
 2. Fix details   → Qwen Image Edit Spicy (change outfit, pose, lighting with one instruction)
 3. Draft motion  → Wan 2.6 Flash, Seedance 1.5 Pro Spicy or Wan 2.2 Spicy at 480p, 3–5 variations
 4. Final render  → the best draft's prompt on Wan 3.0, Seedance 2.5 Spicy or Wan 2.7 Spicy at 720p–1080p
@@ -354,6 +354,7 @@ SpicyAPI 기준({{READ_ON}} 카탈로그), 5초 클립은 $0.06(Seedance 1.5 Pro
 ## 관련 저장소
 
 - **[awesome-nsfw-ai](https://github.com/Spicy-API/awesome-nsfw-ai/blob/main/README.ko.md)**: 무검열 AI 이미지·영상·텍스트 도구, API, 모델을 엄선한 목록.
+- **[nsfw-ai-image-prompts](https://github.com/Spicy-API/nsfw-ai-image-prompts/blob/main/README.ko.md)**: NSFW 이미지·편집 프롬프트 104개. 더 좋은 첫 프레임을 만들 수 있습니다.
 - **[nsfw-ai-skill](https://github.com/Spicy-API/nsfw-ai-skill/blob/main/README.ko.md)**: Claude Code, Cursor, Codex 등 에이전트에서 NSFW 이미지와 영상을 생성.
 - 기계 판독용 데이터: [`data/video-prompts.json`](data/video-prompts.json), [`data/image-prompts.json`](data/image-prompts.json), [`data/showcase.json`](data/showcase.json).
 

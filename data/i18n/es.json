@@ -56,7 +56,7 @@
   },
   "anime": {
    "title": "Estilo anime y hentai",
-   "intro": "Todos los personajes de esta sección tienen un diseño explícitamente adulto. Genera el primer fotograma con Prefect Pony XL y luego anímalo con Vidu Q3 Spicy o Wan 2.2 Spicy."
+   "intro": "Todos los personajes de esta sección tienen un diseño explícitamente adulto. Genera el primer fotograma con Qwen Image 2.1 LoRA y luego anímalo con Vidu Q3 Spicy o Wan 2.2 Spicy."
   },
   "commercial": {
    "title": "Sensualidad comercial apta para marcas",
@@ -625,7 +625,7 @@
   "L01": {
    "title": "LoRA de estilo anime",
    "tip": "Pasa el LoRA de anime en high_noise_loras para definir la composición; una intensidad de 0.8 es un buen punto de partida.",
-   "frame": "Mujer adulta estilo anime junto a una ventana, generada con Prefect Pony XL."
+   "frame": "Mujer adulta estilo anime junto a una ventana, generada con Qwen Image 2.1 LoRA."
   },
   "L02": {
    "title": "LoRA de fotografía analógica",
@@ -654,7 +654,7 @@
   }
  },
  "images": {
-  "intro": "Un video de imagen a video solo es tan bueno como su primer fotograma. Estos prompts generan primeros fotogramas limpios y bien iluminados de sujetos adultos que se animan bien: un solo sujeto (o una pareja claramente separada), fondo sencillo, manos relajadas y la cara despejada u oculta a propósito. Los primeros fotogramas fotorrealistas usan Qwen Image 2.1, el modelo de imagen sin censura recomendado en SpicyAPI; los de anime usan Prefect Pony XL.",
+  "intro": "Un video de imagen a video solo es tan bueno como su primer fotograma. Estos prompts generan primeros fotogramas limpios y bien iluminados de sujetos adultos que se animan bien: un solo sujeto (o una pareja claramente separada), fondo sencillo, manos relajadas y la cara despejada u oculta a propósito. Los primeros fotogramas fotorrealistas usan Qwen Image 2.1, el modelo de imagen sin censura recomendado en SpicyAPI; los de anime usan Qwen Image 2.1 LoRA.",
   "R01": {
    "title": "Boudoir con luz de ventana"
   },

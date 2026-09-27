@@ -57,7 +57,7 @@
   },
   "anime": {
    "title": "Style anime & hentai",
-   "intro": "Chaque personnage de cette section est explicitement conçu comme adulte. Générez la première image avec Prefect Pony XL, puis animez-la avec Vidu Q3 Spicy ou Wan 2.2 Spicy."
+   "intro": "Chaque personnage de cette section est explicitement conçu comme adulte. Générez la première image avec Qwen Image 2.1 LoRA, puis animez-la avec Vidu Q3 Spicy ou Wan 2.2 Spicy."
   },
   "commercial": {
    "title": "Sensualité publicitaire, compatible marques",
@@ -626,7 +626,7 @@
   "L01": {
    "title": "LoRA de style anime",
    "tip": "Passez le LoRA anime dans high_noise_loras pour façonner la composition ; une force de 0.8 est un bon point de départ.",
-   "frame": "Femme adulte style anime près d'une fenêtre, générée avec Prefect Pony XL."
+   "frame": "Femme adulte style anime près d'une fenêtre, générée avec Qwen Image 2.1 LoRA."
   },
   "L02": {
    "title": "LoRA photo argentique",
@@ -655,7 +655,7 @@
   }
  },
  "images": {
-  "intro": "Une vidéo générée à partir d'une image ne vaut que ce que vaut sa première image. Ces prompts génèrent des premières images nettes et bien éclairées de sujets adultes, qui s'animent bien : un seul sujet (ou un couple bien séparé), un arrière-plan simple, des mains détendues, un visage dégagé ou volontairement caché. Les premières images photoréalistes utilisent Qwen Image 2.1, le modèle d'image sans censure recommandé sur SpicyAPI ; les images anime utilisent Prefect Pony XL.",
+  "intro": "Une vidéo générée à partir d'une image ne vaut que ce que vaut sa première image. Ces prompts génèrent des premières images nettes et bien éclairées de sujets adultes, qui s'animent bien : un seul sujet (ou un couple bien séparé), un arrière-plan simple, des mains détendues, un visage dégagé ou volontairement caché. Les premières images photoréalistes utilisent Qwen Image 2.1, le modèle d'image sans censure recommandé sur SpicyAPI ; les images anime utilisent Qwen Image 2.1 LoRA.",
   "R01": {
    "title": "Boudoir en lumière de fenêtre"
   },
