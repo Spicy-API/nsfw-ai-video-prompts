@@ -7,7 +7,7 @@
   nsfw ai video prompts, wan 2.2 nsfw prompt example, wan 2.2 image to video prompt guide, nsfw image to video prompts
 -->
 
-<p align="center"><a href="README.md">English</a> · <b>日本語</b> · <a href="README.ko.md">한국어</a> · <a href="README.fr.md">Français</a> · <a href="README.es.md">Español</a></p>
+<p align="center"><a href="README.md">English</a> · <b>日本語</b> · <a href="README.ko.md">한국어</a> · <a href="README.fr.md">Français</a> · <a href="README.es.md">Español</a> · <a href="README.ru.md">Русский</a></p>
 
 <h1 align="center">NSFW AI Video Prompts</h1>
 

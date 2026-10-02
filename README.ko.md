@@ -7,7 +7,7 @@
   wan 2.2 nsfw prompt example, nsfw image to video prompts, uncensored ai video prompts, seedance spicy prompts
 -->
 
-<p align="center"><a href="README.md">English</a> · <a href="README.ja.md">日本語</a> · <b>한국어</b> · <a href="README.fr.md">Français</a> · <a href="README.es.md">Español</a></p>
+<p align="center"><a href="README.md">English</a> · <a href="README.ja.md">日本語</a> · <b>한국어</b> · <a href="README.fr.md">Français</a> · <a href="README.es.md">Español</a> · <a href="README.ru.md">Русский</a></p>
 
 <h1 align="center">NSFW AI Video Prompts</h1>
 
